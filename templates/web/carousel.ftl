@@ -9,9 +9,20 @@
   <#assign rootTagAttributes = { "data-bs-ride":"carousel" } />
 </#if>
 
+<#if contentModel.disableTouchSwiping_b>
+  <#assign rootTagAttributes += { "data-bs-touch":"false" } />
+</#if>
+
+<#assign carouselClasses = "carousel slide" />
+<#if contentModel.crossfade_b >
+  <#assign carouselClasses = carouselClasses + ' carousel-fade' />
+</#if>
+<#if contentModel.darkMode_b >
+    <#assign carouselClasses = carouselClasses + ' carousel-dark' />
+</#if>
 <@crafter.componentRootTag
   id=rootElementId
-  class="carousel slide"
+  class=carouselClasses
   $attrs=rootTagAttributes
   $tag="div"
 >
@@ -19,21 +30,26 @@
   <#assign attributesByIndex = {} />
 
   <#-- Insert your head markup here -->
-  <div class="carousel-indicators">
-    <@crafter.forEach contentModel.slides_o; slide, index>
-      <#assign
-        <#-- Used later on the renderRepeatCollection nthItemAttributes. Just taking advantage of this loop. -->
-        attributesByIndex = attributesByIndex + { index: { "data-bs-interval": "${slide.delayInterval_i?c}" } }
-      />
-      <button
-        type="button"
-        data-bs-target="#${rootElementId}"
-        data-bs-slide-to="${index}"
-        aria-label="Slide ${index}"
-        ${(initialActiveSlideIndex == index)?then('class="active" aria-current="true"', '')}
-      ></button>
-    </@crafter.forEach>
-  </div>
+  <#if contentModel.showIndicators_b>
+    <div class="carousel-indicators">
+      <@crafter.forEach contentModel.slides_o; slide, index>
+        <button
+          type="button"
+          data-bs-target="#${rootElementId}"
+          data-bs-slide-to="${index}"
+          aria-label="Slide ${index}"
+          ${(initialActiveSlideIndex == index)?then('class="active" aria-current="true"', '')}
+        ></button>
+      </@crafter.forEach>
+    </div>
+  </#if>
+
+  <@crafter.forEach contentModel.slides_o; slide, index>
+    <#assign
+      <#-- Used later on the renderRepeatCollection nthItemAttributes. -->
+      attributesByIndex = attributesByIndex + { index: { "data-bs-interval": "${slide.delayInterval_i?c}" } }
+    />
+  </@crafter.forEach>
 
   <#assign attributesByIndex = attributesByIndex + {
     initialActiveSlideIndex: { "class": "carousel-item active" } + attributesByIndex["${initialActiveSlideIndex}"]
@@ -61,15 +77,16 @@
     </#if>
   </@crafter.renderRepeatCollection>
 
-  <button class="carousel-control-prev" type="button" data-bs-target="#${rootElementId}" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#${rootElementId}" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-
+  <#if contentModel.showControls_b>
+    <button class="carousel-control-prev" type="button" data-bs-target="#${rootElementId}" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#${rootElementId}" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </#if>
 </@crafter.componentRootTag>
 
 <#if modePreview>

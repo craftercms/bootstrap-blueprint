@@ -295,6 +295,128 @@
 				</field>
 			</fields>
 		</section>
+		<section>
+			<title>Advanced Options</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
+				<field>
+					<type>checkbox</type>
+					<id>showControls_b</id>
+					<iceId></iceId>
+					<title>Show Controls</title>
+					<description>Controls the display of previous and next controls.</description>
+					<defaultValue>true</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>showIndicators_b</id>
+					<iceId></iceId>
+					<title>Show Indicators</title>
+					<description>Controls the display of carousel indicators.</description>
+					<defaultValue>true</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>crossfade_b</id>
+					<iceId></iceId>
+					<title>Crossfade transition</title>
+					<description>Adds a fade transition instead of a slide.</description>
+					<defaultValue>false</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>darkMode_b</id>
+					<iceId></iceId>
+					<title>Dark Mode</title>
+					<description>Enable to use darker controls, indicators and captions.</description>
+					<defaultValue>false</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>disableTouchSwiping_b</id>
+					<iceId></iceId>
+					<title>Disable touch swiping</title>
+					<description>Controls support for swiping left/right on touchscreen devices to move between slides.</description>
+					<defaultValue>false</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
 	</sections>
 	<datasources>				<datasource>
 					<type>img-desktop-upload</type>
