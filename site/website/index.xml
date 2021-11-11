@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2021-11-03T08:03:44.286Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-11-03T08:03:44.286Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-11-11T15:50:42.877Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-11-11T15:50:42.877Z</lastModifiedDate_dt>
 	<title_t>Crafter CMS Bootstrap Blueprint</title_t>
 	<disabled>false</disabled>
 	<mainContent_o item-list="true">
@@ -106,6 +106,7 @@
 										<item inline="true">
 											<key>5a06e244-64f4-4380-8619-1c726fe38e92</key>
 											<value>New Carousel</value>
+											<disableFlattening>false</disableFlattening>
 											<component id="5a06e244-64f4-4380-8619-1c726fe38e92">
 												<content-type>/component/carousel</content-type>
 												<display-template>/templates/web/carousel.ftl</display-template>
@@ -114,25 +115,29 @@
 												<internal-name>New Carousel</internal-name>
 												<file-name>5a06e244-64f4-4380-8619-1c726fe38e92.xml</file-name>
 												<createdDate_dt>2021-11-03T08:05:02.684Z</createdDate_dt>
-												<lastModifiedDate_dt>2021-11-03T08:05:02.684Z</lastModifiedDate_dt>
+												<lastModifiedDate_dt>2021-11-11T15:50:52.346Z</lastModifiedDate_dt>
 												<objectId>5a06e244-64f4-4380-8619-1c726fe38e92</objectId>
 												<slides_o item-list="true">
 													<item>
 														<delayInterval_i>1000</delayInterval_i>
-														<image_s><![CDATA[https://place-hold.it/600x200/333/fff?text=One]]></image_s>
+														<image_s>https://place-hold.it/600x200/333/fff?text=One</image_s>
 														<caption_html>&lt;p&gt;Slide 1&lt;/p&gt;</caption_html>
 													</item>
 													<item>
 														<delayInterval_i>5000</delayInterval_i>
-														<image_s><![CDATA[https://place-hold.it/600x200/333/fff?text=Two]]></image_s>
+														<image_s>https://place-hold.it/600x200/333/fff?text=Two</image_s>
 														<caption_html>&lt;p&gt;Slide 2&lt;/p&gt;</caption_html>
 													</item>
 												</slides_o>
 												<folder-name/>
 												<createdDate>2021-11-03T08:05:02.684Z</createdDate>
-												<lastModifiedDate>2021-11-03T08:05:02.684Z</lastModifiedDate>
+												<lastModifiedDate>2021-11-11T15:50:52.346Z</lastModifiedDate>
+												<showControls_b>true</showControls_b>
+												<showIndicators_b>true</showIndicators_b>
+												<crossfade_b>false</crossfade_b>
+												<darkMode_b>false</darkMode_b>
+												<disableTouchSwiping_b>false</disableTouchSwiping_b>
 											</component>
-											<disableFlattening>false</disableFlattening>
 										</item>
 									</items_o>
 									<size_s>-4</size_s>
@@ -190,15 +195,15 @@
 							</columns_o>
 							<createdDate>2021-10-06T14:10:30.505Z</createdDate>
 							<createdDate_dt>2021-10-06T14:10:30.505Z</createdDate_dt>
-							<lastModifiedDate>2021-10-14T09:16:25.841Z</lastModifiedDate>
-							<lastModifiedDate_dt>2021-10-14T09:16:25.841Z</lastModifiedDate_dt>
+							<lastModifiedDate>2021-11-11T15:50:49.222Z</lastModifiedDate>
+							<lastModifiedDate_dt>2021-11-11T15:50:49.222Z</lastModifiedDate_dt>
 						</component>
 					</item>
 				</components_o>
 				<createdDate>2021-10-06T14:10:19.538Z</createdDate>
 				<createdDate_dt>2021-10-06T14:10:19.538Z</createdDate_dt>
-				<lastModifiedDate>2021-10-14T09:16:23.464Z</lastModifiedDate>
-				<lastModifiedDate_dt>2021-10-14T09:16:23.464Z</lastModifiedDate_dt>
+				<lastModifiedDate>2021-11-11T15:50:46.271Z</lastModifiedDate>
+				<lastModifiedDate_dt>2021-11-11T15:50:46.271Z</lastModifiedDate_dt>
 			</component>
 		</item>
 	</mainContent_o>
