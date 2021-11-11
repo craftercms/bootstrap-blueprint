@@ -120,12 +120,12 @@
 												<slides_o item-list="true">
 													<item>
 														<delayInterval_i>1000</delayInterval_i>
-														<image_s>https://place-hold.it/600x200/333/fff?text=One</image_s>
+														<image_s><![CDATA[https://place-hold.it/600x200/333/fff?text=One]]></image_s>
 														<caption_html>&lt;p&gt;Slide 1&lt;/p&gt;</caption_html>
 													</item>
 													<item>
 														<delayInterval_i>5000</delayInterval_i>
-														<image_s>https://place-hold.it/600x200/333/fff?text=Two</image_s>
+														<image_s><![CDATA[https://place-hold.it/600x200/333/fff?text=Two]]></image_s>
 														<caption_html>&lt;p&gt;Slide 2&lt;/p&gt;</caption_html>
 													</item>
 												</slides_o>
