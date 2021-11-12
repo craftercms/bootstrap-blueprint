@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.componentRootTag class="px-4 py-5 my-5 text-center">
+<@crafter.div class="px-4 py-5 my-5 text-center">
 	<img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
 	<@crafter.h1 class="display-5 fw-bold" $field="title_s">${contentModel.title_s}</@crafter.h1>
 	<div class="col-lg-6 mx-auto">
@@ -10,4 +10,4 @@
 			<button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
 		</div>
 	</div>
-</@crafter.componentRootTag>
+</@crafter.div>

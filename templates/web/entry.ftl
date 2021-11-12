@@ -12,7 +12,7 @@
 		<@crafter.section>
 			<@crafter.renderComponentCollection
 				$field="mainContent_o"
-				class=crafter.printIfIsEmptyCollection(contentModel.mainContent_o)
+        $containerAttributes={'class': crafter.printIfIsEmptyCollection(contentModel.mainContent_o)}
 			/>
 		</@crafter.section>
 		<#if modePreview><link href="/static-assets/css/ice.css" rel="stylesheet"></#if>

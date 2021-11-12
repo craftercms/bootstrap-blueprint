@@ -9,22 +9,21 @@
   <#assign rootTagAttributes = { "data-bs-ride":"carousel" } />
 </#if>
 
-<#if contentModel.disableTouchSwiping_b>
+<#if contentModel.disableTouchSwiping_b?? && contentModel.disableTouchSwiping_b>
   <#assign rootTagAttributes += { "data-bs-touch":"false" } />
 </#if>
 
 <#assign carouselClasses = "carousel slide" />
-<#if contentModel.crossfade_b >
+<#if contentModel.crossfade_b?? && contentModel.crossfade_b >
   <#assign carouselClasses = carouselClasses + ' carousel-fade' />
 </#if>
-<#if contentModel.darkMode_b >
+<#if contentModel.darkMode_b?? && contentModel.darkMode_b >
     <#assign carouselClasses = carouselClasses + ' carousel-dark' />
 </#if>
-<@crafter.componentRootTag
+<@crafter.div
   id=rootElementId
   class=carouselClasses
-  $attrs=rootTagAttributes
-  $tag="div"
+  $attributes=rootTagAttributes
 >
 
   <#assign attributesByIndex = {} />
@@ -46,17 +45,19 @@
 
   <@crafter.forEach contentModel.slides_o; slide, index>
     <#assign
-      <#-- Used later on the renderRepeatCollection nthItemAttributes. -->
+      <#-- Used later on the renderRepeatGroup nthItemAttributes. -->
       attributesByIndex = attributesByIndex + { index: { "data-bs-interval": "${slide.delayInterval_i?c}" } }
     />
   </@crafter.forEach>
 
-  <#assign attributesByIndex = attributesByIndex + {
-    initialActiveSlideIndex: { "class": "carousel-item active" } + attributesByIndex["${initialActiveSlideIndex}"]
-  } />
+  <#if attributesByIndex["${initialActiveSlideIndex}"]??>
+    <#assign attributesByIndex = attributesByIndex + {
+      initialActiveSlideIndex: { "class": "carousel-item active" } + attributesByIndex["${initialActiveSlideIndex}"]
+    } />
+  </#if>
 
-  <#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatCollection&check_keywords=yes&area=default -->
-  <@crafter.renderRepeatCollection
+  <#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatGroup&check_keywords=yes&area=default -->
+  <@crafter.renderRepeatGroup
     $field="slides_o"
     $containerAttributes={ "class": "carousel-inner" }
     $itemAttributes={ "class": "carousel-item" }
@@ -75,7 +76,7 @@
         <@crafter.div $field="slides_o.caption_html" $index="${index}">${item.caption_html!''}</@crafter.div>
       </div>
     </#if>
-  </@crafter.renderRepeatCollection>
+  </@crafter.renderRepeatGroup>
 
   <#if contentModel.showControls_b>
     <button class="carousel-control-prev" type="button" data-bs-target="#${rootElementId}" data-bs-slide="prev">
@@ -87,7 +88,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </#if>
-</@crafter.componentRootTag>
+</@crafter.div>
 
 <#if modePreview>
 <script>

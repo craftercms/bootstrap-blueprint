@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.componentRootTag class=crafter.printIfPreview('row-component-root')>
-  <@crafter.renderRepeatCollection
+<@crafter.div class=crafter.printIfPreview('row-component-root')>
+  <@crafter.renderRepeatGroup
     $containerTag="section"
     $containerAttributes={ "class": "row ${crafter.printIfIsEmptyCollection(contentModel.columns_o)}" }
     $itemTag="div"
@@ -23,5 +23,5 @@
       $field="columns_o.size_s"
       $index="${index}"
     />
-  </@crafter.renderRepeatCollection>
-</@crafter.componentRootTag>
+  </@crafter.renderRepeatGroup>
+</@crafter.div>
