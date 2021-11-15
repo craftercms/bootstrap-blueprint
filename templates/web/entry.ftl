@@ -5,14 +5,14 @@
 	<head>
 		<meta charset="utf-8">
 		<title>${model.title_t}</title>
-		<@crafter.head/>
+		<@crafter.head />
 	</head>
 	<body>
-		<@crafter.body_top/>
+		<@crafter.body_top />
 		<@crafter.section>
 			<@crafter.renderComponentCollection
 				$field="mainContent_o"
-        $containerAttributes={'class': crafter.printIfIsEmptyCollection(contentModel.mainContent_o)}
+				$containerAttributes={ "class": crafter.printIfIsEmptyCollection(contentModel.mainContent_o) }
 			/>
 		</@crafter.section>
 		<#if modePreview><link href="/static-assets/css/ice.css" rel="stylesheet"></#if>
@@ -22,7 +22,6 @@
 		-->
 		<link href="/static-assets/css/bootstrap.min.css" rel="stylesheet">
 		<script src="/static-assets/js/bootstrap.bundle${modePreview?then('', '.min')}.js"></script>
-		<@crafter.body_bottom/>
+		<@crafter.body_bottom />
 	</body>
 </html>
-
