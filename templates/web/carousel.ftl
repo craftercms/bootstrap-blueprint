@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#if contentModel.slides_o?? && contentModel.slides_o.item?has_content>
+<#if !crafter.isEmptyCollection(contentModel.slides_o)>
   <#assign rootElementId = "bootstrapCarousel_${contentModel.objectId}" />
   <#assign initialActiveSlideIndex = 0 />
   <#assign rootTagAttributes = {} />
@@ -50,11 +50,9 @@
       />
     </@crafter.forEach>
 
-    <#if attributesByIndex["${initialActiveSlideIndex}"]??>
-      <#assign attributesByIndex = attributesByIndex + {
-        initialActiveSlideIndex: { "class": "carousel-item active" } + attributesByIndex["${initialActiveSlideIndex}"]
-      } />
-    </#if>
+    <#assign attributesByIndex = attributesByIndex + {
+      initialActiveSlideIndex: { "class": "carousel-item active" } + attributesByIndex["${initialActiveSlideIndex}"]!{}
+    } />
 
     <#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatGroup&check_keywords=yes&area=default -->
     <@crafter.renderRepeatGroup
