@@ -3,7 +3,7 @@
 	<description />
 	<objectType>component</objectType>
 	<content-type>/component/album</content-type>
-	<imageThumbnail>undefined</imageThumbnail>
+	<imageThumbnail />
 	<quickCreate>false</quickCreate>
 	<quickCreatePath />
 	<properties>		<property>
