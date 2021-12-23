@@ -342,6 +342,66 @@
       </fields>
     </section>
     <section>
+      <title>Search</title>
+      <description />
+      <defaultOpen>false</defaultOpen>
+      <fields>
+        <field>
+          <type>node-selector</type>
+          <id>search_o</id>
+          <iceId />
+          <title>Search</title>
+          <description />
+          <defaultValue />
+          <help />
+          <properties>
+            <property>
+              <name>minSize</name>
+              <value>0</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>maxSize</name>
+              <value>1</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>itemManager</name>
+              <value>searchDropTarget</value>
+              <type>datasource:item</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>disableFlattening</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>useSingleValueFilename</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>useMVS</name>
+              <value />
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>allowDuplicates</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+          </constraints>
+        </field>
+      </fields>
+    </section>
+    <section>
       <title>Advanced Options</title>
       <description />
       <defaultOpen>false</defaultOpen>
@@ -756,6 +816,54 @@
           <name>showkeys</name>
           <value />
           <type>boolean</type>
+        </property>
+      </properties>
+    </datasource>
+    <datasource>
+      <type>dropTargets</type>
+      <id>searchDropTarget</id>
+      <title>Search Drop Target</title>
+      <interface>item</interface>
+      <properties>
+        <property>
+          <name>allowShared</name>
+          <value>true</value>
+          <type>boolean</type>
+        </property>
+        <property>
+          <name>allowEmbedded</name>
+          <value>true</value>
+          <type>boolean</type>
+        </property>
+        <property>
+          <name>enableBrowse</name>
+          <value>false</value>
+          <type>boolean</type>
+        </property>
+        <property>
+          <name>enableSearch</name>
+          <value>false</value>
+          <type>boolean</type>
+        </property>
+        <property>
+          <name>baseRepositoryPath</name>
+          <value>/site/components</value>
+          <type>string</type>
+        </property>
+        <property>
+          <name>baseBrowsePath</name>
+          <value>/site/components</value>
+          <type>string</type>
+        </property>
+        <property>
+          <name>contentTypes</name>
+          <value>/component/search</value>
+          <type>contentTypes</type>
+        </property>
+        <property>
+          <name>tags</name>
+          <value />
+          <type>string</type>
         </property>
       </properties>
     </datasource>

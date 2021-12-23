@@ -43,6 +43,7 @@
         hasSubItemItemAttributes={ 'role': 'button', 'data-bs-toggle': 'dropdown', 'aria-expanded': 'false' }
         depth=contentModel.depth_i
       />
+      <@crafter.renderComponentCollection $field="search_o" $containerAttributes={ "style": "min-height: unset" } />
     </div>
   </div>
 </@crafter.nav>
