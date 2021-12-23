@@ -19,16 +19,25 @@
   <#if columns>
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row align-items-center ${contentModel.showImageAtLeftColumn_b?then('flex-lg-row-reverse', '')}">
- </#if>
-
-  <#-- MAIN CONTENT -->
-  <div class="col-lg-6 ${(!columns)?then('mx-auto', '')} mb-5">
+  <#else>
     <@crafter.h1
       class="display-5 fw-bold ${crafter.emptyFieldClass(contentModel.title_s)} ${darkMode?then('text-white', '')}"
       $field="title_s"
     >
       ${contentModel.title_s!''}
     </@crafter.h1>
+  </#if>
+
+  <#-- MAIN CONTENT -->
+  <div class="col-lg-6 ${(!columns)?then('mx-auto', '')} mb-5">
+    <#if columns>
+      <@crafter.h1
+        class="display-5 fw-bold ${crafter.emptyFieldClass(contentModel.title_s)} ${darkMode?then('text-white', '')}"
+        $field="title_s"
+      >
+        ${contentModel.title_s!''}
+      </@crafter.h1>
+    </#if>
     <@crafter.p class="lead mb-4 ${crafter.emptyFieldClass(contentModel.copy_t)}" $field="copy_t">${contentModel.copy_t!''}</@crafter.p>
     <@crafter.renderComponentCollection
       $field="buttons_o"
