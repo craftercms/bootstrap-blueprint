@@ -1,8 +1,9 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <#assign columns = contentModel.contentImage_s?has_content && contentModel.showInColumns_b?has_content && contentModel.showInColumns_b />
+<#assign darkMode = contentModel.darkMode_b?has_content && contentModel.darkMode_b />
 
-<@crafter.div class="px-4 py-5 my-5 ${(!columns)?then('text-center', '')}">
+<@crafter.div class="px-4 py-5 my-5 ${(!columns)?then('text-center', '')} ${darkMode?then('bg-dark text-secondary', '')}">
   <#-- TOP IMAGE -->
   <#if contentModel.image_s?has_content>
     <@crafter.img
@@ -22,7 +23,12 @@
 
   <#-- MAIN CONTENT -->
   <div class="col-lg-6 ${(!columns)?then('mx-auto', '')} mb-5">
-    <@crafter.h1 class="display-5 fw-bold ${crafter.emptyFieldClass(contentModel.title_s)}" $field="title_s">${contentModel.title_s!''}</@crafter.h1>
+    <@crafter.h1
+      class="display-5 fw-bold ${crafter.emptyFieldClass(contentModel.title_s)} ${darkMode?then('text-white', '')}"
+      $field="title_s"
+    >
+      ${contentModel.title_s!''}
+    </@crafter.h1>
     <@crafter.p class="lead mb-4 ${crafter.emptyFieldClass(contentModel.copy_t)}" $field="copy_t">${contentModel.copy_t!''}</@crafter.p>
     <@crafter.renderComponentCollection
       $field="buttons_o"
