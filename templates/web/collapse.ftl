@@ -8,3 +8,13 @@
     <@crafter.renderComponentCollection $field="content_o" />
   </div>
 </@crafter.div>
+
+<#if modePreview>
+  <script>
+    (() => {
+      setTimeout(() => {
+        iceBootstrap.components.collapse.initialize();
+      }, 100);
+    })();
+  </script>
+</#if>

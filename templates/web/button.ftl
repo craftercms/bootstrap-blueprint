@@ -1,5 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<#assign objectId = contentModel.objectId />
+
 <#assign extraAttributes = {} />
 
 <#if contentModel.target_s?has_content>
@@ -16,10 +18,20 @@
   $tag="button"
   type="button"
   class="btn ice-btn btn-${contentModel.outlined_b?then('outline-', '')}${contentModel.color_s} ${contentModel.size_s!''}"
-  id="btn-${contentModel.objectId}"
+  id="btn-${objectId}"
   $attributes=extraAttributes
 >
   <@crafter.span $field="text_s" class="${crafter.emptyFieldClass(contentModel.text_s)}">
     ${contentModel.text_s!''}
   </@crafter.span>
 </@crafter.tag>
+
+<#if modePreview>
+  <script>
+    (() => {
+      setTimeout(() => {
+        iceBootstrap.components.button.initialize("btn-${objectId}");
+      }, 100);
+    })();
+  </script>
+</#if>

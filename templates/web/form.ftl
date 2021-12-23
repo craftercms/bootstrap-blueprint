@@ -110,3 +110,13 @@
     });
   })();
 </script>
+
+<#if modePreview>
+  <script>
+    (() => {
+      setTimeout(() => {
+        iceBootstrap.components.form.initialize('form-${objectId}');
+      }, 100);
+    })();
+  </script>
+</#if>

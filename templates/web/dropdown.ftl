@@ -36,3 +36,13 @@
     </#if>
   </@crafter.renderRepeatGroup>
 </@crafter.div>
+
+<#if modePreview>
+  <script>
+    (() => {
+      setTimeout(() => {
+        iceBootstrap.components.dropdown.initialize("${objectId}-dropdownMenuButton");
+      }, 100);
+    })();
+  </script>
+</#if>
