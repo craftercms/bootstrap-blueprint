@@ -2,9 +2,9 @@
 
 <#assign objectId = contentModel.objectId />
 
-<@crafter.nav class="navbar navbar-expand-lg navbar-${contentModel.textColor_s!''} bg-${contentModel.backgroundColor_s!''} ${contentModel.placement_s!''}">
+<@crafter.nav class="navbar ${contentModel.neverExpand_b?then('', 'navbar-expand-lg')} navbar-${contentModel.textColor_s!''} bg-${contentModel.backgroundColor_s!''} ${contentModel.placement_s!''}">
   <div class="container-fluid">
-    <a class="ice-btn navbar-brand" <#if contentModel.brand_link_s?has_content>href="${contentModel.brand_link_s}"</#if>>
+    <a class="navbar-brand" <#if contentModel.brand_link_s?has_content>href="${contentModel.brand_link_s}"</#if>>
       <#if contentModel.brandImage_s?has_content>
         <@crafter.img
           $field="brandImage_s"
@@ -29,11 +29,11 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbar-${objectId}">
+    <div class="collapse navbar-collapse justify-content-${contentModel.navItemsPosition_s}" id="navbar-${objectId}">
       <@crafter.navigation
         showNavElement=false
         url="${contentModel.url_s!'/site/website'}"
-        containerElementClass="navbar-nav"
+        containerElementClass="navbar-nav ${(contentModel.navItemsPosition_s == 'center')?then('mx-auto', '')} ${(contentModel.navItemsPosition_s == 'left')?then('me-auto', '')}"
         itemWrapperClass="nav-item"
         itemClass="nav-link"
         subItemClass="dropdown-item"

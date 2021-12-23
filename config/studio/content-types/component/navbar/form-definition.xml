@@ -1,675 +1,763 @@
 <form>
-	<title>Navbar</title>
-	<description />
-	<objectType>component</objectType>
-	<content-type>/component/navbar</content-type>
-	<imageThumbnail />
-	<quickCreate>false</quickCreate>
-	<quickCreatePath />
-	<properties>		<property>
-			<name>display-template</name>
-			<label>Display Template</label>
-			<value>/templates/web/navbar.ftl</value>
-			<type>template</type>
-		</property>
-		<property>
-			<name>no-template-required</name>
-			<label>No Template Required</label>
-			<value />
-			<type>boolean</type>
-		</property>
-		<property>
-			<name>merge-strategy</name>
-			<label>Merge Strategy</label>
-			<value>inherit-levels</value>
-			<type>string</type>
-		</property>
-	</properties>
-	<sections>		<section>
-			<title>Navbar Properties</title>
-			<description />
-			<defaultOpen>true</defaultOpen>
-			<fields>
-				<field>
-					<type>auto-filename</type>
-					<id>file-name</id>
-					<iceId />
-					<title>Component ID</title>
-					<description />
-					<defaultValue />
-					<help />
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value />
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-					</constraints>
-				</field>
-				<field>
-					<type>input</type>
-					<id>internal-name</id>
-					<iceId />
-					<title>Internal Name</title>
-					<description />
-					<defaultValue />
-					<help />
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[true]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>input</type>
-					<id>url_s</id>
-					<iceId />
-					<title>Url</title>
-					<description>Navigation base url.</description>
-					<defaultValue>/site/website</defaultValue>
-					<help />
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value />
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>numeric-input</type>
-					<id>depth_i</id>
-					<iceId />
-					<title>Depth</title>
-					<description />
-					<defaultValue>1</defaultValue>
-					<help />
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxValue</name>
-							<value />
-							<type>float</type>
-						</property>
-						<property>
-							<name>minValue</name>
-							<value />
-							<type>float</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value />
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-			</fields>
-		</section>
-		<section>
-			<title>Brand</title>
-			<description />
-			<defaultOpen>true</defaultOpen>
-			<fields>
-				<field>
-					<type>input</type>
-					<id>brandText_s</id>
-					<iceId />
-					<title>Brand Text</title>
-					<description>Text used for the navbar's brand.</description>
-					<defaultValue />
-					<help />
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value />
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>image-picker</type>
-					<id>brandImage_s</id>
-					<iceId />
-					<title>Brand Image</title>
-					<description>Image used for the navbar's brand.</description>
-					<defaultValue />
-					<help />
-					<properties>
-						<property>
-							<name>width</name>
-							<value
-              >{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
-							<type>range</type>
-						</property>
-						<property>
-							<name>height</name>
-							<value
-              >{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
-							<type>range</type>
-						</property>
-						<property>
-							<name>thumbnailWidth</name>
-							<value />
-							<type>int</type>
-						</property>
-						<property>
-							<name>thumbnailHeight</name>
-							<value />
-							<type>int</type>
-						</property>
-						<property>
-							<name>imageManager</name>
-							<value>imageFromRepository,imageUploadedFromDesktop</value>
-							<type>datasource:image</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value />
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>input</type>
-					<id>brand_link_s</id>
-					<iceId />
-					<title>Link</title>
-					<description />
-					<defaultValue />
-					<help />
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value />
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-			</fields>
-		</section>
-		<section>
-			<title>Advanced Options</title>
-			<description />
-			<defaultOpen>false</defaultOpen>
-			<fields>
-				<field>
-					<type>dropdown</type>
-					<id>textColor_s</id>
-					<iceId />
-					<title>Text Color</title>
-					<description />
-					<defaultValue>light</defaultValue>
-					<help />
-					<properties>
-						<property>
-							<name>datasource</name>
-							<value>textColors</value>
-							<type>datasource:item</type>
-						</property>
-						<property>
-							<name>emptyvalue</name>
-							<value />
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value />
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>dropdown</type>
-					<id>backgroundColor_s</id>
-					<iceId />
-					<title>Background Color</title>
-					<description />
-					<defaultValue>light</defaultValue>
-					<help />
-					<properties>
-						<property>
-							<name>datasource</name>
-							<value>backgroundColors</value>
-							<type>datasource:item</type>
-						</property>
-						<property>
-							<name>emptyvalue</name>
-							<value />
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value />
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>dropdown</type>
-					<id>placement_s</id>
-					<iceId />
-					<title>Placement</title>
-					<description>Position of the navbar.</description>
-					<defaultValue>default</defaultValue>
-					<help />
-					<properties>
-						<property>
-							<name>datasource</name>
-							<value>placements</value>
-							<type>datasource:item</type>
-						</property>
-						<property>
-							<name>emptyvalue</name>
-							<value />
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value />
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>numeric-input</type>
-					<id>brandImageWidth_i</id>
-					<iceId />
-					<title>Brand Image Width (in pixels)</title>
-					<description />
-					<defaultValue>30</defaultValue>
-					<help />
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxValue</name>
-							<value />
-							<type>float</type>
-						</property>
-						<property>
-							<name>minValue</name>
-							<value>0</value>
-							<type>float</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value />
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>numeric-input</type>
-					<id>brandImageHeight_i</id>
-					<iceId />
-					<title>Brand Image Height (in pixels)</title>
-					<description />
-					<defaultValue>24</defaultValue>
-					<help />
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxValue</name>
-							<value />
-							<type>float</type>
-						</property>
-						<property>
-							<name>minValue</name>
-							<value>0</value>
-							<type>float</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value />
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-			</fields>
-		</section>
-	</sections>
-	<datasources>				<datasource>
-					<type>key-value-list</type>
-					<id>horizontalAlignments</id>
-					<title>Horizontal Alignments</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>dataType</name>
-							<value
+  <title>Navbar</title>
+  <description />
+  <objectType>component</objectType>
+  <content-type>/component/navbar</content-type>
+  <imageThumbnail />
+  <quickCreate>false</quickCreate>
+  <quickCreatePath />
+  <properties>
+    <property>
+      <name>display-template</name>
+      <label>Display Template</label>
+      <value>/templates/web/navbar.ftl</value>
+      <type>template</type>
+    </property>
+    <property>
+      <name>no-template-required</name>
+      <label>No Template Required</label>
+      <value />
+      <type>boolean</type>
+    </property>
+    <property>
+      <name>merge-strategy</name>
+      <label>Merge Strategy</label>
+      <value>inherit-levels</value>
+      <type>string</type>
+    </property>
+  </properties>
+  <sections>
+    <section>
+      <title>Navbar Properties</title>
+      <description />
+      <defaultOpen>true</defaultOpen>
+      <fields>
+        <field>
+          <type>auto-filename</type>
+          <id>file-name</id>
+          <iceId />
+          <title>Component ID</title>
+          <description />
+          <defaultValue />
+          <help />
+          <properties>
+            <property>
+              <name>size</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>maxlength</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+          </constraints>
+        </field>
+        <field>
+          <type>input</type>
+          <id>internal-name</id>
+          <iceId />
+          <title>Internal Name</title>
+          <description />
+          <defaultValue />
+          <help />
+          <properties>
+            <property>
+              <name>size</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>maxlength</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[true]]></value>
+              <type>boolean</type>
+            </constraint>
+          </constraints>
+        </field>
+        <field>
+          <type>input</type>
+          <id>url_s</id>
+          <iceId />
+          <title>Url</title>
+          <description>Navigation base url.</description>
+          <defaultValue>/site/website</defaultValue>
+          <help />
+          <properties>
+            <property>
+              <name>size</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>maxlength</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>tokenize</name>
+              <value>false</value>
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>escapeContent</name>
+              <value>false</value>
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+            <constraint>
+              <name>pattern</name>
+              <value><![CDATA[]]></value>
+              <type>string</type>
+            </constraint>
+          </constraints>
+        </field>
+        <field>
+          <type>numeric-input</type>
+          <id>depth_i</id>
+          <iceId />
+          <title>Depth</title>
+          <description />
+          <defaultValue>1</defaultValue>
+          <help />
+          <properties>
+            <property>
+              <name>size</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>maxValue</name>
+              <value />
+              <type>float</type>
+            </property>
+            <property>
+              <name>minValue</name>
+              <value />
+              <type>float</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>tokenize</name>
+              <value>false</value>
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+            <constraint>
+              <name>pattern</name>
+              <value><![CDATA[]]></value>
+              <type>string</type>
+            </constraint>
+          </constraints>
+        </field>
+      </fields>
+    </section>
+    <section>
+      <title>Brand</title>
+      <description />
+      <defaultOpen>true</defaultOpen>
+      <fields>
+        <field>
+          <type>input</type>
+          <id>brandText_s</id>
+          <iceId />
+          <title>Brand Text</title>
+          <description>Text used for the navbar's brand.</description>
+          <defaultValue />
+          <help />
+          <properties>
+            <property>
+              <name>size</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>maxlength</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>tokenize</name>
+              <value>false</value>
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>escapeContent</name>
+              <value>false</value>
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+            <constraint>
+              <name>pattern</name>
+              <value><![CDATA[]]></value>
+              <type>string</type>
+            </constraint>
+          </constraints>
+        </field>
+        <field>
+          <type>image-picker</type>
+          <id>brandImage_s</id>
+          <iceId />
+          <title>Brand Image</title>
+          <description>Image used for the navbar's brand.</description>
+          <defaultValue />
+          <help />
+          <properties>
+            <property>
+              <name>width</name>
+              <value
+              >{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }
+              </value>
+              <type>range</type>
+            </property>
+            <property>
+              <name>height</name>
+              <value
+              >{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }
+              </value>
+              <type>range</type>
+            </property>
+            <property>
+              <name>thumbnailWidth</name>
+              <value />
+              <type>int</type>
+            </property>
+            <property>
+              <name>thumbnailHeight</name>
+              <value />
+              <type>int</type>
+            </property>
+            <property>
+              <name>imageManager</name>
+              <value>imageFromRepository,imageUploadedFromDesktop</value>
+              <type>datasource:image</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+          </constraints>
+        </field>
+        <field>
+          <type>input</type>
+          <id>brand_link_s</id>
+          <iceId />
+          <title>Link</title>
+          <description />
+          <defaultValue />
+          <help />
+          <properties>
+            <property>
+              <name>size</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>maxlength</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>tokenize</name>
+              <value>false</value>
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>escapeContent</name>
+              <value>false</value>
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+            <constraint>
+              <name>pattern</name>
+              <value><![CDATA[]]></value>
+              <type>string</type>
+            </constraint>
+          </constraints>
+        </field>
+      </fields>
+    </section>
+    <section>
+      <title>Advanced Options</title>
+      <description />
+      <defaultOpen>false</defaultOpen>
+      <fields>
+        <field>
+          <type>dropdown</type>
+          <id>textColor_s</id>
+          <iceId />
+          <title>Text Color</title>
+          <description />
+          <defaultValue>light</defaultValue>
+          <help />
+          <properties>
+            <property>
+              <name>datasource</name>
+              <value>textColors</value>
+              <type>datasource:item</type>
+            </property>
+            <property>
+              <name>emptyvalue</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+          </constraints>
+        </field>
+        <field>
+          <type>dropdown</type>
+          <id>backgroundColor_s</id>
+          <iceId />
+          <title>Background Color</title>
+          <description />
+          <defaultValue>light</defaultValue>
+          <help />
+          <properties>
+            <property>
+              <name>datasource</name>
+              <value>backgroundColors</value>
+              <type>datasource:item</type>
+            </property>
+            <property>
+              <name>emptyvalue</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+          </constraints>
+        </field>
+        <field>
+          <type>dropdown</type>
+          <id>placement_s</id>
+          <iceId />
+          <title>Placement</title>
+          <description>Position of the navbar.</description>
+          <defaultValue>default</defaultValue>
+          <help />
+          <properties>
+            <property>
+              <name>datasource</name>
+              <value>placements</value>
+              <type>datasource:item</type>
+            </property>
+            <property>
+              <name>emptyvalue</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+          </constraints>
+        </field>
+        <field>
+          <type>numeric-input</type>
+          <id>brandImageWidth_i</id>
+          <iceId />
+          <title>Brand Image Width (in pixels)</title>
+          <description />
+          <defaultValue>30</defaultValue>
+          <help />
+          <properties>
+            <property>
+              <name>size</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>maxValue</name>
+              <value />
+              <type>float</type>
+            </property>
+            <property>
+              <name>minValue</name>
+              <value>0</value>
+              <type>float</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>tokenize</name>
+              <value>false</value>
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+            <constraint>
+              <name>pattern</name>
+              <value><![CDATA[]]></value>
+              <type>string</type>
+            </constraint>
+          </constraints>
+        </field>
+        <field>
+          <type>numeric-input</type>
+          <id>brandImageHeight_i</id>
+          <iceId />
+          <title>Brand Image Height (in pixels)</title>
+          <description />
+          <defaultValue>24</defaultValue>
+          <help />
+          <properties>
+            <property>
+              <name>size</name>
+              <value>50</value>
+              <type>int</type>
+            </property>
+            <property>
+              <name>maxValue</name>
+              <value />
+              <type>float</type>
+            </property>
+            <property>
+              <name>minValue</name>
+              <value>0</value>
+              <type>float</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>tokenize</name>
+              <value>false</value>
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+            <constraint>
+              <name>pattern</name>
+              <value><![CDATA[]]></value>
+              <type>string</type>
+            </constraint>
+          </constraints>
+        </field>
+        <field>
+          <type>checkbox</type>
+          <id>neverExpand_b</id>
+          <iceId />
+          <title>Never Expand</title>
+          <description />
+          <defaultValue>false</defaultValue>
+          <help />
+          <properties>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+          </constraints>
+        </field>
+        <field>
+          <type>dropdown</type>
+          <id>navItemsPosition_s</id>
+          <iceId />
+          <title>Nav Items Position</title>
+          <description />
+          <defaultValue>left</defaultValue>
+          <help />
+          <properties>
+            <property>
+              <name>datasource</name>
+              <value>positions</value>
+              <type>datasource:item</type>
+            </property>
+            <property>
+              <name>emptyvalue</name>
+              <value />
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>readonly</name>
+              <value />
+              <type>boolean</type>
+            </property>
+          </properties>
+          <constraints>
+            <constraint>
+              <name>required</name>
+              <value><![CDATA[]]></value>
+              <type>boolean</type>
+            </constraint>
+          </constraints>
+        </field>
+      </fields>
+    </section>
+  </sections>
+  <datasources>
+    <datasource>
+      <type>key-value-list</type>
+      <id>horizontalAlignments</id>
+      <title>Horizontal Alignments</title>
+      <interface>item</interface>
+      <properties>
+        <property>
+          <name>dataType</name>
+          <value
           >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
-								<type>dropdown</type>
-						</property>
-						<property>
-							<name>options</name>
-							<value
+          <type>dropdown</type>
+        </property>
+        <property>
+          <name>options</name>
+          <value
           >[{&quot;key&quot;:&quot;left&quot;,&quot;value&quot;:&quot;Left&quot;},{&quot;key&quot;:&quot;center&quot;,&quot;value&quot;:&quot;Center&quot;},{&quot;key&quot;:&quot;end&quot;,&quot;value&quot;:&quot;Right&quot;}]</value>
-								<type>keyValueMap</type>
-						</property>
-						<property>
-							<name>showkeys</name>
-							<value />
-								<type>boolean</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>img-repository-upload</type>
-					<id>imageFromRepository</id>
-					<title>Image From Repository</title>
-					<interface>image</interface>
-					<properties>
-						<property>
-							<name>repoPath</name>
-							<value>/static-assets/images/</value>
-								<type>content-path-input</type>
-						</property>
-						<property>
-							<name>useSearch</name>
-							<value>true</value>
-								<type>boolean</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>img-desktop-upload</type>
-					<id>imageUploadedFromDesktop</id>
-					<title>Image Uploaded From Desktop</title>
-					<interface>image</interface>
-					<properties>
-						<property>
-							<name>repoPath</name>
-							<value>/static-assets/images/</value>
-								<type>content-path-input</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>key-value-list</type>
-					<id>textColors</id>
-					<title>Text Colors</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>dataType</name>
-							<value
+          <type>keyValueMap</type>
+        </property>
+        <property>
+          <name>showkeys</name>
+          <value />
+          <type>boolean</type>
+        </property>
+      </properties>
+    </datasource>
+    <datasource>
+      <type>img-repository-upload</type>
+      <id>imageFromRepository</id>
+      <title>Image From Repository</title>
+      <interface>image</interface>
+      <properties>
+        <property>
+          <name>repoPath</name>
+          <value>/static-assets/images/</value>
+          <type>content-path-input</type>
+        </property>
+        <property>
+          <name>useSearch</name>
+          <value>true</value>
+          <type>boolean</type>
+        </property>
+      </properties>
+    </datasource>
+    <datasource>
+      <type>img-desktop-upload</type>
+      <id>imageUploadedFromDesktop</id>
+      <title>Image Uploaded From Desktop</title>
+      <interface>image</interface>
+      <properties>
+        <property>
+          <name>repoPath</name>
+          <value>/static-assets/images/</value>
+          <type>content-path-input</type>
+        </property>
+      </properties>
+    </datasource>
+    <datasource>
+      <type>key-value-list</type>
+      <id>textColors</id>
+      <title>Text Colors</title>
+      <interface>item</interface>
+      <properties>
+        <property>
+          <name>dataType</name>
+          <value
           >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
-								<type>dropdown</type>
-						</property>
-						<property>
-							<name>options</name>
-							<value
+          <type>dropdown</type>
+        </property>
+        <property>
+          <name>options</name>
+          <value
           >[{&quot;key&quot;:&quot;light&quot;,&quot;value&quot;:&quot;Light&quot;},{&quot;key&quot;:&quot;dark&quot;,&quot;value&quot;:&quot;Dark&quot;}]</value>
-								<type>keyValueMap</type>
-						</property>
-						<property>
-							<name>showkeys</name>
-							<value />
-								<type>boolean</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>key-value-list</type>
-					<id>backgroundColors</id>
-					<title>Background Colors</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>dataType</name>
-							<value
+          <type>keyValueMap</type>
+        </property>
+        <property>
+          <name>showkeys</name>
+          <value />
+          <type>boolean</type>
+        </property>
+      </properties>
+    </datasource>
+    <datasource>
+      <type>key-value-list</type>
+      <id>backgroundColors</id>
+      <title>Background Colors</title>
+      <interface>item</interface>
+      <properties>
+        <property>
+          <name>dataType</name>
+          <value
           >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
-								<type>dropdown</type>
-						</property>
-						<property>
-							<name>options</name>
-							<value
+          <type>dropdown</type>
+        </property>
+        <property>
+          <name>options</name>
+          <value
           >[{&quot;key&quot;:&quot;primary&quot;,&quot;value&quot;:&quot;Primary&quot;},{&quot;key&quot;:&quot;secondary&quot;,&quot;value&quot;:&quot;Secondary&quot;},{&quot;key&quot;:&quot;success&quot;,&quot;value&quot;:&quot;Success&quot;},{&quot;key&quot;:&quot;danger&quot;,&quot;value&quot;:&quot;Danger&quot;},{&quot;key&quot;:&quot;warning&quot;,&quot;value&quot;:&quot;Warning&quot;},{&quot;key&quot;:&quot;info&quot;,&quot;value&quot;:&quot;Info&quot;},{&quot;key&quot;:&quot;light&quot;,&quot;value&quot;:&quot;Light&quot;},{&quot;key&quot;:&quot;dark&quot;,&quot;value&quot;:&quot;Dark&quot;}]</value>
-								<type>keyValueMap</type>
-						</property>
-						<property>
-							<name>showkeys</name>
-							<value />
-								<type>boolean</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>key-value-list</type>
-					<id>placements</id>
-					<title>Placements</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>dataType</name>
-							<value
+          <type>keyValueMap</type>
+        </property>
+        <property>
+          <name>showkeys</name>
+          <value />
+          <type>boolean</type>
+        </property>
+      </properties>
+    </datasource>
+    <datasource>
+      <type>key-value-list</type>
+      <id>placements</id>
+      <title>Placements</title>
+      <interface>item</interface>
+      <properties>
+        <property>
+          <name>dataType</name>
+          <value
           >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
-								<type>dropdown</type>
-						</property>
-						<property>
-							<name>options</name>
-							<value
-          >[{&quot;key&quot;:&quot;default&quot;,&quot;value&quot;:&quot;Default&quot;},{&quot;key&quot;:&quot;fixed-top&quot;,&quot;value&quot;:&quot;Fixed Top&quot;},{&quot;key&quot;:&quot;fixed-bottom&quot;,&quot;value&quot;:&quot;Fixed Bottom&quot;}]</value>
-								<type>keyValueMap</type>
-						</property>
-						<property>
-							<name>showkeys</name>
-							<value />
-								<type>boolean</type>
-						</property>
-					</properties>
-				</datasource>
-	</datasources>
+          <type>dropdown</type>
+        </property>
+        <property>
+          <name>options</name>
+          <value
+          >[{&quot;key&quot;:&quot;default&quot;,&quot;value&quot;:&quot;Default&quot;},{&quot;key&quot;:&quot;fixed-top&quot;,&quot;value&quot;:&quot;Fixed
+            Top&quot;},{&quot;key&quot;:&quot;fixed-bottom&quot;,&quot;value&quot;:&quot;Fixed Bottom&quot;}]
+          </value>
+          <type>keyValueMap</type>
+        </property>
+        <property>
+          <name>showkeys</name>
+          <value />
+          <type>boolean</type>
+        </property>
+      </properties>
+    </datasource>
+    <datasource>
+      <type>key-value-list</type>
+      <id>positions</id>
+      <title>Positions</title>
+      <interface>item</interface>
+      <properties>
+        <property>
+          <name>dataType</name>
+          <value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+          <type>dropdown</type>
+        </property>
+        <property>
+          <name>options</name>
+          <value
+          >[{&quot;key&quot;:&quot;left&quot;,&quot;value&quot;:&quot;Left&quot;},{&quot;key&quot;:&quot;center&quot;,&quot;value&quot;:&quot;Center&quot;},{&quot;key&quot;:&quot;end&quot;,&quot;value&quot;:&quot;Right&quot;}]</value>
+          <type>keyValueMap</type>
+        </property>
+        <property>
+          <name>showkeys</name>
+          <value />
+          <type>boolean</type>
+        </property>
+      </properties>
+    </datasource>
+  </datasources>
 </form>
