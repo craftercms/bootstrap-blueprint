@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.div class="${crafter.printIfPreview('paragraph-component-root')}">
+<@crafter.div class="${crafter.printIfPreview('album-component-root')}">
   <@crafter.renderRepeatGroup
     $field="items_o"
     $containerAttributes={ "class": "row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" }
