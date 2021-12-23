@@ -8,16 +8,28 @@
     item, index
   >
     <div class="card shadow-sm">
+      <#assign imageStyles = "width: 100%;" />
+      <#if contentModel.imagesHeight_i?has_content>
+        <#assign imageStyles = imageStyles + " height: " + contentModel.imagesHeight_i + "px;" />
+      </#if>
+      <#if contentModel.imageFit_s?has_content>
+        <#assign imageStyles = imageStyles + " object-fit: " + contentModel.imageFit_s />
+      </#if>
+
       <@crafter.img
         $field="items_o.image_s"
         $index="${index}"
         src="${item.image_s}"
         class="bd-placeholder-img card-img-top img-fluid"
-        style="width: 100%; height: 225px; object-fit: cover;"
+        style="${imageStyles}"
         alt=""
       />
       <div class="card-body">
-        <@crafter.div $field="items_o.description_html" $index="${index}" class="card-text">
+        <@crafter.div
+          $field="items_o.description_html"
+          $index="${index}"
+          class="card-text ${crafter.emptyFieldClass(item.description_html)}"
+        >
           ${item.description_html}
         </@crafter.div>
         <div class="d-flex justify-content-between align-items-center">
