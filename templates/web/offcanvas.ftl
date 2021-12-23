@@ -28,3 +28,7 @@
     <@crafter.renderComponentCollection $field="content_o" />
   </div>
 </@crafter.div>
+
+<#if modePreview>
+  <@crafter.div class="craftercms-edit-field" />
+</#if>

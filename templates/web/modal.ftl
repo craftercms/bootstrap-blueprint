@@ -63,3 +63,7 @@
     </div>
   </div>
 </@crafter.div>
+
+<#if modePreview>
+  <@crafter.div class="craftercms-edit-field" />
+</#if>
