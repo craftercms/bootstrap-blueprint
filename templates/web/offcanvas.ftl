@@ -20,7 +20,7 @@
       class="offcanvas-title ${crafter.emptyFieldClass(contentModel.title_s)}"
       id="offcanvas-${contentModel.objectId}-label"
     >
-        ${contentModel.title_s!''}
+      ${contentModel.title_s!''}
     </@crafter.h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
