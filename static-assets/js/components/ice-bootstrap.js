@@ -1,5 +1,6 @@
 (function() {
   const registeredComponents = {};
+  const editModeEvent = 'craftercms.editMode'; // TODO: use guest constants - need to be exported from guest, also for iceBypass
   let isEditMode = false;
 
   const onKeyup = (e) => {
@@ -74,7 +75,7 @@
   };
 
   // When edit mode changes, this sets or removes events for keyup and keydown.
-  document.addEventListener('craftercms.editMode', (e) => {
+  document.addEventListener(editModeEvent, (e) => {
     isEditMode = e.detail;
     editModeAction();
     if (isEditMode) {
