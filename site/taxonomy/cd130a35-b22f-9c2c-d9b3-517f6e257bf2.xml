@@ -1,0 +1,4474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <content-type>/taxonomy</content-type>
+  <display-template/>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>cd13</objectGroupId>
+  <objectId>cd130a35-b22f-9c2c-d9b3-517f6e257bf2</objectId>
+  <file-name>cd130a35-b22f-9c2c-d9b3-517f6e257bf2.xml</file-name>
+  <folder-name/>
+  <internal-name>Solid Icons</internal-name>
+  <items item-list="true">
+    <item>
+      <key>fa-solid fa-0</key>
+      <value>0</value>
+    </item>
+    <item>
+      <key>fa-solid fa-1</key>
+      <value>1</value>
+    </item>
+    <item>
+      <key>fa-solid fa-2</key>
+      <value>2</value>
+    </item>
+    <item>
+      <key>fa-solid fa-3</key>
+      <value>3</value>
+    </item>
+    <item>
+      <key>fa-solid fa-4</key>
+      <value>4</value>
+    </item>
+    <item>
+      <key>fa-solid fa-5</key>
+      <value>5</value>
+    </item>
+    <item>
+      <key>fa-solid fa-6</key>
+      <value>6</value>
+    </item>
+    <item>
+      <key>fa-solid fa-7</key>
+      <value>7</value>
+    </item>
+    <item>
+      <key>fa-solid fa-8</key>
+      <value>8</value>
+    </item>
+    <item>
+      <key>fa-solid fa-9</key>
+      <value>9</value>
+    </item>
+    <item>
+      <key>fa-solid fa-a</key>
+      <value>A</value>
+    </item>
+    <item>
+      <key>fa-solid fa-address-book</key>
+      <value>Address book</value>
+    </item>
+    <item>
+      <key>fa-solid fa-address-card</key>
+      <value>Address card</value>
+    </item>
+    <item>
+      <key>fa-solid fa-align-center</key>
+      <value>Align center</value>
+    </item>
+    <item>
+      <key>fa-solid fa-align-justify</key>
+      <value>Align justify</value>
+    </item>
+    <item>
+      <key>fa-solid fa-align-left</key>
+      <value>Align left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-align-right</key>
+      <value>Align right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-anchor</key>
+      <value>Anchor</value>
+    </item>
+    <item>
+      <key>fa-solid fa-angle-down</key>
+      <value>Angle down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-angle-left</key>
+      <value>Angle left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-angle-right</key>
+      <value>Angle right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-angle-up</key>
+      <value>Angle up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-angles-down</key>
+      <value>Angles down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-angles-left</key>
+      <value>Angles left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-angles-right</key>
+      <value>Angles right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-angles-up</key>
+      <value>Angles up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ankh</key>
+      <value>Ankh</value>
+    </item>
+    <item>
+      <key>fa-solid fa-apple-whole</key>
+      <value>Apple whole</value>
+    </item>
+    <item>
+      <key>fa-solid fa-archway</key>
+      <value>Archway</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-down</key>
+      <value>Arrow down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-down-1-9</key>
+      <value>Arrow down 1 9</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-down-9-1</key>
+      <value>Arrow down 9 1</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-down-a-z</key>
+      <value>Arrow down a z</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-down-long</key>
+      <value>Arrow down long</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-down-short-wide</key>
+      <value>Arrow down short wide</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-down-wide-short</key>
+      <value>Arrow down wide short</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-down-z-a</key>
+      <value>Arrow down z a</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-left</key>
+      <value>Arrow left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-left-long</key>
+      <value>Arrow left long</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-pointer</key>
+      <value>Arrow pointer</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-right</key>
+      <value>Arrow right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-right-arrow-left</key>
+      <value>Arrow right arrow left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-right-from-bracket</key>
+      <value>Arrow right from bracket</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-right-long</key>
+      <value>Arrow right long</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-right-to-bracket</key>
+      <value>Arrow right to bracket</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-rotate-left</key>
+      <value>Arrow rotate left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-rotate-right</key>
+      <value>Arrow rotate right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-trend-down</key>
+      <value>Arrow trend down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-trend-up</key>
+      <value>Arrow trend up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-turn-down</key>
+      <value>Arrow turn down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-turn-up</key>
+      <value>Arrow turn up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-up</key>
+      <value>Arrow up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-up-1-9</key>
+      <value>Arrow up 1 9</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-up-9-1</key>
+      <value>Arrow up 9 1</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-up-a-z</key>
+      <value>Arrow up a z</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-up-from-bracket</key>
+      <value>Arrow up from bracket</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-up-long</key>
+      <value>Arrow up long</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-up-right-from-square</key>
+      <value>Arrow up right from square</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-up-short-wide</key>
+      <value>Arrow up short wide</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-up-wide-short</key>
+      <value>Arrow up wide short</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrow-up-z-a</key>
+      <value>Arrow up z a</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrows-left-right</key>
+      <value>Arrows left right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrows-rotate</key>
+      <value>Arrows rotate</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrows-up-down</key>
+      <value>Arrows up down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-arrows-up-down-left-right</key>
+      <value>Arrows up down left right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-asterisk</key>
+      <value>Asterisk</value>
+    </item>
+    <item>
+      <key>fa-solid fa-at</key>
+      <value>At</value>
+    </item>
+    <item>
+      <key>fa-solid fa-atom</key>
+      <value>Atom</value>
+    </item>
+    <item>
+      <key>fa-solid fa-audio-description</key>
+      <value>Audio description</value>
+    </item>
+    <item>
+      <key>fa-solid fa-austral-sign</key>
+      <value>Austral sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-award</key>
+      <value>Award</value>
+    </item>
+    <item>
+      <key>fa-solid fa-b</key>
+      <value>B</value>
+    </item>
+    <item>
+      <key>fa-solid fa-baby</key>
+      <value>Baby</value>
+    </item>
+    <item>
+      <key>fa-solid fa-baby-carriage</key>
+      <value>Baby carriage</value>
+    </item>
+    <item>
+      <key>fa-solid fa-backward</key>
+      <value>Backward</value>
+    </item>
+    <item>
+      <key>fa-solid fa-backward-fast</key>
+      <value>Backward fast</value>
+    </item>
+    <item>
+      <key>fa-solid fa-backward-step</key>
+      <value>Backward step</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bacon</key>
+      <value>Bacon</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bacteria</key>
+      <value>Bacteria</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bacterium</key>
+      <value>Bacterium</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bag-shopping</key>
+      <value>Bag shopping</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bahai</key>
+      <value>Bahai</value>
+    </item>
+    <item>
+      <key>fa-solid fa-baht-sign</key>
+      <value>Baht sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ban</key>
+      <value>Ban</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ban-smoking</key>
+      <value>Ban smoking</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bandage</key>
+      <value>Bandage</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bank</key>
+      <value>Bank</value>
+    </item>
+    <item>
+      <key>fa-solid fa-barcode</key>
+      <value>Barcode</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bars</key>
+      <value>Bars</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bars-progress</key>
+      <value>Bars progress</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bars-staggered</key>
+      <value>Bars staggered</value>
+    </item>
+    <item>
+      <key>fa-solid fa-baseball</key>
+      <value>Baseball</value>
+    </item>
+    <item>
+      <key>fa-solid fa-basket-shopping</key>
+      <value>Basket shopping</value>
+    </item>
+    <item>
+      <key>fa-solid fa-basketball</key>
+      <value>Basketball</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bath</key>
+      <value>Bath</value>
+    </item>
+    <item>
+      <key>fa-solid fa-battery-empty</key>
+      <value>Battery empty</value>
+    </item>
+    <item>
+      <key>fa-solid fa-battery-full</key>
+      <value>Battery full</value>
+    </item>
+    <item>
+      <key>fa-solid fa-battery-half</key>
+      <value>Battery half</value>
+    </item>
+    <item>
+      <key>fa-solid fa-battery-quarter</key>
+      <value>Battery quarter</value>
+    </item>
+    <item>
+      <key>fa-solid fa-battery-three-quarters</key>
+      <value>Battery three quarters</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bed</key>
+      <value>Bed</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bed-pulse</key>
+      <value>Bed pulse</value>
+    </item>
+    <item>
+      <key>fa-solid fa-beer-mug-empty</key>
+      <value>Beer mug empty</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bell</key>
+      <value>Bell</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bell-concierge</key>
+      <value>Bell concierge</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bell-slash</key>
+      <value>Bell slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bezier-curve</key>
+      <value>Bezier curve</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bicycle</key>
+      <value>Bicycle</value>
+    </item>
+    <item>
+      <key>fa-solid fa-binoculars</key>
+      <value>Binoculars</value>
+    </item>
+    <item>
+      <key>fa-solid fa-biohazard</key>
+      <value>Biohazard</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bitcoin-sign</key>
+      <value>Bitcoin sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-blender</key>
+      <value>Blender</value>
+    </item>
+    <item>
+      <key>fa-solid fa-blender-phone</key>
+      <value>Blender phone</value>
+    </item>
+    <item>
+      <key>fa-solid fa-blog</key>
+      <value>Blog</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bold</key>
+      <value>Bold</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bolt</key>
+      <value>Bolt</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bomb</key>
+      <value>Bomb</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bone</key>
+      <value>Bone</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bong</key>
+      <value>Bong</value>
+    </item>
+    <item>
+      <key>fa-solid fa-book</key>
+      <value>Book</value>
+    </item>
+    <item>
+      <key>fa-solid fa-book-atlas</key>
+      <value>Book atlas</value>
+    </item>
+    <item>
+      <key>fa-solid fa-book-bible</key>
+      <value>Book bible</value>
+    </item>
+    <item>
+      <key>fa-solid fa-book-journal-whills</key>
+      <value>Book journal whills</value>
+    </item>
+    <item>
+      <key>fa-solid fa-book-medical</key>
+      <value>Book medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-book-open</key>
+      <value>Book open</value>
+    </item>
+    <item>
+      <key>fa-solid fa-book-open-reader</key>
+      <value>Book open reader</value>
+    </item>
+    <item>
+      <key>fa-solid fa-book-quran</key>
+      <value>Book quran</value>
+    </item>
+    <item>
+      <key>fa-solid fa-book-skull</key>
+      <value>Book skull</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bookmark</key>
+      <value>Bookmark</value>
+    </item>
+    <item>
+      <key>fa-solid fa-border-all</key>
+      <value>Border all</value>
+    </item>
+    <item>
+      <key>fa-solid fa-border-none</key>
+      <value>Border none</value>
+    </item>
+    <item>
+      <key>fa-solid fa-border-top-left</key>
+      <value>Border top left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bowling-ball</key>
+      <value>Bowling ball</value>
+    </item>
+    <item>
+      <key>fa-solid fa-box</key>
+      <value>Box</value>
+    </item>
+    <item>
+      <key>fa-solid fa-box-archive</key>
+      <value>Box archive</value>
+    </item>
+    <item>
+      <key>fa-solid fa-box-open</key>
+      <value>Box open</value>
+    </item>
+    <item>
+      <key>fa-solid fa-box-tissue</key>
+      <value>Box tissue</value>
+    </item>
+    <item>
+      <key>fa-solid fa-boxes-stacked</key>
+      <value>Boxes stacked</value>
+    </item>
+    <item>
+      <key>fa-solid fa-braille</key>
+      <value>Braille</value>
+    </item>
+    <item>
+      <key>fa-solid fa-brain</key>
+      <value>Brain</value>
+    </item>
+    <item>
+      <key>fa-solid fa-brazilian-real-sign</key>
+      <value>Brazilian real sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bread-slice</key>
+      <value>Bread slice</value>
+    </item>
+    <item>
+      <key>fa-solid fa-briefcase</key>
+      <value>Briefcase</value>
+    </item>
+    <item>
+      <key>fa-solid fa-briefcase-medical</key>
+      <value>Briefcase medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-broom</key>
+      <value>Broom</value>
+    </item>
+    <item>
+      <key>fa-solid fa-broom-ball</key>
+      <value>Broom ball</value>
+    </item>
+    <item>
+      <key>fa-solid fa-brush</key>
+      <value>Brush</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bug</key>
+      <value>Bug</value>
+    </item>
+    <item>
+      <key>fa-solid fa-building</key>
+      <value>Building</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bullhorn</key>
+      <value>Bullhorn</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bullseye</key>
+      <value>Bullseye</value>
+    </item>
+    <item>
+      <key>fa-solid fa-burger</key>
+      <value>Burger</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bus</key>
+      <value>Bus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-bus-simple</key>
+      <value>Bus simple</value>
+    </item>
+    <item>
+      <key>fa-solid fa-business-time</key>
+      <value>Business time</value>
+    </item>
+    <item>
+      <key>fa-solid fa-c</key>
+      <value>C</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cake-candles</key>
+      <value>Cake candles</value>
+    </item>
+    <item>
+      <key>fa-solid fa-calculator</key>
+      <value>Calculator</value>
+    </item>
+    <item>
+      <key>fa-solid fa-calendar</key>
+      <value>Calendar</value>
+    </item>
+    <item>
+      <key>fa-solid fa-calendar-check</key>
+      <value>Calendar check</value>
+    </item>
+    <item>
+      <key>fa-solid fa-calendar-day</key>
+      <value>Calendar day</value>
+    </item>
+    <item>
+      <key>fa-solid fa-calendar-days</key>
+      <value>Calendar days</value>
+    </item>
+    <item>
+      <key>fa-solid fa-calendar-minus</key>
+      <value>Calendar minus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-calendar-plus</key>
+      <value>Calendar plus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-calendar-week</key>
+      <value>Calendar week</value>
+    </item>
+    <item>
+      <key>fa-solid fa-calendar-xmark</key>
+      <value>Calendar xmark</value>
+    </item>
+    <item>
+      <key>fa-solid fa-camera</key>
+      <value>Camera</value>
+    </item>
+    <item>
+      <key>fa-solid fa-camera-retro</key>
+      <value>Camera retro</value>
+    </item>
+    <item>
+      <key>fa-solid fa-camera-rotate</key>
+      <value>Camera rotate</value>
+    </item>
+    <item>
+      <key>fa-solid fa-campground</key>
+      <value>Campground</value>
+    </item>
+    <item>
+      <key>fa-solid fa-candy-cane</key>
+      <value>Candy cane</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cannabis</key>
+      <value>Cannabis</value>
+    </item>
+    <item>
+      <key>fa-solid fa-capsules</key>
+      <value>Capsules</value>
+    </item>
+    <item>
+      <key>fa-solid fa-car</key>
+      <value>Car</value>
+    </item>
+    <item>
+      <key>fa-solid fa-car-battery</key>
+      <value>Car battery</value>
+    </item>
+    <item>
+      <key>fa-solid fa-car-crash</key>
+      <value>Car crash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-car-rear</key>
+      <value>Car rear</value>
+    </item>
+    <item>
+      <key>fa-solid fa-car-side</key>
+      <value>Car side</value>
+    </item>
+    <item>
+      <key>fa-solid fa-caravan</key>
+      <value>Caravan</value>
+    </item>
+    <item>
+      <key>fa-solid fa-caret-down</key>
+      <value>Caret down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-caret-left</key>
+      <value>Caret left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-caret-right</key>
+      <value>Caret right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-caret-up</key>
+      <value>Caret up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-carrot</key>
+      <value>Carrot</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cart-arrow-down</key>
+      <value>Cart arrow down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cart-flatbed</key>
+      <value>Cart flatbed</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cart-flatbed-suitcase</key>
+      <value>Cart flatbed suitcase</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cart-plus</key>
+      <value>Cart plus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cart-shopping</key>
+      <value>Cart shopping</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cash-register</key>
+      <value>Cash register</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cat</key>
+      <value>Cat</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cedi-sign</key>
+      <value>Cedi sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cent-sign</key>
+      <value>Cent sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-certificate</key>
+      <value>Certificate</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chair</key>
+      <value>Chair</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chalkboard</key>
+      <value>Chalkboard</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chalkboard-user</key>
+      <value>Chalkboard user</value>
+    </item>
+    <item>
+      <key>fa-solid fa-champagne-glasses</key>
+      <value>Champagne glasses</value>
+    </item>
+    <item>
+      <key>fa-solid fa-charging-station</key>
+      <value>Charging station</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chart-area</key>
+      <value>Chart area</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chart-bar</key>
+      <value>Chart bar</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chart-column</key>
+      <value>Chart column</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chart-gantt</key>
+      <value>Chart gantt</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chart-line</key>
+      <value>Chart line</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chart-pie</key>
+      <value>Chart pie</value>
+    </item>
+    <item>
+      <key>fa-solid fa-check</key>
+      <value>Check</value>
+    </item>
+    <item>
+      <key>fa-solid fa-check-double</key>
+      <value>Check double</value>
+    </item>
+    <item>
+      <key>fa-solid fa-check-to-slot</key>
+      <value>Check to slot</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cheese</key>
+      <value>Cheese</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chess</key>
+      <value>Chess</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chess-bishop</key>
+      <value>Chess bishop</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chess-board</key>
+      <value>Chess board</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chess-king</key>
+      <value>Chess king</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chess-knight</key>
+      <value>Chess knight</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chess-pawn</key>
+      <value>Chess pawn</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chess-queen</key>
+      <value>Chess queen</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chess-rook</key>
+      <value>Chess rook</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chevron-down</key>
+      <value>Chevron down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chevron-left</key>
+      <value>Chevron left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chevron-right</key>
+      <value>Chevron right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-chevron-up</key>
+      <value>Chevron up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-child</key>
+      <value>Child</value>
+    </item>
+    <item>
+      <key>fa-solid fa-church</key>
+      <value>Church</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle</key>
+      <value>Circle</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-arrow-down</key>
+      <value>Circle arrow down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-arrow-left</key>
+      <value>Circle arrow left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-arrow-right</key>
+      <value>Circle arrow right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-arrow-up</key>
+      <value>Circle arrow up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-check</key>
+      <value>Circle check</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-chevron-down</key>
+      <value>Circle chevron down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-chevron-left</key>
+      <value>Circle chevron left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-chevron-right</key>
+      <value>Circle chevron right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-chevron-up</key>
+      <value>Circle chevron up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-dollar-to-slot</key>
+      <value>Circle dollar to slot</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-dot</key>
+      <value>Circle dot</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-down</key>
+      <value>Circle down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-exclamation</key>
+      <value>Circle exclamation</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-h</key>
+      <value>Circle h</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-half-stroke</key>
+      <value>Circle half stroke</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-info</key>
+      <value>Circle info</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-left</key>
+      <value>Circle left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-minus</key>
+      <value>Circle minus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-notch</key>
+      <value>Circle notch</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-pause</key>
+      <value>Circle pause</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-play</key>
+      <value>Circle play</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-plus</key>
+      <value>Circle plus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-question</key>
+      <value>Circle question</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-radiation</key>
+      <value>Circle radiation</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-right</key>
+      <value>Circle right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-stop</key>
+      <value>Circle stop</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-up</key>
+      <value>Circle up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-user</key>
+      <value>Circle user</value>
+    </item>
+    <item>
+      <key>fa-solid fa-circle-xmark</key>
+      <value>Circle xmark</value>
+    </item>
+    <item>
+      <key>fa-solid fa-city</key>
+      <value>City</value>
+    </item>
+    <item>
+      <key>fa-solid fa-clapperboard</key>
+      <value>Clapperboard</value>
+    </item>
+    <item>
+      <key>fa-solid fa-clipboard</key>
+      <value>Clipboard</value>
+    </item>
+    <item>
+      <key>fa-solid fa-clipboard-check</key>
+      <value>Clipboard check</value>
+    </item>
+    <item>
+      <key>fa-solid fa-clipboard-list</key>
+      <value>Clipboard list</value>
+    </item>
+    <item>
+      <key>fa-solid fa-clock</key>
+      <value>Clock</value>
+    </item>
+    <item>
+      <key>fa-solid fa-clock-rotate-left</key>
+      <value>Clock rotate left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-clone</key>
+      <value>Clone</value>
+    </item>
+    <item>
+      <key>fa-solid fa-closed-captioning</key>
+      <value>Closed captioning</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cloud</key>
+      <value>Cloud</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cloud-arrow-down</key>
+      <value>Cloud arrow down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cloud-arrow-up</key>
+      <value>Cloud arrow up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cloud-meatball</key>
+      <value>Cloud meatball</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cloud-moon</key>
+      <value>Cloud moon</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cloud-moon-rain</key>
+      <value>Cloud moon rain</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cloud-rain</key>
+      <value>Cloud rain</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cloud-showers-heavy</key>
+      <value>Cloud showers heavy</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cloud-sun</key>
+      <value>Cloud sun</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cloud-sun-rain</key>
+      <value>Cloud sun rain</value>
+    </item>
+    <item>
+      <key>fa-solid fa-clover</key>
+      <value>Clover</value>
+    </item>
+    <item>
+      <key>fa-solid fa-code</key>
+      <value>Code</value>
+    </item>
+    <item>
+      <key>fa-solid fa-code-branch</key>
+      <value>Code branch</value>
+    </item>
+    <item>
+      <key>fa-solid fa-code-commit</key>
+      <value>Code commit</value>
+    </item>
+    <item>
+      <key>fa-solid fa-code-compare</key>
+      <value>Code compare</value>
+    </item>
+    <item>
+      <key>fa-solid fa-code-fork</key>
+      <value>Code fork</value>
+    </item>
+    <item>
+      <key>fa-solid fa-code-merge</key>
+      <value>Code merge</value>
+    </item>
+    <item>
+      <key>fa-solid fa-code-pull-request</key>
+      <value>Code pull request</value>
+    </item>
+    <item>
+      <key>fa-solid fa-coins</key>
+      <value>Coins</value>
+    </item>
+    <item>
+      <key>fa-solid fa-colon-sign</key>
+      <value>Colon sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-comment</key>
+      <value>Comment</value>
+    </item>
+    <item>
+      <key>fa-solid fa-comment-dollar</key>
+      <value>Comment dollar</value>
+    </item>
+    <item>
+      <key>fa-solid fa-comment-dots</key>
+      <value>Comment dots</value>
+    </item>
+    <item>
+      <key>fa-solid fa-comment-medical</key>
+      <value>Comment medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-comment-slash</key>
+      <value>Comment slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-comment-sms</key>
+      <value>Comment sms</value>
+    </item>
+    <item>
+      <key>fa-solid fa-comments</key>
+      <value>Comments</value>
+    </item>
+    <item>
+      <key>fa-solid fa-comments-dollar</key>
+      <value>Comments dollar</value>
+    </item>
+    <item>
+      <key>fa-solid fa-compact-disc</key>
+      <value>Compact disc</value>
+    </item>
+    <item>
+      <key>fa-solid fa-compass</key>
+      <value>Compass</value>
+    </item>
+    <item>
+      <key>fa-solid fa-compass-drafting</key>
+      <value>Compass drafting</value>
+    </item>
+    <item>
+      <key>fa-solid fa-compress</key>
+      <value>Compress</value>
+    </item>
+    <item>
+      <key>fa-solid fa-computer-mouse</key>
+      <value>Computer mouse</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cookie</key>
+      <value>Cookie</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cookie-bite</key>
+      <value>Cookie bite</value>
+    </item>
+    <item>
+      <key>fa-solid fa-copy</key>
+      <value>Copy</value>
+    </item>
+    <item>
+      <key>fa-solid fa-copyright</key>
+      <value>Copyright</value>
+    </item>
+    <item>
+      <key>fa-solid fa-couch</key>
+      <value>Couch</value>
+    </item>
+    <item>
+      <key>fa-solid fa-credit-card</key>
+      <value>Credit card</value>
+    </item>
+    <item>
+      <key>fa-solid fa-crop</key>
+      <value>Crop</value>
+    </item>
+    <item>
+      <key>fa-solid fa-crop-simple</key>
+      <value>Crop simple</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cross</key>
+      <value>Cross</value>
+    </item>
+    <item>
+      <key>fa-solid fa-crosshairs</key>
+      <value>Crosshairs</value>
+    </item>
+    <item>
+      <key>fa-solid fa-crow</key>
+      <value>Crow</value>
+    </item>
+    <item>
+      <key>fa-solid fa-crown</key>
+      <value>Crown</value>
+    </item>
+    <item>
+      <key>fa-solid fa-crutch</key>
+      <value>Crutch</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cruzeiro-sign</key>
+      <value>Cruzeiro sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cube</key>
+      <value>Cube</value>
+    </item>
+    <item>
+      <key>fa-solid fa-cubes</key>
+      <value>Cubes</value>
+    </item>
+    <item>
+      <key>fa-solid fa-d</key>
+      <value>D</value>
+    </item>
+    <item>
+      <key>fa-solid fa-database</key>
+      <value>Database</value>
+    </item>
+    <item>
+      <key>fa-solid fa-delete-left</key>
+      <value>Delete left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-democrat</key>
+      <value>Democrat</value>
+    </item>
+    <item>
+      <key>fa-solid fa-desktop</key>
+      <value>Desktop</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dharmachakra</key>
+      <value>Dharmachakra</value>
+    </item>
+    <item>
+      <key>fa-solid fa-diagram-project</key>
+      <value>Diagram project</value>
+    </item>
+    <item>
+      <key>fa-solid fa-diamond</key>
+      <value>Diamond</value>
+    </item>
+    <item>
+      <key>fa-solid fa-diamond-turn-right</key>
+      <value>Diamond turn right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dice</key>
+      <value>Dice</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dice-d20</key>
+      <value>Dice d20</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dice-d6</key>
+      <value>Dice d6</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dice-five</key>
+      <value>Dice five</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dice-four</key>
+      <value>Dice four</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dice-one</key>
+      <value>Dice one</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dice-six</key>
+      <value>Dice six</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dice-three</key>
+      <value>Dice three</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dice-two</key>
+      <value>Dice two</value>
+    </item>
+    <item>
+      <key>fa-solid fa-disease</key>
+      <value>Disease</value>
+    </item>
+    <item>
+      <key>fa-solid fa-divide</key>
+      <value>Divide</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dna</key>
+      <value>Dna</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dog</key>
+      <value>Dog</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dollar-sign</key>
+      <value>Dollar sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dolly</key>
+      <value>Dolly</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dong-sign</key>
+      <value>Dong sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-door-closed</key>
+      <value>Door closed</value>
+    </item>
+    <item>
+      <key>fa-solid fa-door-open</key>
+      <value>Door open</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dove</key>
+      <value>Dove</value>
+    </item>
+    <item>
+      <key>fa-solid fa-down-left-and-up-right-to-center</key>
+      <value>Down left and up right to center</value>
+    </item>
+    <item>
+      <key>fa-solid fa-down-long</key>
+      <value>Down long</value>
+    </item>
+    <item>
+      <key>fa-solid fa-download</key>
+      <value>Download</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dragon</key>
+      <value>Dragon</value>
+    </item>
+    <item>
+      <key>fa-solid fa-draw-polygon</key>
+      <value>Draw polygon</value>
+    </item>
+    <item>
+      <key>fa-solid fa-droplet</key>
+      <value>Droplet</value>
+    </item>
+    <item>
+      <key>fa-solid fa-droplet-slash</key>
+      <value>Droplet slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-drum</key>
+      <value>Drum</value>
+    </item>
+    <item>
+      <key>fa-solid fa-drum-steelpan</key>
+      <value>Drum steelpan</value>
+    </item>
+    <item>
+      <key>fa-solid fa-drumstick-bite</key>
+      <value>Drumstick bite</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dumbbell</key>
+      <value>Dumbbell</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dumpster</key>
+      <value>Dumpster</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dumpster-fire</key>
+      <value>Dumpster fire</value>
+    </item>
+    <item>
+      <key>fa-solid fa-dungeon</key>
+      <value>Dungeon</value>
+    </item>
+    <item>
+      <key>fa-solid fa-e</key>
+      <value>E</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ear-deaf</key>
+      <value>Ear deaf</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ear-listen</key>
+      <value>Ear listen</value>
+    </item>
+    <item>
+      <key>fa-solid fa-earth-africa</key>
+      <value>Earth africa</value>
+    </item>
+    <item>
+      <key>fa-solid fa-earth-americas</key>
+      <value>Earth americas</value>
+    </item>
+    <item>
+      <key>fa-solid fa-earth-asia</key>
+      <value>Earth asia</value>
+    </item>
+    <item>
+      <key>fa-solid fa-earth-europe</key>
+      <value>Earth europe</value>
+    </item>
+    <item>
+      <key>fa-solid fa-earth-oceania</key>
+      <value>Earth oceania</value>
+    </item>
+    <item>
+      <key>fa-solid fa-egg</key>
+      <value>Egg</value>
+    </item>
+    <item>
+      <key>fa-solid fa-eject</key>
+      <value>Eject</value>
+    </item>
+    <item>
+      <key>fa-solid fa-elevator</key>
+      <value>Elevator</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ellipsis</key>
+      <value>Ellipsis</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ellipsis-vertical</key>
+      <value>Ellipsis vertical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-envelope</key>
+      <value>Envelope</value>
+    </item>
+    <item>
+      <key>fa-solid fa-envelope-open</key>
+      <value>Envelope open</value>
+    </item>
+    <item>
+      <key>fa-solid fa-envelope-open-text</key>
+      <value>Envelope open text</value>
+    </item>
+    <item>
+      <key>fa-solid fa-envelopes-bulk</key>
+      <value>Envelopes bulk</value>
+    </item>
+    <item>
+      <key>fa-solid fa-equals</key>
+      <value>Equals</value>
+    </item>
+    <item>
+      <key>fa-solid fa-eraser</key>
+      <value>Eraser</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ethernet</key>
+      <value>Ethernet</value>
+    </item>
+    <item>
+      <key>fa-solid fa-euro-sign</key>
+      <value>Euro sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-exclamation</key>
+      <value>Exclamation</value>
+    </item>
+    <item>
+      <key>fa-solid fa-expand</key>
+      <value>Expand</value>
+    </item>
+    <item>
+      <key>fa-solid fa-eye</key>
+      <value>Eye</value>
+    </item>
+    <item>
+      <key>fa-solid fa-eye-dropper</key>
+      <value>Eye dropper</value>
+    </item>
+    <item>
+      <key>fa-solid fa-eye-low-vision</key>
+      <value>Eye low vision</value>
+    </item>
+    <item>
+      <key>fa-solid fa-eye-slash</key>
+      <value>Eye slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-f</key>
+      <value>F</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-angry</key>
+      <value>Face angry</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-dizzy</key>
+      <value>Face dizzy</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-flushed</key>
+      <value>Face flushed</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-frown</key>
+      <value>Face frown</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-frown-open</key>
+      <value>Face frown open</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grimace</key>
+      <value>Face grimace</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin</key>
+      <value>Face grin</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin-beam</key>
+      <value>Face grin beam</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin-beam-sweat</key>
+      <value>Face grin beam sweat</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin-hearts</key>
+      <value>Face grin hearts</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin-squint</key>
+      <value>Face grin squint</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin-squint-tears</key>
+      <value>Face grin squint tears</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin-stars</key>
+      <value>Face grin stars</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin-tears</key>
+      <value>Face grin tears</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin-tongue</key>
+      <value>Face grin tongue</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin-tongue-squint</key>
+      <value>Face grin tongue squint</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin-tongue-wink</key>
+      <value>Face grin tongue wink</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin-wide</key>
+      <value>Face grin wide</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-grin-wink</key>
+      <value>Face grin wink</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-kiss</key>
+      <value>Face kiss</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-kiss-beam</key>
+      <value>Face kiss beam</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-kiss-wink-heart</key>
+      <value>Face kiss wink heart</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-laugh</key>
+      <value>Face laugh</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-laugh-beam</key>
+      <value>Face laugh beam</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-laugh-squint</key>
+      <value>Face laugh squint</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-laugh-wink</key>
+      <value>Face laugh wink</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-meh</key>
+      <value>Face meh</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-meh-blank</key>
+      <value>Face meh blank</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-rolling-eyes</key>
+      <value>Face rolling eyes</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-sad-cry</key>
+      <value>Face sad cry</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-sad-tear</key>
+      <value>Face sad tear</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-smile</key>
+      <value>Face smile</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-smile-beam</key>
+      <value>Face smile beam</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-smile-wink</key>
+      <value>Face smile wink</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-surprise</key>
+      <value>Face surprise</value>
+    </item>
+    <item>
+      <key>fa-solid fa-face-tired</key>
+      <value>Face tired</value>
+    </item>
+    <item>
+      <key>fa-solid fa-fan</key>
+      <value>Fan</value>
+    </item>
+    <item>
+      <key>fa-solid fa-faucet</key>
+      <value>Faucet</value>
+    </item>
+    <item>
+      <key>fa-solid fa-fax</key>
+      <value>Fax</value>
+    </item>
+    <item>
+      <key>fa-solid fa-feather</key>
+      <value>Feather</value>
+    </item>
+    <item>
+      <key>fa-solid fa-feather-pointed</key>
+      <value>Feather pointed</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file</key>
+      <value>File</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-arrow-down</key>
+      <value>File arrow down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-arrow-up</key>
+      <value>File arrow up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-audio</key>
+      <value>File audio</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-code</key>
+      <value>File code</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-contract</key>
+      <value>File contract</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-csv</key>
+      <value>File csv</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-excel</key>
+      <value>File excel</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-export</key>
+      <value>File export</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-image</key>
+      <value>File image</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-import</key>
+      <value>File import</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-invoice</key>
+      <value>File invoice</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-invoice-dollar</key>
+      <value>File invoice dollar</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-lines</key>
+      <value>File lines</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-medical</key>
+      <value>File medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-pdf</key>
+      <value>File pdf</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-powerpoint</key>
+      <value>File powerpoint</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-prescription</key>
+      <value>File prescription</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-signature</key>
+      <value>File signature</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-video</key>
+      <value>File video</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-waveform</key>
+      <value>File waveform</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-word</key>
+      <value>File word</value>
+    </item>
+    <item>
+      <key>fa-solid fa-file-zipper</key>
+      <value>File zipper</value>
+    </item>
+    <item>
+      <key>fa-solid fa-fill</key>
+      <value>Fill</value>
+    </item>
+    <item>
+      <key>fa-solid fa-fill-drip</key>
+      <value>Fill drip</value>
+    </item>
+    <item>
+      <key>fa-solid fa-film</key>
+      <value>Film</value>
+    </item>
+    <item>
+      <key>fa-solid fa-filter</key>
+      <value>Filter</value>
+    </item>
+    <item>
+      <key>fa-solid fa-filter-circle-dollar</key>
+      <value>Filter circle dollar</value>
+    </item>
+    <item>
+      <key>fa-solid fa-filter-circle-xmark</key>
+      <value>Filter circle xmark</value>
+    </item>
+    <item>
+      <key>fa-solid fa-fingerprint</key>
+      <value>Fingerprint</value>
+    </item>
+    <item>
+      <key>fa-solid fa-fire</key>
+      <value>Fire</value>
+    </item>
+    <item>
+      <key>fa-solid fa-fire-extinguisher</key>
+      <value>Fire extinguisher</value>
+    </item>
+    <item>
+      <key>fa-solid fa-fire-flame-curved</key>
+      <value>Fire flame curved</value>
+    </item>
+    <item>
+      <key>fa-solid fa-fire-flame-simple</key>
+      <value>Fire flame simple</value>
+    </item>
+    <item>
+      <key>fa-solid fa-fish</key>
+      <value>Fish</value>
+    </item>
+    <item>
+      <key>fa-solid fa-flag</key>
+      <value>Flag</value>
+    </item>
+    <item>
+      <key>fa-solid fa-flag-checkered</key>
+      <value>Flag checkered</value>
+    </item>
+    <item>
+      <key>fa-solid fa-flag-usa</key>
+      <value>Flag usa</value>
+    </item>
+    <item>
+      <key>fa-solid fa-flask</key>
+      <value>Flask</value>
+    </item>
+    <item>
+      <key>fa-solid fa-floppy-disk</key>
+      <value>Floppy disk</value>
+    </item>
+    <item>
+      <key>fa-solid fa-florin-sign</key>
+      <value>Florin sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-folder</key>
+      <value>Folder</value>
+    </item>
+    <item>
+      <key>fa-solid fa-folder-minus</key>
+      <value>Folder minus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-folder-open</key>
+      <value>Folder open</value>
+    </item>
+    <item>
+      <key>fa-solid fa-folder-plus</key>
+      <value>Folder plus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-folder-tree</key>
+      <value>Folder tree</value>
+    </item>
+    <item>
+      <key>fa-solid fa-font</key>
+      <value>Font</value>
+    </item>
+    <item>
+      <key>fa-solid fa-font-awesome</key>
+      <value>Font awesome</value>
+    </item>
+    <item>
+      <key>fa-solid fa-football</key>
+      <value>Football</value>
+    </item>
+    <item>
+      <key>fa-solid fa-forward</key>
+      <value>Forward</value>
+    </item>
+    <item>
+      <key>fa-solid fa-forward-fast</key>
+      <value>Forward fast</value>
+    </item>
+    <item>
+      <key>fa-solid fa-forward-step</key>
+      <value>Forward step</value>
+    </item>
+    <item>
+      <key>fa-solid fa-franc-sign</key>
+      <value>Franc sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-frog</key>
+      <value>Frog</value>
+    </item>
+    <item>
+      <key>fa-solid fa-futbol</key>
+      <value>Futbol</value>
+    </item>
+    <item>
+      <key>fa-solid fa-g</key>
+      <value>G</value>
+    </item>
+    <item>
+      <key>fa-solid fa-gamepad</key>
+      <value>Gamepad</value>
+    </item>
+    <item>
+      <key>fa-solid fa-gas-pump</key>
+      <value>Gas pump</value>
+    </item>
+    <item>
+      <key>fa-solid fa-gauge</key>
+      <value>Gauge</value>
+    </item>
+    <item>
+      <key>fa-solid fa-gauge-simple</key>
+      <value>Gauge simple</value>
+    </item>
+    <item>
+      <key>fa-solid fa-gavel</key>
+      <value>Gavel</value>
+    </item>
+    <item>
+      <key>fa-solid fa-gear</key>
+      <value>Gear</value>
+    </item>
+    <item>
+      <key>fa-solid fa-gears</key>
+      <value>Gears</value>
+    </item>
+    <item>
+      <key>fa-solid fa-gem</key>
+      <value>Gem</value>
+    </item>
+    <item>
+      <key>fa-solid fa-genderless</key>
+      <value>Genderless</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ghost</key>
+      <value>Ghost</value>
+    </item>
+    <item>
+      <key>fa-solid fa-gift</key>
+      <value>Gift</value>
+    </item>
+    <item>
+      <key>fa-solid fa-gifts</key>
+      <value>Gifts</value>
+    </item>
+    <item>
+      <key>fa-solid fa-glasses</key>
+      <value>Glasses</value>
+    </item>
+    <item>
+      <key>fa-solid fa-globe</key>
+      <value>Globe</value>
+    </item>
+    <item>
+      <key>fa-solid fa-golf-ball-tee</key>
+      <value>Golf ball tee</value>
+    </item>
+    <item>
+      <key>fa-solid fa-gopuram</key>
+      <value>Gopuram</value>
+    </item>
+    <item>
+      <key>fa-solid fa-graduation-cap</key>
+      <value>Graduation cap</value>
+    </item>
+    <item>
+      <key>fa-solid fa-greater-than</key>
+      <value>Greater than</value>
+    </item>
+    <item>
+      <key>fa-solid fa-greater-than-equal</key>
+      <value>Greater than equal</value>
+    </item>
+    <item>
+      <key>fa-solid fa-grip</key>
+      <value>Grip</value>
+    </item>
+    <item>
+      <key>fa-solid fa-grip-lines</key>
+      <value>Grip lines</value>
+    </item>
+    <item>
+      <key>fa-solid fa-grip-lines-vertical</key>
+      <value>Grip lines vertical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-grip-vertical</key>
+      <value>Grip vertical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-guarani-sign</key>
+      <value>Guarani sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-guitar</key>
+      <value>Guitar</value>
+    </item>
+    <item>
+      <key>fa-solid fa-gun</key>
+      <value>Gun</value>
+    </item>
+    <item>
+      <key>fa-solid fa-h</key>
+      <value>H</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hammer</key>
+      <value>Hammer</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hamsa</key>
+      <value>Hamsa</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand</key>
+      <value>Hand</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-back-fist</key>
+      <value>Hand back fist</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-dots</key>
+      <value>Hand dots</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-fist</key>
+      <value>Hand fist</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-holding</key>
+      <value>Hand holding</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-holding-dollar</key>
+      <value>Hand holding dollar</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-holding-droplet</key>
+      <value>Hand holding droplet</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-holding-heart</key>
+      <value>Hand holding heart</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-holding-medical</key>
+      <value>Hand holding medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-lizard</key>
+      <value>Hand lizard</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-middle-finger</key>
+      <value>Hand middle finger</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-peace</key>
+      <value>Hand peace</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-point-down</key>
+      <value>Hand point down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-point-left</key>
+      <value>Hand point left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-point-right</key>
+      <value>Hand point right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-point-up</key>
+      <value>Hand point up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-pointer</key>
+      <value>Hand pointer</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-scissors</key>
+      <value>Hand scissors</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-sparkles</key>
+      <value>Hand sparkles</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hand-spock</key>
+      <value>Hand spock</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hands</key>
+      <value>Hands</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hands-asl-interpreting</key>
+      <value>Hands asl interpreting</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hands-bubbles</key>
+      <value>Hands bubbles</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hands-clapping</key>
+      <value>Hands clapping</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hands-holding</key>
+      <value>Hands holding</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hands-praying</key>
+      <value>Hands praying</value>
+    </item>
+    <item>
+      <key>fa-solid fa-handshake</key>
+      <value>Handshake</value>
+    </item>
+    <item>
+      <key>fa-solid fa-handshake-angle</key>
+      <value>Handshake angle</value>
+    </item>
+    <item>
+      <key>fa-solid fa-handshake-simple-slash</key>
+      <value>Handshake simple slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-handshake-slash</key>
+      <value>Handshake slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hanukiah</key>
+      <value>Hanukiah</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hard-drive</key>
+      <value>Hard drive</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hashtag</key>
+      <value>Hashtag</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hat-cowboy</key>
+      <value>Hat cowboy</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hat-cowboy-side</key>
+      <value>Hat cowboy side</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hat-wizard</key>
+      <value>Hat wizard</value>
+    </item>
+    <item>
+      <key>fa-solid fa-head-side-cough</key>
+      <value>Head side cough</value>
+    </item>
+    <item>
+      <key>fa-solid fa-head-side-cough-slash</key>
+      <value>Head side cough slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-head-side-mask</key>
+      <value>Head side mask</value>
+    </item>
+    <item>
+      <key>fa-solid fa-head-side-virus</key>
+      <value>Head side virus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-heading</key>
+      <value>Heading</value>
+    </item>
+    <item>
+      <key>fa-solid fa-headphones</key>
+      <value>Headphones</value>
+    </item>
+    <item>
+      <key>fa-solid fa-headphones-simple</key>
+      <value>Headphones simple</value>
+    </item>
+    <item>
+      <key>fa-solid fa-headset</key>
+      <value>Headset</value>
+    </item>
+    <item>
+      <key>fa-solid fa-heart</key>
+      <value>Heart</value>
+    </item>
+    <item>
+      <key>fa-solid fa-heart-crack</key>
+      <value>Heart crack</value>
+    </item>
+    <item>
+      <key>fa-solid fa-heart-pulse</key>
+      <value>Heart pulse</value>
+    </item>
+    <item>
+      <key>fa-solid fa-helicopter</key>
+      <value>Helicopter</value>
+    </item>
+    <item>
+      <key>fa-solid fa-helmet-safety</key>
+      <value>Helmet safety</value>
+    </item>
+    <item>
+      <key>fa-solid fa-highlighter</key>
+      <value>Highlighter</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hippo</key>
+      <value>Hippo</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hockey-puck</key>
+      <value>Hockey puck</value>
+    </item>
+    <item>
+      <key>fa-solid fa-holly-berry</key>
+      <value>Holly berry</value>
+    </item>
+    <item>
+      <key>fa-solid fa-horse</key>
+      <value>Horse</value>
+    </item>
+    <item>
+      <key>fa-solid fa-horse-head</key>
+      <value>Horse head</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hospital</key>
+      <value>Hospital</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hospital-user</key>
+      <value>Hospital user</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hot-tub-person</key>
+      <value>Hot tub person</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hotdog</key>
+      <value>Hotdog</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hotel</key>
+      <value>Hotel</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hourglass</key>
+      <value>Hourglass</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hourglass-empty</key>
+      <value>Hourglass empty</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hourglass-end</key>
+      <value>Hourglass end</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hourglass-start</key>
+      <value>Hourglass start</value>
+    </item>
+    <item>
+      <key>fa-solid fa-house</key>
+      <value>House</value>
+    </item>
+    <item>
+      <key>fa-solid fa-house-chimney</key>
+      <value>House chimney</value>
+    </item>
+    <item>
+      <key>fa-solid fa-house-chimney-crack</key>
+      <value>House chimney crack</value>
+    </item>
+    <item>
+      <key>fa-solid fa-house-chimney-medical</key>
+      <value>House chimney medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-house-chimney-user</key>
+      <value>House chimney user</value>
+    </item>
+    <item>
+      <key>fa-solid fa-house-crack</key>
+      <value>House crack</value>
+    </item>
+    <item>
+      <key>fa-solid fa-house-laptop</key>
+      <value>House laptop</value>
+    </item>
+    <item>
+      <key>fa-solid fa-house-medical</key>
+      <value>House medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-house-user</key>
+      <value>House user</value>
+    </item>
+    <item>
+      <key>fa-solid fa-hryvnia-sign</key>
+      <value>Hryvnia sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-i</key>
+      <value>I</value>
+    </item>
+    <item>
+      <key>fa-solid fa-i-cursor</key>
+      <value>I cursor</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ice-cream</key>
+      <value>Ice cream</value>
+    </item>
+    <item>
+      <key>fa-solid fa-icicles</key>
+      <value>Icicles</value>
+    </item>
+    <item>
+      <key>fa-solid fa-icons</key>
+      <value>Icons</value>
+    </item>
+    <item>
+      <key>fa-solid fa-id-badge</key>
+      <value>Id badge</value>
+    </item>
+    <item>
+      <key>fa-solid fa-id-card</key>
+      <value>Id card</value>
+    </item>
+    <item>
+      <key>fa-solid fa-id-card-clip</key>
+      <value>Id card clip</value>
+    </item>
+    <item>
+      <key>fa-solid fa-igloo</key>
+      <value>Igloo</value>
+    </item>
+    <item>
+      <key>fa-solid fa-image</key>
+      <value>Image</value>
+    </item>
+    <item>
+      <key>fa-solid fa-image-portrait</key>
+      <value>Image portrait</value>
+    </item>
+    <item>
+      <key>fa-solid fa-images</key>
+      <value>Images</value>
+    </item>
+    <item>
+      <key>fa-solid fa-inbox</key>
+      <value>Inbox</value>
+    </item>
+    <item>
+      <key>fa-solid fa-indent</key>
+      <value>Indent</value>
+    </item>
+    <item>
+      <key>fa-solid fa-indian-rupee-sign</key>
+      <value>Indian rupee sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-industry</key>
+      <value>Industry</value>
+    </item>
+    <item>
+      <key>fa-solid fa-infinity</key>
+      <value>Infinity</value>
+    </item>
+    <item>
+      <key>fa-solid fa-info</key>
+      <value>Info</value>
+    </item>
+    <item>
+      <key>fa-solid fa-italic</key>
+      <value>Italic</value>
+    </item>
+    <item>
+      <key>fa-solid fa-j</key>
+      <value>J</value>
+    </item>
+    <item>
+      <key>fa-solid fa-jedi</key>
+      <value>Jedi</value>
+    </item>
+    <item>
+      <key>fa-solid fa-jet-fighter</key>
+      <value>Jet fighter</value>
+    </item>
+    <item>
+      <key>fa-solid fa-joint</key>
+      <value>Joint</value>
+    </item>
+    <item>
+      <key>fa-solid fa-k</key>
+      <value>K</value>
+    </item>
+    <item>
+      <key>fa-solid fa-kaaba</key>
+      <value>Kaaba</value>
+    </item>
+    <item>
+      <key>fa-solid fa-key</key>
+      <value>Key</value>
+    </item>
+    <item>
+      <key>fa-solid fa-keyboard</key>
+      <value>Keyboard</value>
+    </item>
+    <item>
+      <key>fa-solid fa-khanda</key>
+      <value>Khanda</value>
+    </item>
+    <item>
+      <key>fa-solid fa-kip-sign</key>
+      <value>Kip sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-kit-medical</key>
+      <value>Kit medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-kiwi-bird</key>
+      <value>Kiwi bird</value>
+    </item>
+    <item>
+      <key>fa-solid fa-l</key>
+      <value>L</value>
+    </item>
+    <item>
+      <key>fa-solid fa-landmark</key>
+      <value>Landmark</value>
+    </item>
+    <item>
+      <key>fa-solid fa-language</key>
+      <value>Language</value>
+    </item>
+    <item>
+      <key>fa-solid fa-laptop</key>
+      <value>Laptop</value>
+    </item>
+    <item>
+      <key>fa-solid fa-laptop-code</key>
+      <value>Laptop code</value>
+    </item>
+    <item>
+      <key>fa-solid fa-laptop-medical</key>
+      <value>Laptop medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-lari-sign</key>
+      <value>Lari sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-layer-group</key>
+      <value>Layer group</value>
+    </item>
+    <item>
+      <key>fa-solid fa-leaf</key>
+      <value>Leaf</value>
+    </item>
+    <item>
+      <key>fa-solid fa-left-long</key>
+      <value>Left long</value>
+    </item>
+    <item>
+      <key>fa-solid fa-left-right</key>
+      <value>Left right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-lemon</key>
+      <value>Lemon</value>
+    </item>
+    <item>
+      <key>fa-solid fa-less-than</key>
+      <value>Less than</value>
+    </item>
+    <item>
+      <key>fa-solid fa-less-than-equal</key>
+      <value>Less than equal</value>
+    </item>
+    <item>
+      <key>fa-solid fa-life-ring</key>
+      <value>Life ring</value>
+    </item>
+    <item>
+      <key>fa-solid fa-lightbulb</key>
+      <value>Lightbulb</value>
+    </item>
+    <item>
+      <key>fa-solid fa-link</key>
+      <value>Link</value>
+    </item>
+    <item>
+      <key>fa-solid fa-link-slash</key>
+      <value>Link slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-lira-sign</key>
+      <value>Lira sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-list</key>
+      <value>List</value>
+    </item>
+    <item>
+      <key>fa-solid fa-list-check</key>
+      <value>List check</value>
+    </item>
+    <item>
+      <key>fa-solid fa-list-ol</key>
+      <value>List ol</value>
+    </item>
+    <item>
+      <key>fa-solid fa-list-ul</key>
+      <value>List ul</value>
+    </item>
+    <item>
+      <key>fa-solid fa-litecoin-sign</key>
+      <value>Litecoin sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-location-arrow</key>
+      <value>Location arrow</value>
+    </item>
+    <item>
+      <key>fa-solid fa-location-crosshairs</key>
+      <value>Location crosshairs</value>
+    </item>
+    <item>
+      <key>fa-solid fa-location-dot</key>
+      <value>Location dot</value>
+    </item>
+    <item>
+      <key>fa-solid fa-location-pin</key>
+      <value>Location pin</value>
+    </item>
+    <item>
+      <key>fa-solid fa-lock</key>
+      <value>Lock</value>
+    </item>
+    <item>
+      <key>fa-solid fa-lock-open</key>
+      <value>Lock open</value>
+    </item>
+    <item>
+      <key>fa-solid fa-lungs</key>
+      <value>Lungs</value>
+    </item>
+    <item>
+      <key>fa-solid fa-lungs-virus</key>
+      <value>Lungs virus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-m</key>
+      <value>M</value>
+    </item>
+    <item>
+      <key>fa-solid fa-magnet</key>
+      <value>Magnet</value>
+    </item>
+    <item>
+      <key>fa-solid fa-magnifying-glass</key>
+      <value>Magnifying glass</value>
+    </item>
+    <item>
+      <key>fa-solid fa-magnifying-glass-dollar</key>
+      <value>Magnifying glass dollar</value>
+    </item>
+    <item>
+      <key>fa-solid fa-magnifying-glass-location</key>
+      <value>Magnifying glass location</value>
+    </item>
+    <item>
+      <key>fa-solid fa-magnifying-glass-minus</key>
+      <value>Magnifying glass minus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-magnifying-glass-plus</key>
+      <value>Magnifying glass plus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-manat-sign</key>
+      <value>Manat sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-map</key>
+      <value>Map</value>
+    </item>
+    <item>
+      <key>fa-solid fa-map-location</key>
+      <value>Map location</value>
+    </item>
+    <item>
+      <key>fa-solid fa-map-location-dot</key>
+      <value>Map location dot</value>
+    </item>
+    <item>
+      <key>fa-solid fa-map-pin</key>
+      <value>Map pin</value>
+    </item>
+    <item>
+      <key>fa-solid fa-marker</key>
+      <value>Marker</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mars</key>
+      <value>Mars</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mars-and-venus</key>
+      <value>Mars and venus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mars-double</key>
+      <value>Mars double</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mars-stroke</key>
+      <value>Mars stroke</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mars-stroke-right</key>
+      <value>Mars stroke right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mars-stroke-up</key>
+      <value>Mars stroke up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-martini-glass</key>
+      <value>Martini glass</value>
+    </item>
+    <item>
+      <key>fa-solid fa-martini-glass-citrus</key>
+      <value>Martini glass citrus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-martini-glass-empty</key>
+      <value>Martini glass empty</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mask</key>
+      <value>Mask</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mask-face</key>
+      <value>Mask face</value>
+    </item>
+    <item>
+      <key>fa-solid fa-masks-theater</key>
+      <value>Masks theater</value>
+    </item>
+    <item>
+      <key>fa-solid fa-maximize</key>
+      <value>Maximize</value>
+    </item>
+    <item>
+      <key>fa-solid fa-medal</key>
+      <value>Medal</value>
+    </item>
+    <item>
+      <key>fa-solid fa-memory</key>
+      <value>Memory</value>
+    </item>
+    <item>
+      <key>fa-solid fa-menorah</key>
+      <value>Menorah</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mercury</key>
+      <value>Mercury</value>
+    </item>
+    <item>
+      <key>fa-solid fa-message</key>
+      <value>Message</value>
+    </item>
+    <item>
+      <key>fa-solid fa-meteor</key>
+      <value>Meteor</value>
+    </item>
+    <item>
+      <key>fa-solid fa-microchip</key>
+      <value>Microchip</value>
+    </item>
+    <item>
+      <key>fa-solid fa-microphone</key>
+      <value>Microphone</value>
+    </item>
+    <item>
+      <key>fa-solid fa-microphone-lines</key>
+      <value>Microphone lines</value>
+    </item>
+    <item>
+      <key>fa-solid fa-microphone-lines-slash</key>
+      <value>Microphone lines slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-microphone-slash</key>
+      <value>Microphone slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-microscope</key>
+      <value>Microscope</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mill-sign</key>
+      <value>Mill sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-minimize</key>
+      <value>Minimize</value>
+    </item>
+    <item>
+      <key>fa-solid fa-minus</key>
+      <value>Minus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mitten</key>
+      <value>Mitten</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mobile-button</key>
+      <value>Mobile button</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mobile-screen-button</key>
+      <value>Mobile screen button</value>
+    </item>
+    <item>
+      <key>fa-solid fa-money-bill</key>
+      <value>Money bill</value>
+    </item>
+    <item>
+      <key>fa-solid fa-money-bill-1</key>
+      <value>Money bill 1</value>
+    </item>
+    <item>
+      <key>fa-solid fa-money-bill-1-wave</key>
+      <value>Money bill 1 wave</value>
+    </item>
+    <item>
+      <key>fa-solid fa-money-bill-wave</key>
+      <value>Money bill wave</value>
+    </item>
+    <item>
+      <key>fa-solid fa-money-check</key>
+      <value>Money check</value>
+    </item>
+    <item>
+      <key>fa-solid fa-money-check-dollar</key>
+      <value>Money check dollar</value>
+    </item>
+    <item>
+      <key>fa-solid fa-monument</key>
+      <value>Monument</value>
+    </item>
+    <item>
+      <key>fa-solid fa-moon</key>
+      <value>Moon</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mortar-pestle</key>
+      <value>Mortar pestle</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mosque</key>
+      <value>Mosque</value>
+    </item>
+    <item>
+      <key>fa-solid fa-motorcycle</key>
+      <value>Motorcycle</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mountain</key>
+      <value>Mountain</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mug-hot</key>
+      <value>Mug hot</value>
+    </item>
+    <item>
+      <key>fa-solid fa-mug-saucer</key>
+      <value>Mug saucer</value>
+    </item>
+    <item>
+      <key>fa-solid fa-music</key>
+      <value>Music</value>
+    </item>
+    <item>
+      <key>fa-solid fa-n</key>
+      <value>N</value>
+    </item>
+    <item>
+      <key>fa-solid fa-naira-sign</key>
+      <value>Naira sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-network-wired</key>
+      <value>Network wired</value>
+    </item>
+    <item>
+      <key>fa-solid fa-neuter</key>
+      <value>Neuter</value>
+    </item>
+    <item>
+      <key>fa-solid fa-newspaper</key>
+      <value>Newspaper</value>
+    </item>
+    <item>
+      <key>fa-solid fa-not-equal</key>
+      <value>Not equal</value>
+    </item>
+    <item>
+      <key>fa-solid fa-note-sticky</key>
+      <value>Note sticky</value>
+    </item>
+    <item>
+      <key>fa-solid fa-notes-medical</key>
+      <value>Notes medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-o</key>
+      <value>O</value>
+    </item>
+    <item>
+      <key>fa-solid fa-object-group</key>
+      <value>Object group</value>
+    </item>
+    <item>
+      <key>fa-solid fa-object-ungroup</key>
+      <value>Object ungroup</value>
+    </item>
+    <item>
+      <key>fa-solid fa-oil-can</key>
+      <value>Oil can</value>
+    </item>
+    <item>
+      <key>fa-solid fa-om</key>
+      <value>Om</value>
+    </item>
+    <item>
+      <key>fa-solid fa-otter</key>
+      <value>Otter</value>
+    </item>
+    <item>
+      <key>fa-solid fa-outdent</key>
+      <value>Outdent</value>
+    </item>
+    <item>
+      <key>fa-solid fa-p</key>
+      <value>P</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pager</key>
+      <value>Pager</value>
+    </item>
+    <item>
+      <key>fa-solid fa-paint-brush</key>
+      <value>Paint brush</value>
+    </item>
+    <item>
+      <key>fa-solid fa-paint-roller</key>
+      <value>Paint roller</value>
+    </item>
+    <item>
+      <key>fa-solid fa-palette</key>
+      <value>Palette</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pallet</key>
+      <value>Pallet</value>
+    </item>
+    <item>
+      <key>fa-solid fa-panorama</key>
+      <value>Panorama</value>
+    </item>
+    <item>
+      <key>fa-solid fa-paper-plane</key>
+      <value>Paper plane</value>
+    </item>
+    <item>
+      <key>fa-solid fa-paperclip</key>
+      <value>Paperclip</value>
+    </item>
+    <item>
+      <key>fa-solid fa-parachute-box</key>
+      <value>Parachute box</value>
+    </item>
+    <item>
+      <key>fa-solid fa-paragraph</key>
+      <value>Paragraph</value>
+    </item>
+    <item>
+      <key>fa-solid fa-passport</key>
+      <value>Passport</value>
+    </item>
+    <item>
+      <key>fa-solid fa-paste</key>
+      <value>Paste</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pause</key>
+      <value>Pause</value>
+    </item>
+    <item>
+      <key>fa-solid fa-paw</key>
+      <value>Paw</value>
+    </item>
+    <item>
+      <key>fa-solid fa-peace</key>
+      <value>Peace</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pen</key>
+      <value>Pen</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pen-clip</key>
+      <value>Pen clip</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pen-fancy</key>
+      <value>Pen fancy</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pen-nib</key>
+      <value>Pen nib</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pen-ruler</key>
+      <value>Pen ruler</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pen-to-square</key>
+      <value>Pen to square</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pencil</key>
+      <value>Pencil</value>
+    </item>
+    <item>
+      <key>fa-solid fa-people-arrows-left-right</key>
+      <value>People arrows left right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-people-carry-box</key>
+      <value>People carry box</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pepper-hot</key>
+      <value>Pepper hot</value>
+    </item>
+    <item>
+      <key>fa-solid fa-percent</key>
+      <value>Percent</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person</key>
+      <value>Person</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-biking</key>
+      <value>Person biking</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-booth</key>
+      <value>Person booth</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-dots-from-line</key>
+      <value>Person dots from line</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-dress</key>
+      <value>Person dress</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-hiking</key>
+      <value>Person hiking</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-praying</key>
+      <value>Person praying</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-running</key>
+      <value>Person running</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-skating</key>
+      <value>Person skating</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-skiing</key>
+      <value>Person skiing</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-skiing-nordic</key>
+      <value>Person skiing nordic</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-snowboarding</key>
+      <value>Person snowboarding</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-swimming</key>
+      <value>Person swimming</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-walking</key>
+      <value>Person walking</value>
+    </item>
+    <item>
+      <key>fa-solid fa-person-walking-with-cane</key>
+      <value>Person walking with cane</value>
+    </item>
+    <item>
+      <key>fa-solid fa-peseta-sign</key>
+      <value>Peseta sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-peso-sign</key>
+      <value>Peso sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-phone</key>
+      <value>Phone</value>
+    </item>
+    <item>
+      <key>fa-solid fa-phone-flip</key>
+      <value>Phone flip</value>
+    </item>
+    <item>
+      <key>fa-solid fa-phone-slash</key>
+      <value>Phone slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-phone-volume</key>
+      <value>Phone volume</value>
+    </item>
+    <item>
+      <key>fa-solid fa-photo-film</key>
+      <value>Photo film</value>
+    </item>
+    <item>
+      <key>fa-solid fa-piggy-bank</key>
+      <value>Piggy bank</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pills</key>
+      <value>Pills</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pizza-slice</key>
+      <value>Pizza slice</value>
+    </item>
+    <item>
+      <key>fa-solid fa-place-of-worship</key>
+      <value>Place of worship</value>
+    </item>
+    <item>
+      <key>fa-solid fa-plane</key>
+      <value>Plane</value>
+    </item>
+    <item>
+      <key>fa-solid fa-plane-arrival</key>
+      <value>Plane arrival</value>
+    </item>
+    <item>
+      <key>fa-solid fa-plane-departure</key>
+      <value>Plane departure</value>
+    </item>
+    <item>
+      <key>fa-solid fa-plane-slash</key>
+      <value>Plane slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-play</key>
+      <value>Play</value>
+    </item>
+    <item>
+      <key>fa-solid fa-plug</key>
+      <value>Plug</value>
+    </item>
+    <item>
+      <key>fa-solid fa-plus</key>
+      <value>Plus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-plus-minus</key>
+      <value>Plus minus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-podcast</key>
+      <value>Podcast</value>
+    </item>
+    <item>
+      <key>fa-solid fa-poo</key>
+      <value>Poo</value>
+    </item>
+    <item>
+      <key>fa-solid fa-poo-storm</key>
+      <value>Poo storm</value>
+    </item>
+    <item>
+      <key>fa-solid fa-poop</key>
+      <value>Poop</value>
+    </item>
+    <item>
+      <key>fa-solid fa-power-off</key>
+      <value>Power off</value>
+    </item>
+    <item>
+      <key>fa-solid fa-prescription</key>
+      <value>Prescription</value>
+    </item>
+    <item>
+      <key>fa-solid fa-prescription-bottle</key>
+      <value>Prescription bottle</value>
+    </item>
+    <item>
+      <key>fa-solid fa-prescription-bottle-medical</key>
+      <value>Prescription bottle medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-print</key>
+      <value>Print</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pump-medical</key>
+      <value>Pump medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-pump-soap</key>
+      <value>Pump soap</value>
+    </item>
+    <item>
+      <key>fa-solid fa-puzzle-piece</key>
+      <value>Puzzle piece</value>
+    </item>
+    <item>
+      <key>fa-solid fa-q</key>
+      <value>Q</value>
+    </item>
+    <item>
+      <key>fa-solid fa-qrcode</key>
+      <value>Qrcode</value>
+    </item>
+    <item>
+      <key>fa-solid fa-question</key>
+      <value>Question</value>
+    </item>
+    <item>
+      <key>fa-solid fa-quote-left</key>
+      <value>Quote left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-quote-right</key>
+      <value>Quote right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-r</key>
+      <value>R</value>
+    </item>
+    <item>
+      <key>fa-solid fa-radiation</key>
+      <value>Radiation</value>
+    </item>
+    <item>
+      <key>fa-solid fa-rainbow</key>
+      <value>Rainbow</value>
+    </item>
+    <item>
+      <key>fa-solid fa-receipt</key>
+      <value>Receipt</value>
+    </item>
+    <item>
+      <key>fa-solid fa-record-vinyl</key>
+      <value>Record vinyl</value>
+    </item>
+    <item>
+      <key>fa-solid fa-rectangle-ad</key>
+      <value>Rectangle ad</value>
+    </item>
+    <item>
+      <key>fa-solid fa-rectangle-list</key>
+      <value>Rectangle list</value>
+    </item>
+    <item>
+      <key>fa-solid fa-rectangle-xmark</key>
+      <value>Rectangle xmark</value>
+    </item>
+    <item>
+      <key>fa-solid fa-recycle</key>
+      <value>Recycle</value>
+    </item>
+    <item>
+      <key>fa-solid fa-registered</key>
+      <value>Registered</value>
+    </item>
+    <item>
+      <key>fa-solid fa-repeat</key>
+      <value>Repeat</value>
+    </item>
+    <item>
+      <key>fa-solid fa-reply</key>
+      <value>Reply</value>
+    </item>
+    <item>
+      <key>fa-solid fa-reply-all</key>
+      <value>Reply all</value>
+    </item>
+    <item>
+      <key>fa-solid fa-republican</key>
+      <value>Republican</value>
+    </item>
+    <item>
+      <key>fa-solid fa-restroom</key>
+      <value>Restroom</value>
+    </item>
+    <item>
+      <key>fa-solid fa-retweet</key>
+      <value>Retweet</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ribbon</key>
+      <value>Ribbon</value>
+    </item>
+    <item>
+      <key>fa-solid fa-right-from-bracket</key>
+      <value>Right from bracket</value>
+    </item>
+    <item>
+      <key>fa-solid fa-right-left</key>
+      <value>Right left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-right-long</key>
+      <value>Right long</value>
+    </item>
+    <item>
+      <key>fa-solid fa-right-to-bracket</key>
+      <value>Right to bracket</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ring</key>
+      <value>Ring</value>
+    </item>
+    <item>
+      <key>fa-solid fa-road</key>
+      <value>Road</value>
+    </item>
+    <item>
+      <key>fa-solid fa-robot</key>
+      <value>Robot</value>
+    </item>
+    <item>
+      <key>fa-solid fa-rocket</key>
+      <value>Rocket</value>
+    </item>
+    <item>
+      <key>fa-solid fa-rotate</key>
+      <value>Rotate</value>
+    </item>
+    <item>
+      <key>fa-solid fa-rotate-left</key>
+      <value>Rotate left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-rotate-right</key>
+      <value>Rotate right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-route</key>
+      <value>Route</value>
+    </item>
+    <item>
+      <key>fa-solid fa-rss</key>
+      <value>Rss</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ruble-sign</key>
+      <value>Ruble sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ruler</key>
+      <value>Ruler</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ruler-combined</key>
+      <value>Ruler combined</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ruler-horizontal</key>
+      <value>Ruler horizontal</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ruler-vertical</key>
+      <value>Ruler vertical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-rupee-sign</key>
+      <value>Rupee sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-rupiah-sign</key>
+      <value>Rupiah sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-s</key>
+      <value>S</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sailboat</key>
+      <value>Sailboat</value>
+    </item>
+    <item>
+      <key>fa-solid fa-satellite</key>
+      <value>Satellite</value>
+    </item>
+    <item>
+      <key>fa-solid fa-satellite-dish</key>
+      <value>Satellite dish</value>
+    </item>
+    <item>
+      <key>fa-solid fa-scale-balanced</key>
+      <value>Scale balanced</value>
+    </item>
+    <item>
+      <key>fa-solid fa-scale-unbalanced</key>
+      <value>Scale unbalanced</value>
+    </item>
+    <item>
+      <key>fa-solid fa-scale-unbalanced-flip</key>
+      <value>Scale unbalanced flip</value>
+    </item>
+    <item>
+      <key>fa-solid fa-school</key>
+      <value>School</value>
+    </item>
+    <item>
+      <key>fa-solid fa-scissors</key>
+      <value>Scissors</value>
+    </item>
+    <item>
+      <key>fa-solid fa-screwdriver</key>
+      <value>Screwdriver</value>
+    </item>
+    <item>
+      <key>fa-solid fa-screwdriver-wrench</key>
+      <value>Screwdriver wrench</value>
+    </item>
+    <item>
+      <key>fa-solid fa-scroll</key>
+      <value>Scroll</value>
+    </item>
+    <item>
+      <key>fa-solid fa-scroll-torah</key>
+      <value>Scroll torah</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sd-card</key>
+      <value>Sd card</value>
+    </item>
+    <item>
+      <key>fa-solid fa-section</key>
+      <value>Section</value>
+    </item>
+    <item>
+      <key>fa-solid fa-seedling</key>
+      <value>Seedling</value>
+    </item>
+    <item>
+      <key>fa-solid fa-server</key>
+      <value>Server</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shapes</key>
+      <value>Shapes</value>
+    </item>
+    <item>
+      <key>fa-solid fa-share</key>
+      <value>Share</value>
+    </item>
+    <item>
+      <key>fa-solid fa-share-from-square</key>
+      <value>Share from square</value>
+    </item>
+    <item>
+      <key>fa-solid fa-share-nodes</key>
+      <value>Share nodes</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shekel-sign</key>
+      <value>Shekel sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shield</key>
+      <value>Shield</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shield-blank</key>
+      <value>Shield blank</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shield-virus</key>
+      <value>Shield virus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ship</key>
+      <value>Ship</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shirt</key>
+      <value>Shirt</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shoe-prints</key>
+      <value>Shoe prints</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shop</key>
+      <value>Shop</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shop-slash</key>
+      <value>Shop slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shower</key>
+      <value>Shower</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shrimp</key>
+      <value>Shrimp</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shuffle</key>
+      <value>Shuffle</value>
+    </item>
+    <item>
+      <key>fa-solid fa-shuttle-space</key>
+      <value>Shuttle space</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sign-hanging</key>
+      <value>Sign hanging</value>
+    </item>
+    <item>
+      <key>fa-solid fa-signal</key>
+      <value>Signal</value>
+    </item>
+    <item>
+      <key>fa-solid fa-signature</key>
+      <value>Signature</value>
+    </item>
+    <item>
+      <key>fa-solid fa-signs-post</key>
+      <value>Signs post</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sim-card</key>
+      <value>Sim card</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sink</key>
+      <value>Sink</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sitemap</key>
+      <value>Sitemap</value>
+    </item>
+    <item>
+      <key>fa-solid fa-skull</key>
+      <value>Skull</value>
+    </item>
+    <item>
+      <key>fa-solid fa-skull-crossbones</key>
+      <value>Skull crossbones</value>
+    </item>
+    <item>
+      <key>fa-solid fa-slash</key>
+      <value>Slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sleigh</key>
+      <value>Sleigh</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sliders</key>
+      <value>Sliders</value>
+    </item>
+    <item>
+      <key>fa-solid fa-smog</key>
+      <value>Smog</value>
+    </item>
+    <item>
+      <key>fa-solid fa-smoking</key>
+      <value>Smoking</value>
+    </item>
+    <item>
+      <key>fa-solid fa-snowflake</key>
+      <value>Snowflake</value>
+    </item>
+    <item>
+      <key>fa-solid fa-snowman</key>
+      <value>Snowman</value>
+    </item>
+    <item>
+      <key>fa-solid fa-snowplow</key>
+      <value>Snowplow</value>
+    </item>
+    <item>
+      <key>fa-solid fa-soap</key>
+      <value>Soap</value>
+    </item>
+    <item>
+      <key>fa-solid fa-socks</key>
+      <value>Socks</value>
+    </item>
+    <item>
+      <key>fa-solid fa-solar-panel</key>
+      <value>Solar panel</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sort</key>
+      <value>Sort</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sort-down</key>
+      <value>Sort down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sort-up</key>
+      <value>Sort up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-spa</key>
+      <value>Spa</value>
+    </item>
+    <item>
+      <key>fa-solid fa-spaghetti-monster-flying</key>
+      <value>Spaghetti monster flying</value>
+    </item>
+    <item>
+      <key>fa-solid fa-spell-check</key>
+      <value>Spell check</value>
+    </item>
+    <item>
+      <key>fa-solid fa-spider</key>
+      <value>Spider</value>
+    </item>
+    <item>
+      <key>fa-solid fa-spinner</key>
+      <value>Spinner</value>
+    </item>
+    <item>
+      <key>fa-solid fa-splotch</key>
+      <value>Splotch</value>
+    </item>
+    <item>
+      <key>fa-solid fa-spoon</key>
+      <value>Spoon</value>
+    </item>
+    <item>
+      <key>fa-solid fa-spray-can</key>
+      <value>Spray can</value>
+    </item>
+    <item>
+      <key>fa-solid fa-spray-can-sparkles</key>
+      <value>Spray can sparkles</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square</key>
+      <value>Square</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-arrow-up-right</key>
+      <value>Square arrow up right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-caret-down</key>
+      <value>Square caret down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-caret-left</key>
+      <value>Square caret left</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-caret-right</key>
+      <value>Square caret right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-caret-up</key>
+      <value>Square caret up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-check</key>
+      <value>Square check</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-envelope</key>
+      <value>Square envelope</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-full</key>
+      <value>Square full</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-h</key>
+      <value>Square h</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-minus</key>
+      <value>Square minus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-parking</key>
+      <value>Square parking</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-pen</key>
+      <value>Square pen</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-phone</key>
+      <value>Square phone</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-phone-flip</key>
+      <value>Square phone flip</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-plus</key>
+      <value>Square plus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-poll-horizontal</key>
+      <value>Square poll horizontal</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-poll-vertical</key>
+      <value>Square poll vertical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-root-variable</key>
+      <value>Square root variable</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-rss</key>
+      <value>Square rss</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-share-nodes</key>
+      <value>Square share nodes</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-up-right</key>
+      <value>Square up right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-square-xmark</key>
+      <value>Square xmark</value>
+    </item>
+    <item>
+      <key>fa-solid fa-stairs</key>
+      <value>Stairs</value>
+    </item>
+    <item>
+      <key>fa-solid fa-stamp</key>
+      <value>Stamp</value>
+    </item>
+    <item>
+      <key>fa-solid fa-star</key>
+      <value>Star</value>
+    </item>
+    <item>
+      <key>fa-solid fa-star-and-crescent</key>
+      <value>Star and crescent</value>
+    </item>
+    <item>
+      <key>fa-solid fa-star-half</key>
+      <value>Star half</value>
+    </item>
+    <item>
+      <key>fa-solid fa-star-half-stroke</key>
+      <value>Star half stroke</value>
+    </item>
+    <item>
+      <key>fa-solid fa-star-of-david</key>
+      <value>Star of david</value>
+    </item>
+    <item>
+      <key>fa-solid fa-star-of-life</key>
+      <value>Star of life</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sterling-sign</key>
+      <value>Sterling sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-stethoscope</key>
+      <value>Stethoscope</value>
+    </item>
+    <item>
+      <key>fa-solid fa-stop</key>
+      <value>Stop</value>
+    </item>
+    <item>
+      <key>fa-solid fa-stopwatch</key>
+      <value>Stopwatch</value>
+    </item>
+    <item>
+      <key>fa-solid fa-stopwatch-20</key>
+      <value>Stopwatch 20</value>
+    </item>
+    <item>
+      <key>fa-solid fa-store</key>
+      <value>Store</value>
+    </item>
+    <item>
+      <key>fa-solid fa-store-slash</key>
+      <value>Store slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-street-view</key>
+      <value>Street view</value>
+    </item>
+    <item>
+      <key>fa-solid fa-strikethrough</key>
+      <value>Strikethrough</value>
+    </item>
+    <item>
+      <key>fa-solid fa-stroopwafel</key>
+      <value>Stroopwafel</value>
+    </item>
+    <item>
+      <key>fa-solid fa-subscript</key>
+      <value>Subscript</value>
+    </item>
+    <item>
+      <key>fa-solid fa-suitcase</key>
+      <value>Suitcase</value>
+    </item>
+    <item>
+      <key>fa-solid fa-suitcase-medical</key>
+      <value>Suitcase medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-suitcase-rolling</key>
+      <value>Suitcase rolling</value>
+    </item>
+    <item>
+      <key>fa-solid fa-sun</key>
+      <value>Sun</value>
+    </item>
+    <item>
+      <key>fa-solid fa-superscript</key>
+      <value>Superscript</value>
+    </item>
+    <item>
+      <key>fa-solid fa-swatchbook</key>
+      <value>Swatchbook</value>
+    </item>
+    <item>
+      <key>fa-solid fa-synagogue</key>
+      <value>Synagogue</value>
+    </item>
+    <item>
+      <key>fa-solid fa-syringe</key>
+      <value>Syringe</value>
+    </item>
+    <item>
+      <key>fa-solid fa-t</key>
+      <value>T</value>
+    </item>
+    <item>
+      <key>fa-solid fa-table</key>
+      <value>Table</value>
+    </item>
+    <item>
+      <key>fa-solid fa-table-cells</key>
+      <value>Table cells</value>
+    </item>
+    <item>
+      <key>fa-solid fa-table-cells-large</key>
+      <value>Table cells large</value>
+    </item>
+    <item>
+      <key>fa-solid fa-table-columns</key>
+      <value>Table columns</value>
+    </item>
+    <item>
+      <key>fa-solid fa-table-list</key>
+      <value>Table list</value>
+    </item>
+    <item>
+      <key>fa-solid fa-table-tennis-paddle-ball</key>
+      <value>Table tennis paddle ball</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tablet-button</key>
+      <value>Tablet button</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tablet-screen-button</key>
+      <value>Tablet screen button</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tablets</key>
+      <value>Tablets</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tachograph-digital</key>
+      <value>Tachograph digital</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tag</key>
+      <value>Tag</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tags</key>
+      <value>Tags</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tape</key>
+      <value>Tape</value>
+    </item>
+    <item>
+      <key>fa-solid fa-taxi</key>
+      <value>Taxi</value>
+    </item>
+    <item>
+      <key>fa-solid fa-teeth</key>
+      <value>Teeth</value>
+    </item>
+    <item>
+      <key>fa-solid fa-teeth-open</key>
+      <value>Teeth open</value>
+    </item>
+    <item>
+      <key>fa-solid fa-temperature-empty</key>
+      <value>Temperature empty</value>
+    </item>
+    <item>
+      <key>fa-solid fa-temperature-full</key>
+      <value>Temperature full</value>
+    </item>
+    <item>
+      <key>fa-solid fa-temperature-half</key>
+      <value>Temperature half</value>
+    </item>
+    <item>
+      <key>fa-solid fa-temperature-high</key>
+      <value>Temperature high</value>
+    </item>
+    <item>
+      <key>fa-solid fa-temperature-low</key>
+      <value>Temperature low</value>
+    </item>
+    <item>
+      <key>fa-solid fa-temperature-quarter</key>
+      <value>Temperature quarter</value>
+    </item>
+    <item>
+      <key>fa-solid fa-temperature-three-quarters</key>
+      <value>Temperature three quarters</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tenge-sign</key>
+      <value>Tenge sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-terminal</key>
+      <value>Terminal</value>
+    </item>
+    <item>
+      <key>fa-solid fa-text-height</key>
+      <value>Text height</value>
+    </item>
+    <item>
+      <key>fa-solid fa-text-slash</key>
+      <value>Text slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-text-width</key>
+      <value>Text width</value>
+    </item>
+    <item>
+      <key>fa-solid fa-thermometer</key>
+      <value>Thermometer</value>
+    </item>
+    <item>
+      <key>fa-solid fa-thumbs-down</key>
+      <value>Thumbs down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-thumbs-up</key>
+      <value>Thumbs up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-thumbtack</key>
+      <value>Thumbtack</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ticket</key>
+      <value>Ticket</value>
+    </item>
+    <item>
+      <key>fa-solid fa-ticket-simple</key>
+      <value>Ticket simple</value>
+    </item>
+    <item>
+      <key>fa-solid fa-timeline</key>
+      <value>Timeline</value>
+    </item>
+    <item>
+      <key>fa-solid fa-toggle-off</key>
+      <value>Toggle off</value>
+    </item>
+    <item>
+      <key>fa-solid fa-toggle-on</key>
+      <value>Toggle on</value>
+    </item>
+    <item>
+      <key>fa-solid fa-toilet</key>
+      <value>Toilet</value>
+    </item>
+    <item>
+      <key>fa-solid fa-toilet-paper</key>
+      <value>Toilet paper</value>
+    </item>
+    <item>
+      <key>fa-solid fa-toilet-paper-slash</key>
+      <value>Toilet paper slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-toolbox</key>
+      <value>Toolbox</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tooth</key>
+      <value>Tooth</value>
+    </item>
+    <item>
+      <key>fa-solid fa-torii-gate</key>
+      <value>Torii gate</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tower-broadcast</key>
+      <value>Tower broadcast</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tractor</key>
+      <value>Tractor</value>
+    </item>
+    <item>
+      <key>fa-solid fa-trademark</key>
+      <value>Trademark</value>
+    </item>
+    <item>
+      <key>fa-solid fa-traffic-light</key>
+      <value>Traffic light</value>
+    </item>
+    <item>
+      <key>fa-solid fa-trailer</key>
+      <value>Trailer</value>
+    </item>
+    <item>
+      <key>fa-solid fa-train</key>
+      <value>Train</value>
+    </item>
+    <item>
+      <key>fa-solid fa-train-subway</key>
+      <value>Train subway</value>
+    </item>
+    <item>
+      <key>fa-solid fa-train-tram</key>
+      <value>Train tram</value>
+    </item>
+    <item>
+      <key>fa-solid fa-transgender</key>
+      <value>Transgender</value>
+    </item>
+    <item>
+      <key>fa-solid fa-trash</key>
+      <value>Trash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-trash-arrow-up</key>
+      <value>Trash arrow up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-trash-can</key>
+      <value>Trash can</value>
+    </item>
+    <item>
+      <key>fa-solid fa-trash-can-arrow-up</key>
+      <value>Trash can arrow up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tree</key>
+      <value>Tree</value>
+    </item>
+    <item>
+      <key>fa-solid fa-triangle-exclamation</key>
+      <value>Triangle exclamation</value>
+    </item>
+    <item>
+      <key>fa-solid fa-trophy</key>
+      <value>Trophy</value>
+    </item>
+    <item>
+      <key>fa-solid fa-truck</key>
+      <value>Truck</value>
+    </item>
+    <item>
+      <key>fa-solid fa-truck-fast</key>
+      <value>Truck fast</value>
+    </item>
+    <item>
+      <key>fa-solid fa-truck-medical</key>
+      <value>Truck medical</value>
+    </item>
+    <item>
+      <key>fa-solid fa-truck-monster</key>
+      <value>Truck monster</value>
+    </item>
+    <item>
+      <key>fa-solid fa-truck-moving</key>
+      <value>Truck moving</value>
+    </item>
+    <item>
+      <key>fa-solid fa-truck-pickup</key>
+      <value>Truck pickup</value>
+    </item>
+    <item>
+      <key>fa-solid fa-truck-ramp-box</key>
+      <value>Truck ramp box</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tty</key>
+      <value>Tty</value>
+    </item>
+    <item>
+      <key>fa-solid fa-turkish-lira-sign</key>
+      <value>Turkish lira sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-turn-down</key>
+      <value>Turn down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-turn-up</key>
+      <value>Turn up</value>
+    </item>
+    <item>
+      <key>fa-solid fa-tv</key>
+      <value>Tv</value>
+    </item>
+    <item>
+      <key>fa-solid fa-u</key>
+      <value>U</value>
+    </item>
+    <item>
+      <key>fa-solid fa-umbrella</key>
+      <value>Umbrella</value>
+    </item>
+    <item>
+      <key>fa-solid fa-umbrella-beach</key>
+      <value>Umbrella beach</value>
+    </item>
+    <item>
+      <key>fa-solid fa-underline</key>
+      <value>Underline</value>
+    </item>
+    <item>
+      <key>fa-solid fa-universal-access</key>
+      <value>Universal access</value>
+    </item>
+    <item>
+      <key>fa-solid fa-unlock</key>
+      <value>Unlock</value>
+    </item>
+    <item>
+      <key>fa-solid fa-unlock-keyhole</key>
+      <value>Unlock keyhole</value>
+    </item>
+    <item>
+      <key>fa-solid fa-up-down</key>
+      <value>Up down</value>
+    </item>
+    <item>
+      <key>fa-solid fa-up-down-left-right</key>
+      <value>Up down left right</value>
+    </item>
+    <item>
+      <key>fa-solid fa-up-long</key>
+      <value>Up long</value>
+    </item>
+    <item>
+      <key>fa-solid fa-up-right-and-down-left-from-center</key>
+      <value>Up right and down left from center</value>
+    </item>
+    <item>
+      <key>fa-solid fa-up-right-from-square</key>
+      <value>Up right from square</value>
+    </item>
+    <item>
+      <key>fa-solid fa-upload</key>
+      <value>Upload</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user</key>
+      <value>User</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-astronaut</key>
+      <value>User astronaut</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-check</key>
+      <value>User check</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-clock</key>
+      <value>User clock</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-doctor</key>
+      <value>User doctor</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-gear</key>
+      <value>User gear</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-graduate</key>
+      <value>User graduate</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-group</key>
+      <value>User group</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-injured</key>
+      <value>User injured</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-large</key>
+      <value>User large</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-large-slash</key>
+      <value>User large slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-lock</key>
+      <value>User lock</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-minus</key>
+      <value>User minus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-ninja</key>
+      <value>User ninja</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-nurse</key>
+      <value>User nurse</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-pen</key>
+      <value>User pen</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-plus</key>
+      <value>User plus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-secret</key>
+      <value>User secret</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-shield</key>
+      <value>User shield</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-slash</key>
+      <value>User slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-tag</key>
+      <value>User tag</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-tie</key>
+      <value>User tie</value>
+    </item>
+    <item>
+      <key>fa-solid fa-user-xmark</key>
+      <value>User xmark</value>
+    </item>
+    <item>
+      <key>fa-solid fa-users</key>
+      <value>Users</value>
+    </item>
+    <item>
+      <key>fa-solid fa-users-gear</key>
+      <value>Users gear</value>
+    </item>
+    <item>
+      <key>fa-solid fa-users-slash</key>
+      <value>Users slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-utensils</key>
+      <value>Utensils</value>
+    </item>
+    <item>
+      <key>fa-solid fa-v</key>
+      <value>V</value>
+    </item>
+    <item>
+      <key>fa-solid fa-van-shuttle</key>
+      <value>Van shuttle</value>
+    </item>
+    <item>
+      <key>fa-solid fa-vault</key>
+      <value>Vault</value>
+    </item>
+    <item>
+      <key>fa-solid fa-vector-square</key>
+      <value>Vector square</value>
+    </item>
+    <item>
+      <key>fa-solid fa-venus</key>
+      <value>Venus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-venus-double</key>
+      <value>Venus double</value>
+    </item>
+    <item>
+      <key>fa-solid fa-venus-mars</key>
+      <value>Venus mars</value>
+    </item>
+    <item>
+      <key>fa-solid fa-vest</key>
+      <value>Vest</value>
+    </item>
+    <item>
+      <key>fa-solid fa-vest-patches</key>
+      <value>Vest patches</value>
+    </item>
+    <item>
+      <key>fa-solid fa-vial</key>
+      <value>Vial</value>
+    </item>
+    <item>
+      <key>fa-solid fa-vials</key>
+      <value>Vials</value>
+    </item>
+    <item>
+      <key>fa-solid fa-video</key>
+      <value>Video</value>
+    </item>
+    <item>
+      <key>fa-solid fa-video-slash</key>
+      <value>Video slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-vihara</key>
+      <value>Vihara</value>
+    </item>
+    <item>
+      <key>fa-solid fa-virus</key>
+      <value>Virus</value>
+    </item>
+    <item>
+      <key>fa-solid fa-virus-slash</key>
+      <value>Virus slash</value>
+    </item>
+    <item>
+      <key>fa-solid fa-viruses</key>
+      <value>Viruses</value>
+    </item>
+    <item>
+      <key>fa-solid fa-voicemail</key>
+      <value>Voicemail</value>
+    </item>
+    <item>
+      <key>fa-solid fa-volleyball</key>
+      <value>Volleyball</value>
+    </item>
+    <item>
+      <key>fa-solid fa-volume-high</key>
+      <value>Volume high</value>
+    </item>
+    <item>
+      <key>fa-solid fa-volume-low</key>
+      <value>Volume low</value>
+    </item>
+    <item>
+      <key>fa-solid fa-volume-off</key>
+      <value>Volume off</value>
+    </item>
+    <item>
+      <key>fa-solid fa-volume-xmark</key>
+      <value>Volume xmark</value>
+    </item>
+    <item>
+      <key>fa-solid fa-vr-cardboard</key>
+      <value>Vr cardboard</value>
+    </item>
+    <item>
+      <key>fa-solid fa-w</key>
+      <value>W</value>
+    </item>
+    <item>
+      <key>fa-solid fa-wallet</key>
+      <value>Wallet</value>
+    </item>
+    <item>
+      <key>fa-solid fa-wand-magic</key>
+      <value>Wand magic</value>
+    </item>
+    <item>
+      <key>fa-solid fa-wand-magic-sparkles</key>
+      <value>Wand magic sparkles</value>
+    </item>
+    <item>
+      <key>fa-solid fa-warehouse</key>
+      <value>Warehouse</value>
+    </item>
+    <item>
+      <key>fa-solid fa-water</key>
+      <value>Water</value>
+    </item>
+    <item>
+      <key>fa-solid fa-water-ladder</key>
+      <value>Water ladder</value>
+    </item>
+    <item>
+      <key>fa-solid fa-wave-square</key>
+      <value>Wave square</value>
+    </item>
+    <item>
+      <key>fa-solid fa-weight-hanging</key>
+      <value>Weight hanging</value>
+    </item>
+    <item>
+      <key>fa-solid fa-weight-scale</key>
+      <value>Weight scale</value>
+    </item>
+    <item>
+      <key>fa-solid fa-wheelchair</key>
+      <value>Wheelchair</value>
+    </item>
+    <item>
+      <key>fa-solid fa-whiskey-glass</key>
+      <value>Whiskey glass</value>
+    </item>
+    <item>
+      <key>fa-solid fa-wifi</key>
+      <value>Wifi</value>
+    </item>
+    <item>
+      <key>fa-solid fa-wind</key>
+      <value>Wind</value>
+    </item>
+    <item>
+      <key>fa-solid fa-window-maximize</key>
+      <value>Window maximize</value>
+    </item>
+    <item>
+      <key>fa-solid fa-window-minimize</key>
+      <value>Window minimize</value>
+    </item>
+    <item>
+      <key>fa-solid fa-window-restore</key>
+      <value>Window restore</value>
+    </item>
+    <item>
+      <key>fa-solid fa-wine-bottle</key>
+      <value>Wine bottle</value>
+    </item>
+    <item>
+      <key>fa-solid fa-wine-glass</key>
+      <value>Wine glass</value>
+    </item>
+    <item>
+      <key>fa-solid fa-wine-glass-empty</key>
+      <value>Wine glass empty</value>
+    </item>
+    <item>
+      <key>fa-solid fa-won-sign</key>
+      <value>Won sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-wrench</key>
+      <value>Wrench</value>
+    </item>
+    <item>
+      <key>fa-solid fa-x</key>
+      <value>X</value>
+    </item>
+    <item>
+      <key>fa-solid fa-x-ray</key>
+      <value>X ray</value>
+    </item>
+    <item>
+      <key>fa-solid fa-xmark</key>
+      <value>Xmark</value>
+    </item>
+    <item>
+      <key>fa-solid fa-y</key>
+      <value>Y</value>
+    </item>
+    <item>
+      <key>fa-solid fa-yen-sign</key>
+      <value>Yen sign</value>
+    </item>
+    <item>
+      <key>fa-solid fa-yin-yang</key>
+      <value>Yin yang</value>
+    </item>
+    <item>
+      <key>fa-solid fa-z</key>
+      <value>Z</value>
+    </item>
+  </items>
+  <createdDate>2022-01-10T21:00:20.865Z</createdDate>
+  <createdDate_dt>2022-01-10T21:00:20.865Z</createdDate_dt>
+  <lastModifiedDate>2022-01-10T21:00:20.865Z</lastModifiedDate>
+  <lastModifiedDate_dt>2022-01-10T21:00:20.865Z</lastModifiedDate_dt>
+</component>
