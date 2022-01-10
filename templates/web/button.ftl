@@ -29,9 +29,7 @@
 <#if modePreview>
   <script>
     (() => {
-      setTimeout(() => {
-        iceBootstrap.components.button.initialize("btn-${objectId}");
-      }, 100);
+      window.iceBootstrap?.components.button.initialize("btn-${objectId}");
     })();
   </script>
 </#if>

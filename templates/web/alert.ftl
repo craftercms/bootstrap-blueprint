@@ -19,9 +19,7 @@
 <#if modePreview>
   <script>
     (() => {
-      setTimeout(() => {
-        iceBootstrap.components.alert.initialize("alert-${objectId}");
-      }, 100);
+      window.iceBootstrap?.components.alert.initialize("alert-${objectId}");
     })();
   </script>
 </#if>

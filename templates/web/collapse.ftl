@@ -12,9 +12,7 @@
 <#if modePreview>
   <script>
     (() => {
-      setTimeout(() => {
-        iceBootstrap.components.collapse.initialize();
-      }, 100);
+      window.iceBootstrap?.components.collapse.initialize();
     })();
   </script>
 </#if>

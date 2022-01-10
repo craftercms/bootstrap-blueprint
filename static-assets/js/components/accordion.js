@@ -31,6 +31,7 @@
     if (iceBootstrap.utils.isEditMode()) {
       const buttons = document.getElementById(accordionId).querySelectorAll('.accordion-button');
       utils.nodeListRemoveAttribute(buttons, 'data-bs-toggle');
+      showAccordionItems();
     }
   }
 

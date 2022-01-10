@@ -40,9 +40,7 @@
 <#if modePreview>
   <script>
     (() => {
-      setTimeout(() => {
-        iceBootstrap.components.dropdown.initialize("${objectId}-dropdownMenuButton");
-      }, 100);
+      window.iceBootstrap?.components.dropdown.initialize("${objectId}-dropdownMenuButton");
     })();
   </script>
 </#if>

@@ -44,9 +44,7 @@
 <#if modePreview>
   <script>
     (() => {
-      setTimeout(() => {
-        iceBootstrap.components.accordion.initialize("accordion-${objectId}");
-      }, 100);
+      window.iceBootstrap?.components.accordion.initialize("accordion-${objectId}");
     })();
   </script>
 </#if>

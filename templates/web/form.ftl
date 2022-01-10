@@ -114,9 +114,7 @@
 <#if modePreview>
   <script>
     (() => {
-      setTimeout(() => {
-        iceBootstrap.components.form.initialize('form-${objectId}');
-      }, 100);
+      window.iceBootstrap?.components.form.initialize('form-${objectId}');
     })();
   </script>
 </#if>
