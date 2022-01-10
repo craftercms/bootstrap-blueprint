@@ -21,6 +21,11 @@
   id="btn-${objectId}"
   $attributes=extraAttributes
 >
+  <#if contentModel.icon_s?has_content>
+    <span class="btn-label">
+      <i class="${contentModel.icon_s}"></i>
+    </span>
+  </#if>
   <@crafter.span $field="text_s" class="${crafter.emptyFieldClass(contentModel.text_s)}">
     ${contentModel.text_s!''}
   </@crafter.span>
