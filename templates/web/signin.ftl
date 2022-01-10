@@ -2,7 +2,7 @@
 
 <@crafter.tag $tag="main" class="ice-form-signin-container">
   <div class="ice-form-signin text-center">
-    <form>
+    <form action="${contentModel.action_s!''}">
       <#if contentModel.logo_s?has_content>
         <@crafter.img
           class="mb-4"

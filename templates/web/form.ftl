@@ -5,7 +5,7 @@
 <@crafter.tag
   $tag="form"
   id="form-${objectId}"
-  action=""
+  action="${contentModel.action_s!''}"
   method="post"
   class="ice-form"
 >
