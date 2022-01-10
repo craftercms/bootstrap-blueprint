@@ -158,6 +158,39 @@
               </constraints>
             </field>
             <field>
+              <type>dropdown</type>
+              <id>icon_s</id>
+              <iceId />
+              <title>Icon</title>
+              <description />
+              <defaultValue />
+              <help />
+              <properties>
+                <property>
+                  <name>datasource</name>
+                  <value>solidIcons</value>
+                  <type>datasource:item</type>
+                </property>
+                <property>
+                  <name>emptyvalue</name>
+                  <value />
+                  <type>boolean</type>
+                </property>
+                <property>
+                  <name>readonly</name>
+                  <value />
+                  <type>boolean</type>
+                </property>
+              </properties>
+              <constraints>
+                <constraint>
+                  <name>required</name>
+                  <value><![CDATA[true]]></value>
+                  <type>boolean</type>
+                </constraint>
+              </constraints>
+            </field>
+            <field>
               <type>rte</type>
               <id>text_html</id>
               <iceId />
@@ -412,6 +445,27 @@
           <name>showkeys</name>
           <value />
           <type>boolean</type>
+        </property>
+      </properties>
+    </datasource>
+    <datasource>
+      <type>site-component</type>
+      <id>solidIcons</id>
+      <title>Solid Icons</title>
+      <interface>item</interface>
+      <properties>
+        <property>
+          <name>dataType</name>
+          <value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;Data
+            Type&quot;,&quot;selected&quot;:false}]
+          </value>
+          <type>dropdown</type>
+        </property>
+        <property>
+          <name>componentPath</name>
+          <value>/site/taxonomy/solid-icons.xml</value>
+          <type>string</type>
         </property>
       </properties>
     </datasource>
