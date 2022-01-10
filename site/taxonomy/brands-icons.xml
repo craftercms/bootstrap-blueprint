@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <content-type>/taxonomy</content-type>
+  <display-template/>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>19a8</objectGroupId>
+  <objectId>19a84a22-f01c-94d1-1bc9-200f65a9e003</objectId>
+  <items item-list="true">
+    <item>
+      <key>fa-brands fa-42-group</key>
+      <value>42 group</value>
+    </item>
+    <item>
+      <key>fa-brands fa-500px</key>
+      <value>500px</value>
+    </item>
+    <item>
+      <key>fa-brands fa-accessible-icon</key>
+      <value>Accessible icon</value>
+    </item>
+    <item>
+      <key>fa-brands fa-accusoft</key>
+      <value>Accusoft</value>
+    </item>
+    <item>
+      <key>fa-brands fa-acquisitions-incorporated</key>
+      <value>Acquisitions incorporated</value>
+    </item>
+    <item>
+      <key>fa-brands fa-adn</key>
+      <value>Adn</value>
+    </item>
+    <item>
+      <key>fa-brands fa-adversal</key>
+      <value>Adversal</value>
+    </item>
+    <item>
+      <key>fa-brands fa-affiliatetheme</key>
+      <value>Affiliatetheme</value>
+    </item>
+    <item>
+      <key>fa-brands fa-airbnb</key>
+      <value>Airbnb</value>
+    </item>
+    <item>
+      <key>fa-brands fa-algolia</key>
+      <value>Algolia</value>
+    </item>
+    <item>
+      <key>fa-brands fa-alipay</key>
+      <value>Alipay</value>
+    </item>
+    <item>
+      <key>fa-brands fa-amazon</key>
+      <value>Amazon</value>
+    </item>
+    <item>
+      <key>fa-brands fa-amazon-pay</key>
+      <value>Amazon pay</value>
+    </item>
+    <item>
+      <key>fa-brands fa-amilia</key>
+      <value>Amilia</value>
+    </item>
+    <item>
+      <key>fa-brands fa-android</key>
+      <value>Android</value>
+    </item>
+    <item>
+      <key>fa-brands fa-angellist</key>
+      <value>Angellist</value>
+    </item>
+    <item>
+      <key>fa-brands fa-angrycreative</key>
+      <value>Angrycreative</value>
+    </item>
+    <item>
+      <key>fa-brands fa-angular</key>
+      <value>Angular</value>
+    </item>
+    <item>
+      <key>fa-brands fa-app-store</key>
+      <value>App store</value>
+    </item>
+    <item>
+      <key>fa-brands fa-app-store-ios</key>
+      <value>App store ios</value>
+    </item>
+    <item>
+      <key>fa-brands fa-apper</key>
+      <value>Apper</value>
+    </item>
+    <item>
+      <key>fa-brands fa-apple</key>
+      <value>Apple</value>
+    </item>
+    <item>
+      <key>fa-brands fa-apple-pay</key>
+      <value>Apple pay</value>
+    </item>
+    <item>
+      <key>fa-brands fa-artstation</key>
+      <value>Artstation</value>
+    </item>
+    <item>
+      <key>fa-brands fa-asymmetrik</key>
+      <value>Asymmetrik</value>
+    </item>
+    <item>
+      <key>fa-brands fa-atlassian</key>
+      <value>Atlassian</value>
+    </item>
+    <item>
+      <key>fa-brands fa-audible</key>
+      <value>Audible</value>
+    </item>
+    <item>
+      <key>fa-brands fa-autoprefixer</key>
+      <value>Autoprefixer</value>
+    </item>
+    <item>
+      <key>fa-brands fa-avianex</key>
+      <value>Avianex</value>
+    </item>
+    <item>
+      <key>fa-brands fa-aviato</key>
+      <value>Aviato</value>
+    </item>
+    <item>
+      <key>fa-brands fa-aws</key>
+      <value>Aws</value>
+    </item>
+    <item>
+      <key>fa-brands fa-bandcamp</key>
+      <value>Bandcamp</value>
+    </item>
+    <item>
+      <key>fa-brands fa-battle-net</key>
+      <value>Battle net</value>
+    </item>
+    <item>
+      <key>fa-brands fa-behance</key>
+      <value>Behance</value>
+    </item>
+    <item>
+      <key>fa-brands fa-behance-square</key>
+      <value>Behance square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-bilibili</key>
+      <value>Bilibili</value>
+    </item>
+    <item>
+      <key>fa-brands fa-bimobject</key>
+      <value>Bimobject</value>
+    </item>
+    <item>
+      <key>fa-brands fa-bitbucket</key>
+      <value>Bitbucket</value>
+    </item>
+    <item>
+      <key>fa-brands fa-bitcoin</key>
+      <value>Bitcoin</value>
+    </item>
+    <item>
+      <key>fa-brands fa-bity</key>
+      <value>Bity</value>
+    </item>
+    <item>
+      <key>fa-brands fa-black-tie</key>
+      <value>Black tie</value>
+    </item>
+    <item>
+      <key>fa-brands fa-blackberry</key>
+      <value>Blackberry</value>
+    </item>
+    <item>
+      <key>fa-brands fa-blogger</key>
+      <value>Blogger</value>
+    </item>
+    <item>
+      <key>fa-brands fa-blogger-b</key>
+      <value>Blogger b</value>
+    </item>
+    <item>
+      <key>fa-brands fa-bluetooth</key>
+      <value>Bluetooth</value>
+    </item>
+    <item>
+      <key>fa-brands fa-bluetooth-b</key>
+      <value>Bluetooth b</value>
+    </item>
+    <item>
+      <key>fa-brands fa-bootstrap</key>
+      <value>Bootstrap</value>
+    </item>
+    <item>
+      <key>fa-brands fa-bots</key>
+      <value>Bots</value>
+    </item>
+    <item>
+      <key>fa-brands fa-btc</key>
+      <value>Btc</value>
+    </item>
+    <item>
+      <key>fa-brands fa-buffer</key>
+      <value>Buffer</value>
+    </item>
+    <item>
+      <key>fa-brands fa-buromobelexperte</key>
+      <value>Buromobelexperte</value>
+    </item>
+    <item>
+      <key>fa-brands fa-buy-n-large</key>
+      <value>Buy n large</value>
+    </item>
+    <item>
+      <key>fa-brands fa-buysellads</key>
+      <value>Buysellads</value>
+    </item>
+    <item>
+      <key>fa-brands fa-canadian-maple-leaf</key>
+      <value>Canadian maple leaf</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cc-amazon-pay</key>
+      <value>Cc amazon pay</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cc-amex</key>
+      <value>Cc amex</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cc-apple-pay</key>
+      <value>Cc apple pay</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cc-diners-club</key>
+      <value>Cc diners club</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cc-discover</key>
+      <value>Cc discover</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cc-jcb</key>
+      <value>Cc jcb</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cc-mastercard</key>
+      <value>Cc mastercard</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cc-paypal</key>
+      <value>Cc paypal</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cc-stripe</key>
+      <value>Cc stripe</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cc-visa</key>
+      <value>Cc visa</value>
+    </item>
+    <item>
+      <key>fa-brands fa-centercode</key>
+      <value>Centercode</value>
+    </item>
+    <item>
+      <key>fa-brands fa-centos</key>
+      <value>Centos</value>
+    </item>
+    <item>
+      <key>fa-brands fa-chrome</key>
+      <value>Chrome</value>
+    </item>
+    <item>
+      <key>fa-brands fa-chromecast</key>
+      <value>Chromecast</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cloudflare</key>
+      <value>Cloudflare</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cloudscale</key>
+      <value>Cloudscale</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cloudsmith</key>
+      <value>Cloudsmith</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cloudversify</key>
+      <value>Cloudversify</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cmplid</key>
+      <value>Cmplid</value>
+    </item>
+    <item>
+      <key>fa-brands fa-codepen</key>
+      <value>Codepen</value>
+    </item>
+    <item>
+      <key>fa-brands fa-codiepie</key>
+      <value>Codiepie</value>
+    </item>
+    <item>
+      <key>fa-brands fa-confluence</key>
+      <value>Confluence</value>
+    </item>
+    <item>
+      <key>fa-brands fa-connectdevelop</key>
+      <value>Connectdevelop</value>
+    </item>
+    <item>
+      <key>fa-brands fa-contao</key>
+      <value>Contao</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cotton-bureau</key>
+      <value>Cotton bureau</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cpanel</key>
+      <value>Cpanel</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons</key>
+      <value>Creative commons</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-by</key>
+      <value>Creative commons by</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-nc</key>
+      <value>Creative commons nc</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-nc-eu</key>
+      <value>Creative commons nc eu</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-nc-jp</key>
+      <value>Creative commons nc jp</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-nd</key>
+      <value>Creative commons nd</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-pd</key>
+      <value>Creative commons pd</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-pd-alt</key>
+      <value>Creative commons pd alt</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-remix</key>
+      <value>Creative commons remix</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-sa</key>
+      <value>Creative commons sa</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-sampling</key>
+      <value>Creative commons sampling</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-sampling-plus</key>
+      <value>Creative commons sampling plus</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-share</key>
+      <value>Creative commons share</value>
+    </item>
+    <item>
+      <key>fa-brands fa-creative-commons-zero</key>
+      <value>Creative commons zero</value>
+    </item>
+    <item>
+      <key>fa-brands fa-critical-role</key>
+      <value>Critical role</value>
+    </item>
+    <item>
+      <key>fa-brands fa-css3</key>
+      <value>Css3</value>
+    </item>
+    <item>
+      <key>fa-brands fa-css3-alt</key>
+      <value>Css3 alt</value>
+    </item>
+    <item>
+      <key>fa-brands fa-cuttlefish</key>
+      <value>Cuttlefish</value>
+    </item>
+    <item>
+      <key>fa-brands fa-d-and-d</key>
+      <value>D and d</value>
+    </item>
+    <item>
+      <key>fa-brands fa-d-and-d-beyond</key>
+      <value>D and d beyond</value>
+    </item>
+    <item>
+      <key>fa-brands fa-dailymotion</key>
+      <value>Dailymotion</value>
+    </item>
+    <item>
+      <key>fa-brands fa-dashcube</key>
+      <value>Dashcube</value>
+    </item>
+    <item>
+      <key>fa-brands fa-deezer</key>
+      <value>Deezer</value>
+    </item>
+    <item>
+      <key>fa-brands fa-delicious</key>
+      <value>Delicious</value>
+    </item>
+    <item>
+      <key>fa-brands fa-deploydog</key>
+      <value>Deploydog</value>
+    </item>
+    <item>
+      <key>fa-brands fa-deskpro</key>
+      <value>Deskpro</value>
+    </item>
+    <item>
+      <key>fa-brands fa-dev</key>
+      <value>Dev</value>
+    </item>
+    <item>
+      <key>fa-brands fa-deviantart</key>
+      <value>Deviantart</value>
+    </item>
+    <item>
+      <key>fa-brands fa-dhl</key>
+      <value>Dhl</value>
+    </item>
+    <item>
+      <key>fa-brands fa-diaspora</key>
+      <value>Diaspora</value>
+    </item>
+    <item>
+      <key>fa-brands fa-digg</key>
+      <value>Digg</value>
+    </item>
+    <item>
+      <key>fa-brands fa-digital-ocean</key>
+      <value>Digital ocean</value>
+    </item>
+    <item>
+      <key>fa-brands fa-discord</key>
+      <value>Discord</value>
+    </item>
+    <item>
+      <key>fa-brands fa-discourse</key>
+      <value>Discourse</value>
+    </item>
+    <item>
+      <key>fa-brands fa-dochub</key>
+      <value>Dochub</value>
+    </item>
+    <item>
+      <key>fa-brands fa-docker</key>
+      <value>Docker</value>
+    </item>
+    <item>
+      <key>fa-brands fa-draft2digital</key>
+      <value>Draft2digital</value>
+    </item>
+    <item>
+      <key>fa-brands fa-dribbble</key>
+      <value>Dribbble</value>
+    </item>
+    <item>
+      <key>fa-brands fa-dribbble-square</key>
+      <value>Dribbble square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-dropbox</key>
+      <value>Dropbox</value>
+    </item>
+    <item>
+      <key>fa-brands fa-drupal</key>
+      <value>Drupal</value>
+    </item>
+    <item>
+      <key>fa-brands fa-dyalog</key>
+      <value>Dyalog</value>
+    </item>
+    <item>
+      <key>fa-brands fa-earlybirds</key>
+      <value>Earlybirds</value>
+    </item>
+    <item>
+      <key>fa-brands fa-ebay</key>
+      <value>Ebay</value>
+    </item>
+    <item>
+      <key>fa-brands fa-edge</key>
+      <value>Edge</value>
+    </item>
+    <item>
+      <key>fa-brands fa-edge-legacy</key>
+      <value>Edge legacy</value>
+    </item>
+    <item>
+      <key>fa-brands fa-elementor</key>
+      <value>Elementor</value>
+    </item>
+    <item>
+      <key>fa-brands fa-ello</key>
+      <value>Ello</value>
+    </item>
+    <item>
+      <key>fa-brands fa-ember</key>
+      <value>Ember</value>
+    </item>
+    <item>
+      <key>fa-brands fa-empire</key>
+      <value>Empire</value>
+    </item>
+    <item>
+      <key>fa-brands fa-envira</key>
+      <value>Envira</value>
+    </item>
+    <item>
+      <key>fa-brands fa-erlang</key>
+      <value>Erlang</value>
+    </item>
+    <item>
+      <key>fa-brands fa-ethereum</key>
+      <value>Ethereum</value>
+    </item>
+    <item>
+      <key>fa-brands fa-etsy</key>
+      <value>Etsy</value>
+    </item>
+    <item>
+      <key>fa-brands fa-evernote</key>
+      <value>Evernote</value>
+    </item>
+    <item>
+      <key>fa-brands fa-expeditedssl</key>
+      <value>Expeditedssl</value>
+    </item>
+    <item>
+      <key>fa-brands fa-facebook</key>
+      <value>Facebook</value>
+    </item>
+    <item>
+      <key>fa-brands fa-facebook-f</key>
+      <value>Facebook f</value>
+    </item>
+    <item>
+      <key>fa-brands fa-facebook-messenger</key>
+      <value>Facebook messenger</value>
+    </item>
+    <item>
+      <key>fa-brands fa-facebook-square</key>
+      <value>Facebook square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-fantasy-flight-games</key>
+      <value>Fantasy flight games</value>
+    </item>
+    <item>
+      <key>fa-brands fa-fedex</key>
+      <value>Fedex</value>
+    </item>
+    <item>
+      <key>fa-brands fa-fedora</key>
+      <value>Fedora</value>
+    </item>
+    <item>
+      <key>fa-brands fa-figma</key>
+      <value>Figma</value>
+    </item>
+    <item>
+      <key>fa-brands fa-firefox</key>
+      <value>Firefox</value>
+    </item>
+    <item>
+      <key>fa-brands fa-firefox-browser</key>
+      <value>Firefox browser</value>
+    </item>
+    <item>
+      <key>fa-brands fa-first-order</key>
+      <value>First order</value>
+    </item>
+    <item>
+      <key>fa-brands fa-first-order-alt</key>
+      <value>First order alt</value>
+    </item>
+    <item>
+      <key>fa-brands fa-firstdraft</key>
+      <value>Firstdraft</value>
+    </item>
+    <item>
+      <key>fa-brands fa-flickr</key>
+      <value>Flickr</value>
+    </item>
+    <item>
+      <key>fa-brands fa-flipboard</key>
+      <value>Flipboard</value>
+    </item>
+    <item>
+      <key>fa-brands fa-fly</key>
+      <value>Fly</value>
+    </item>
+    <item>
+      <key>fa-brands fa-font-awesome</key>
+      <value>Font awesome</value>
+    </item>
+    <item>
+      <key>fa-brands fa-fonticons</key>
+      <value>Fonticons</value>
+    </item>
+    <item>
+      <key>fa-brands fa-fonticons-fi</key>
+      <value>Fonticons fi</value>
+    </item>
+    <item>
+      <key>fa-brands fa-fort-awesome</key>
+      <value>Fort awesome</value>
+    </item>
+    <item>
+      <key>fa-brands fa-fort-awesome-alt</key>
+      <value>Fort awesome alt</value>
+    </item>
+    <item>
+      <key>fa-brands fa-forumbee</key>
+      <value>Forumbee</value>
+    </item>
+    <item>
+      <key>fa-brands fa-foursquare</key>
+      <value>Foursquare</value>
+    </item>
+    <item>
+      <key>fa-brands fa-free-code-camp</key>
+      <value>Free code camp</value>
+    </item>
+    <item>
+      <key>fa-brands fa-freebsd</key>
+      <value>Freebsd</value>
+    </item>
+    <item>
+      <key>fa-brands fa-fulcrum</key>
+      <value>Fulcrum</value>
+    </item>
+    <item>
+      <key>fa-brands fa-galactic-republic</key>
+      <value>Galactic republic</value>
+    </item>
+    <item>
+      <key>fa-brands fa-galactic-senate</key>
+      <value>Galactic senate</value>
+    </item>
+    <item>
+      <key>fa-brands fa-get-pocket</key>
+      <value>Get pocket</value>
+    </item>
+    <item>
+      <key>fa-brands fa-gg</key>
+      <value>Gg</value>
+    </item>
+    <item>
+      <key>fa-brands fa-gg-circle</key>
+      <value>Gg circle</value>
+    </item>
+    <item>
+      <key>fa-brands fa-git</key>
+      <value>Git</value>
+    </item>
+    <item>
+      <key>fa-brands fa-git-alt</key>
+      <value>Git alt</value>
+    </item>
+    <item>
+      <key>fa-brands fa-git-square</key>
+      <value>Git square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-github</key>
+      <value>Github</value>
+    </item>
+    <item>
+      <key>fa-brands fa-github-alt</key>
+      <value>Github alt</value>
+    </item>
+    <item>
+      <key>fa-brands fa-github-square</key>
+      <value>Github square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-gitkraken</key>
+      <value>Gitkraken</value>
+    </item>
+    <item>
+      <key>fa-brands fa-gitlab</key>
+      <value>Gitlab</value>
+    </item>
+    <item>
+      <key>fa-brands fa-gitter</key>
+      <value>Gitter</value>
+    </item>
+    <item>
+      <key>fa-brands fa-glide</key>
+      <value>Glide</value>
+    </item>
+    <item>
+      <key>fa-brands fa-glide-g</key>
+      <value>Glide g</value>
+    </item>
+    <item>
+      <key>fa-brands fa-gofore</key>
+      <value>Gofore</value>
+    </item>
+    <item>
+      <key>fa-brands fa-golang</key>
+      <value>Golang</value>
+    </item>
+    <item>
+      <key>fa-brands fa-goodreads</key>
+      <value>Goodreads</value>
+    </item>
+    <item>
+      <key>fa-brands fa-goodreads-g</key>
+      <value>Goodreads g</value>
+    </item>
+    <item>
+      <key>fa-brands fa-google</key>
+      <value>Google</value>
+    </item>
+    <item>
+      <key>fa-brands fa-google-drive</key>
+      <value>Google drive</value>
+    </item>
+    <item>
+      <key>fa-brands fa-google-pay</key>
+      <value>Google pay</value>
+    </item>
+    <item>
+      <key>fa-brands fa-google-play</key>
+      <value>Google play</value>
+    </item>
+    <item>
+      <key>fa-brands fa-google-plus</key>
+      <value>Google plus</value>
+    </item>
+    <item>
+      <key>fa-brands fa-google-plus-g</key>
+      <value>Google plus g</value>
+    </item>
+    <item>
+      <key>fa-brands fa-google-plus-square</key>
+      <value>Google plus square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-google-wallet</key>
+      <value>Google wallet</value>
+    </item>
+    <item>
+      <key>fa-brands fa-gratipay</key>
+      <value>Gratipay</value>
+    </item>
+    <item>
+      <key>fa-brands fa-grav</key>
+      <value>Grav</value>
+    </item>
+    <item>
+      <key>fa-brands fa-gripfire</key>
+      <value>Gripfire</value>
+    </item>
+    <item>
+      <key>fa-brands fa-grunt</key>
+      <value>Grunt</value>
+    </item>
+    <item>
+      <key>fa-brands fa-guilded</key>
+      <value>Guilded</value>
+    </item>
+    <item>
+      <key>fa-brands fa-gulp</key>
+      <value>Gulp</value>
+    </item>
+    <item>
+      <key>fa-brands fa-hacker-news</key>
+      <value>Hacker news</value>
+    </item>
+    <item>
+      <key>fa-brands fa-hacker-news-square</key>
+      <value>Hacker news square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-hackerrank</key>
+      <value>Hackerrank</value>
+    </item>
+    <item>
+      <key>fa-brands fa-hips</key>
+      <value>Hips</value>
+    </item>
+    <item>
+      <key>fa-brands fa-hire-a-helper</key>
+      <value>Hire a helper</value>
+    </item>
+    <item>
+      <key>fa-brands fa-hive</key>
+      <value>Hive</value>
+    </item>
+    <item>
+      <key>fa-brands fa-hooli</key>
+      <value>Hooli</value>
+    </item>
+    <item>
+      <key>fa-brands fa-hornbill</key>
+      <value>Hornbill</value>
+    </item>
+    <item>
+      <key>fa-brands fa-hotjar</key>
+      <value>Hotjar</value>
+    </item>
+    <item>
+      <key>fa-brands fa-houzz</key>
+      <value>Houzz</value>
+    </item>
+    <item>
+      <key>fa-brands fa-html5</key>
+      <value>Html5</value>
+    </item>
+    <item>
+      <key>fa-brands fa-hubspot</key>
+      <value>Hubspot</value>
+    </item>
+    <item>
+      <key>fa-brands fa-ideal</key>
+      <value>Ideal</value>
+    </item>
+    <item>
+      <key>fa-brands fa-imdb</key>
+      <value>Imdb</value>
+    </item>
+    <item>
+      <key>fa-brands fa-instagram</key>
+      <value>Instagram</value>
+    </item>
+    <item>
+      <key>fa-brands fa-instagram-square</key>
+      <value>Instagram square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-instalod</key>
+      <value>Instalod</value>
+    </item>
+    <item>
+      <key>fa-brands fa-intercom</key>
+      <value>Intercom</value>
+    </item>
+    <item>
+      <key>fa-brands fa-internet-explorer</key>
+      <value>Internet explorer</value>
+    </item>
+    <item>
+      <key>fa-brands fa-invision</key>
+      <value>Invision</value>
+    </item>
+    <item>
+      <key>fa-brands fa-ioxhost</key>
+      <value>Ioxhost</value>
+    </item>
+    <item>
+      <key>fa-brands fa-itch-io</key>
+      <value>Itch io</value>
+    </item>
+    <item>
+      <key>fa-brands fa-itunes</key>
+      <value>Itunes</value>
+    </item>
+    <item>
+      <key>fa-brands fa-itunes-note</key>
+      <value>Itunes note</value>
+    </item>
+    <item>
+      <key>fa-brands fa-java</key>
+      <value>Java</value>
+    </item>
+    <item>
+      <key>fa-brands fa-jedi-order</key>
+      <value>Jedi order</value>
+    </item>
+    <item>
+      <key>fa-brands fa-jenkins</key>
+      <value>Jenkins</value>
+    </item>
+    <item>
+      <key>fa-brands fa-jira</key>
+      <value>Jira</value>
+    </item>
+    <item>
+      <key>fa-brands fa-joget</key>
+      <value>Joget</value>
+    </item>
+    <item>
+      <key>fa-brands fa-joomla</key>
+      <value>Joomla</value>
+    </item>
+    <item>
+      <key>fa-brands fa-js</key>
+      <value>Js</value>
+    </item>
+    <item>
+      <key>fa-brands fa-js-square</key>
+      <value>Js square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-jsfiddle</key>
+      <value>Jsfiddle</value>
+    </item>
+    <item>
+      <key>fa-brands fa-kaggle</key>
+      <value>Kaggle</value>
+    </item>
+    <item>
+      <key>fa-brands fa-keybase</key>
+      <value>Keybase</value>
+    </item>
+    <item>
+      <key>fa-brands fa-keycdn</key>
+      <value>Keycdn</value>
+    </item>
+    <item>
+      <key>fa-brands fa-kickstarter</key>
+      <value>Kickstarter</value>
+    </item>
+    <item>
+      <key>fa-brands fa-kickstarter-k</key>
+      <value>Kickstarter k</value>
+    </item>
+    <item>
+      <key>fa-brands fa-korvue</key>
+      <value>Korvue</value>
+    </item>
+    <item>
+      <key>fa-brands fa-laravel</key>
+      <value>Laravel</value>
+    </item>
+    <item>
+      <key>fa-brands fa-lastfm</key>
+      <value>Lastfm</value>
+    </item>
+    <item>
+      <key>fa-brands fa-lastfm-square</key>
+      <value>Lastfm square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-leanpub</key>
+      <value>Leanpub</value>
+    </item>
+    <item>
+      <key>fa-brands fa-less</key>
+      <value>Less</value>
+    </item>
+    <item>
+      <key>fa-brands fa-line</key>
+      <value>Line</value>
+    </item>
+    <item>
+      <key>fa-brands fa-linkedin</key>
+      <value>Linkedin</value>
+    </item>
+    <item>
+      <key>fa-brands fa-linkedin-in</key>
+      <value>Linkedin in</value>
+    </item>
+    <item>
+      <key>fa-brands fa-linode</key>
+      <value>Linode</value>
+    </item>
+    <item>
+      <key>fa-brands fa-linux</key>
+      <value>Linux</value>
+    </item>
+    <item>
+      <key>fa-brands fa-lyft</key>
+      <value>Lyft</value>
+    </item>
+    <item>
+      <key>fa-brands fa-magento</key>
+      <value>Magento</value>
+    </item>
+    <item>
+      <key>fa-brands fa-mailchimp</key>
+      <value>Mailchimp</value>
+    </item>
+    <item>
+      <key>fa-brands fa-mandalorian</key>
+      <value>Mandalorian</value>
+    </item>
+    <item>
+      <key>fa-brands fa-markdown</key>
+      <value>Markdown</value>
+    </item>
+    <item>
+      <key>fa-brands fa-mastodon</key>
+      <value>Mastodon</value>
+    </item>
+    <item>
+      <key>fa-brands fa-maxcdn</key>
+      <value>Maxcdn</value>
+    </item>
+    <item>
+      <key>fa-brands fa-mdb</key>
+      <value>Mdb</value>
+    </item>
+    <item>
+      <key>fa-brands fa-medapps</key>
+      <value>Medapps</value>
+    </item>
+    <item>
+      <key>fa-brands fa-medium</key>
+      <value>Medium</value>
+    </item>
+    <item>
+      <key>fa-brands fa-medrt</key>
+      <value>Medrt</value>
+    </item>
+    <item>
+      <key>fa-brands fa-meetup</key>
+      <value>Meetup</value>
+    </item>
+    <item>
+      <key>fa-brands fa-megaport</key>
+      <value>Megaport</value>
+    </item>
+    <item>
+      <key>fa-brands fa-mendeley</key>
+      <value>Mendeley</value>
+    </item>
+    <item>
+      <key>fa-brands fa-microblog</key>
+      <value>Microblog</value>
+    </item>
+    <item>
+      <key>fa-brands fa-microsoft</key>
+      <value>Microsoft</value>
+    </item>
+    <item>
+      <key>fa-brands fa-mix</key>
+      <value>Mix</value>
+    </item>
+    <item>
+      <key>fa-brands fa-mixcloud</key>
+      <value>Mixcloud</value>
+    </item>
+    <item>
+      <key>fa-brands fa-mixer</key>
+      <value>Mixer</value>
+    </item>
+    <item>
+      <key>fa-brands fa-mizuni</key>
+      <value>Mizuni</value>
+    </item>
+    <item>
+      <key>fa-brands fa-modx</key>
+      <value>Modx</value>
+    </item>
+    <item>
+      <key>fa-brands fa-monero</key>
+      <value>Monero</value>
+    </item>
+    <item>
+      <key>fa-brands fa-napster</key>
+      <value>Napster</value>
+    </item>
+    <item>
+      <key>fa-brands fa-neos</key>
+      <value>Neos</value>
+    </item>
+    <item>
+      <key>fa-brands fa-nimblr</key>
+      <value>Nimblr</value>
+    </item>
+    <item>
+      <key>fa-brands fa-node</key>
+      <value>Node</value>
+    </item>
+    <item>
+      <key>fa-brands fa-node-js</key>
+      <value>Node js</value>
+    </item>
+    <item>
+      <key>fa-brands fa-npm</key>
+      <value>Npm</value>
+    </item>
+    <item>
+      <key>fa-brands fa-ns8</key>
+      <value>Ns8</value>
+    </item>
+    <item>
+      <key>fa-brands fa-nutritionix</key>
+      <value>Nutritionix</value>
+    </item>
+    <item>
+      <key>fa-brands fa-octopus-deploy</key>
+      <value>Octopus deploy</value>
+    </item>
+    <item>
+      <key>fa-brands fa-odnoklassniki</key>
+      <value>Odnoklassniki</value>
+    </item>
+    <item>
+      <key>fa-brands fa-odnoklassniki-square</key>
+      <value>Odnoklassniki square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-old-republic</key>
+      <value>Old republic</value>
+    </item>
+    <item>
+      <key>fa-brands fa-opencart</key>
+      <value>Opencart</value>
+    </item>
+    <item>
+      <key>fa-brands fa-openid</key>
+      <value>Openid</value>
+    </item>
+    <item>
+      <key>fa-brands fa-opera</key>
+      <value>Opera</value>
+    </item>
+    <item>
+      <key>fa-brands fa-optin-monster</key>
+      <value>Optin monster</value>
+    </item>
+    <item>
+      <key>fa-brands fa-orcid</key>
+      <value>Orcid</value>
+    </item>
+    <item>
+      <key>fa-brands fa-osi</key>
+      <value>Osi</value>
+    </item>
+    <item>
+      <key>fa-brands fa-page4</key>
+      <value>Page4</value>
+    </item>
+    <item>
+      <key>fa-brands fa-pagelines</key>
+      <value>Pagelines</value>
+    </item>
+    <item>
+      <key>fa-brands fa-palfed</key>
+      <value>Palfed</value>
+    </item>
+    <item>
+      <key>fa-brands fa-patreon</key>
+      <value>Patreon</value>
+    </item>
+    <item>
+      <key>fa-brands fa-paypal</key>
+      <value>Paypal</value>
+    </item>
+    <item>
+      <key>fa-brands fa-penny-arcade</key>
+      <value>Penny arcade</value>
+    </item>
+    <item>
+      <key>fa-brands fa-perbyte</key>
+      <value>Perbyte</value>
+    </item>
+    <item>
+      <key>fa-brands fa-periscope</key>
+      <value>Periscope</value>
+    </item>
+    <item>
+      <key>fa-brands fa-phabricator</key>
+      <value>Phabricator</value>
+    </item>
+    <item>
+      <key>fa-brands fa-phoenix-framework</key>
+      <value>Phoenix framework</value>
+    </item>
+    <item>
+      <key>fa-brands fa-phoenix-squadron</key>
+      <value>Phoenix squadron</value>
+    </item>
+    <item>
+      <key>fa-brands fa-php</key>
+      <value>Php</value>
+    </item>
+    <item>
+      <key>fa-brands fa-pied-piper</key>
+      <value>Pied piper</value>
+    </item>
+    <item>
+      <key>fa-brands fa-pied-piper-alt</key>
+      <value>Pied piper alt</value>
+    </item>
+    <item>
+      <key>fa-brands fa-pied-piper-hat</key>
+      <value>Pied piper hat</value>
+    </item>
+    <item>
+      <key>fa-brands fa-pied-piper-pp</key>
+      <value>Pied piper pp</value>
+    </item>
+    <item>
+      <key>fa-brands fa-pied-piper-square</key>
+      <value>Pied piper square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-pinterest</key>
+      <value>Pinterest</value>
+    </item>
+    <item>
+      <key>fa-brands fa-pinterest-p</key>
+      <value>Pinterest p</value>
+    </item>
+    <item>
+      <key>fa-brands fa-pinterest-square</key>
+      <value>Pinterest square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-pix</key>
+      <value>Pix</value>
+    </item>
+    <item>
+      <key>fa-brands fa-playstation</key>
+      <value>Playstation</value>
+    </item>
+    <item>
+      <key>fa-brands fa-product-hunt</key>
+      <value>Product hunt</value>
+    </item>
+    <item>
+      <key>fa-brands fa-pushed</key>
+      <value>Pushed</value>
+    </item>
+    <item>
+      <key>fa-brands fa-python</key>
+      <value>Python</value>
+    </item>
+    <item>
+      <key>fa-brands fa-qq</key>
+      <value>Qq</value>
+    </item>
+    <item>
+      <key>fa-brands fa-quinscape</key>
+      <value>Quinscape</value>
+    </item>
+    <item>
+      <key>fa-brands fa-quora</key>
+      <value>Quora</value>
+    </item>
+    <item>
+      <key>fa-brands fa-r-project</key>
+      <value>R project</value>
+    </item>
+    <item>
+      <key>fa-brands fa-raspberry-pi</key>
+      <value>Raspberry pi</value>
+    </item>
+    <item>
+      <key>fa-brands fa-ravelry</key>
+      <value>Ravelry</value>
+    </item>
+    <item>
+      <key>fa-brands fa-react</key>
+      <value>React</value>
+    </item>
+    <item>
+      <key>fa-brands fa-reacteurope</key>
+      <value>Reacteurope</value>
+    </item>
+    <item>
+      <key>fa-brands fa-readme</key>
+      <value>Readme</value>
+    </item>
+    <item>
+      <key>fa-brands fa-rebel</key>
+      <value>Rebel</value>
+    </item>
+    <item>
+      <key>fa-brands fa-red-river</key>
+      <value>Red river</value>
+    </item>
+    <item>
+      <key>fa-brands fa-reddit</key>
+      <value>Reddit</value>
+    </item>
+    <item>
+      <key>fa-brands fa-reddit-alien</key>
+      <value>Reddit alien</value>
+    </item>
+    <item>
+      <key>fa-brands fa-reddit-square</key>
+      <value>Reddit square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-redhat</key>
+      <value>Redhat</value>
+    </item>
+    <item>
+      <key>fa-brands fa-renren</key>
+      <value>Renren</value>
+    </item>
+    <item>
+      <key>fa-brands fa-replyd</key>
+      <value>Replyd</value>
+    </item>
+    <item>
+      <key>fa-brands fa-researchgate</key>
+      <value>Researchgate</value>
+    </item>
+    <item>
+      <key>fa-brands fa-resolving</key>
+      <value>Resolving</value>
+    </item>
+    <item>
+      <key>fa-brands fa-rev</key>
+      <value>Rev</value>
+    </item>
+    <item>
+      <key>fa-brands fa-rocketchat</key>
+      <value>Rocketchat</value>
+    </item>
+    <item>
+      <key>fa-brands fa-rockrms</key>
+      <value>Rockrms</value>
+    </item>
+    <item>
+      <key>fa-brands fa-rust</key>
+      <value>Rust</value>
+    </item>
+    <item>
+      <key>fa-brands fa-safari</key>
+      <value>Safari</value>
+    </item>
+    <item>
+      <key>fa-brands fa-salesforce</key>
+      <value>Salesforce</value>
+    </item>
+    <item>
+      <key>fa-brands fa-sass</key>
+      <value>Sass</value>
+    </item>
+    <item>
+      <key>fa-brands fa-schlix</key>
+      <value>Schlix</value>
+    </item>
+    <item>
+      <key>fa-brands fa-scribd</key>
+      <value>Scribd</value>
+    </item>
+    <item>
+      <key>fa-brands fa-searchengin</key>
+      <value>Searchengin</value>
+    </item>
+    <item>
+      <key>fa-brands fa-sellcast</key>
+      <value>Sellcast</value>
+    </item>
+    <item>
+      <key>fa-brands fa-sellsy</key>
+      <value>Sellsy</value>
+    </item>
+    <item>
+      <key>fa-brands fa-servicestack</key>
+      <value>Servicestack</value>
+    </item>
+    <item>
+      <key>fa-brands fa-shirtsinbulk</key>
+      <value>Shirtsinbulk</value>
+    </item>
+    <item>
+      <key>fa-brands fa-shopify</key>
+      <value>Shopify</value>
+    </item>
+    <item>
+      <key>fa-brands fa-shopware</key>
+      <value>Shopware</value>
+    </item>
+    <item>
+      <key>fa-brands fa-simplybuilt</key>
+      <value>Simplybuilt</value>
+    </item>
+    <item>
+      <key>fa-brands fa-sistrix</key>
+      <value>Sistrix</value>
+    </item>
+    <item>
+      <key>fa-brands fa-sith</key>
+      <value>Sith</value>
+    </item>
+    <item>
+      <key>fa-brands fa-sitrox</key>
+      <value>Sitrox</value>
+    </item>
+    <item>
+      <key>fa-brands fa-sketch</key>
+      <value>Sketch</value>
+    </item>
+    <item>
+      <key>fa-brands fa-skyatlas</key>
+      <value>Skyatlas</value>
+    </item>
+    <item>
+      <key>fa-brands fa-skype</key>
+      <value>Skype</value>
+    </item>
+    <item>
+      <key>fa-brands fa-slack</key>
+      <value>Slack</value>
+    </item>
+    <item>
+      <key>fa-brands fa-slideshare</key>
+      <value>Slideshare</value>
+    </item>
+    <item>
+      <key>fa-brands fa-snapchat</key>
+      <value>Snapchat</value>
+    </item>
+    <item>
+      <key>fa-brands fa-snapchat-square</key>
+      <value>Snapchat square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-soundcloud</key>
+      <value>Soundcloud</value>
+    </item>
+    <item>
+      <key>fa-brands fa-sourcetree</key>
+      <value>Sourcetree</value>
+    </item>
+    <item>
+      <key>fa-brands fa-speakap</key>
+      <value>Speakap</value>
+    </item>
+    <item>
+      <key>fa-brands fa-speaker-deck</key>
+      <value>Speaker deck</value>
+    </item>
+    <item>
+      <key>fa-brands fa-spotify</key>
+      <value>Spotify</value>
+    </item>
+    <item>
+      <key>fa-brands fa-square-font-awesome</key>
+      <value>Square font awesome</value>
+    </item>
+    <item>
+      <key>fa-brands fa-square-font-awesome-stroke</key>
+      <value>Square font awesome stroke</value>
+    </item>
+    <item>
+      <key>fa-brands fa-squarespace</key>
+      <value>Squarespace</value>
+    </item>
+    <item>
+      <key>fa-brands fa-stack-exchange</key>
+      <value>Stack exchange</value>
+    </item>
+    <item>
+      <key>fa-brands fa-stack-overflow</key>
+      <value>Stack overflow</value>
+    </item>
+    <item>
+      <key>fa-brands fa-stackpath</key>
+      <value>Stackpath</value>
+    </item>
+    <item>
+      <key>fa-brands fa-staylinked</key>
+      <value>Staylinked</value>
+    </item>
+    <item>
+      <key>fa-brands fa-steam</key>
+      <value>Steam</value>
+    </item>
+    <item>
+      <key>fa-brands fa-steam-square</key>
+      <value>Steam square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-steam-symbol</key>
+      <value>Steam symbol</value>
+    </item>
+    <item>
+      <key>fa-brands fa-sticker-mule</key>
+      <value>Sticker mule</value>
+    </item>
+    <item>
+      <key>fa-brands fa-strava</key>
+      <value>Strava</value>
+    </item>
+    <item>
+      <key>fa-brands fa-stripe</key>
+      <value>Stripe</value>
+    </item>
+    <item>
+      <key>fa-brands fa-stripe-s</key>
+      <value>Stripe s</value>
+    </item>
+    <item>
+      <key>fa-brands fa-studiovinari</key>
+      <value>Studiovinari</value>
+    </item>
+    <item>
+      <key>fa-brands fa-stumbleupon</key>
+      <value>Stumbleupon</value>
+    </item>
+    <item>
+      <key>fa-brands fa-stumbleupon-circle</key>
+      <value>Stumbleupon circle</value>
+    </item>
+    <item>
+      <key>fa-brands fa-superpowers</key>
+      <value>Superpowers</value>
+    </item>
+    <item>
+      <key>fa-brands fa-supple</key>
+      <value>Supple</value>
+    </item>
+    <item>
+      <key>fa-brands fa-suse</key>
+      <value>Suse</value>
+    </item>
+    <item>
+      <key>fa-brands fa-swift</key>
+      <value>Swift</value>
+    </item>
+    <item>
+      <key>fa-brands fa-symfony</key>
+      <value>Symfony</value>
+    </item>
+    <item>
+      <key>fa-brands fa-teamspeak</key>
+      <value>Teamspeak</value>
+    </item>
+    <item>
+      <key>fa-brands fa-telegram</key>
+      <value>Telegram</value>
+    </item>
+    <item>
+      <key>fa-brands fa-tencent-weibo</key>
+      <value>Tencent weibo</value>
+    </item>
+    <item>
+      <key>fa-brands fa-the-red-yeti</key>
+      <value>The red yeti</value>
+    </item>
+    <item>
+      <key>fa-brands fa-themeco</key>
+      <value>Themeco</value>
+    </item>
+    <item>
+      <key>fa-brands fa-themeisle</key>
+      <value>Themeisle</value>
+    </item>
+    <item>
+      <key>fa-brands fa-think-peaks</key>
+      <value>Think peaks</value>
+    </item>
+    <item>
+      <key>fa-brands fa-tiktok</key>
+      <value>Tiktok</value>
+    </item>
+    <item>
+      <key>fa-brands fa-trade-federation</key>
+      <value>Trade federation</value>
+    </item>
+    <item>
+      <key>fa-brands fa-trello</key>
+      <value>Trello</value>
+    </item>
+    <item>
+      <key>fa-brands fa-tumblr</key>
+      <value>Tumblr</value>
+    </item>
+    <item>
+      <key>fa-brands fa-tumblr-square</key>
+      <value>Tumblr square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-twitch</key>
+      <value>Twitch</value>
+    </item>
+    <item>
+      <key>fa-brands fa-twitter</key>
+      <value>Twitter</value>
+    </item>
+    <item>
+      <key>fa-brands fa-twitter-square</key>
+      <value>Twitter square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-typo3</key>
+      <value>Typo3</value>
+    </item>
+    <item>
+      <key>fa-brands fa-uber</key>
+      <value>Uber</value>
+    </item>
+    <item>
+      <key>fa-brands fa-ubuntu</key>
+      <value>Ubuntu</value>
+    </item>
+    <item>
+      <key>fa-brands fa-uikit</key>
+      <value>Uikit</value>
+    </item>
+    <item>
+      <key>fa-brands fa-umbraco</key>
+      <value>Umbraco</value>
+    </item>
+    <item>
+      <key>fa-brands fa-uncharted</key>
+      <value>Uncharted</value>
+    </item>
+    <item>
+      <key>fa-brands fa-uniregistry</key>
+      <value>Uniregistry</value>
+    </item>
+    <item>
+      <key>fa-brands fa-unity</key>
+      <value>Unity</value>
+    </item>
+    <item>
+      <key>fa-brands fa-unsplash</key>
+      <value>Unsplash</value>
+    </item>
+    <item>
+      <key>fa-brands fa-untappd</key>
+      <value>Untappd</value>
+    </item>
+    <item>
+      <key>fa-brands fa-ups</key>
+      <value>Ups</value>
+    </item>
+    <item>
+      <key>fa-brands fa-usb</key>
+      <value>Usb</value>
+    </item>
+    <item>
+      <key>fa-brands fa-usps</key>
+      <value>Usps</value>
+    </item>
+    <item>
+      <key>fa-brands fa-ussunnah</key>
+      <value>Ussunnah</value>
+    </item>
+    <item>
+      <key>fa-brands fa-vaadin</key>
+      <value>Vaadin</value>
+    </item>
+    <item>
+      <key>fa-brands fa-viacoin</key>
+      <value>Viacoin</value>
+    </item>
+    <item>
+      <key>fa-brands fa-viadeo</key>
+      <value>Viadeo</value>
+    </item>
+    <item>
+      <key>fa-brands fa-viadeo-square</key>
+      <value>Viadeo square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-viber</key>
+      <value>Viber</value>
+    </item>
+    <item>
+      <key>fa-brands fa-vimeo</key>
+      <value>Vimeo</value>
+    </item>
+    <item>
+      <key>fa-brands fa-vimeo-square</key>
+      <value>Vimeo square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-vimeo-v</key>
+      <value>Vimeo v</value>
+    </item>
+    <item>
+      <key>fa-brands fa-vine</key>
+      <value>Vine</value>
+    </item>
+    <item>
+      <key>fa-brands fa-vk</key>
+      <value>Vk</value>
+    </item>
+    <item>
+      <key>fa-brands fa-vnv</key>
+      <value>Vnv</value>
+    </item>
+    <item>
+      <key>fa-brands fa-vuejs</key>
+      <value>Vuejs</value>
+    </item>
+    <item>
+      <key>fa-brands fa-watchman-monitoring</key>
+      <value>Watchman monitoring</value>
+    </item>
+    <item>
+      <key>fa-brands fa-waze</key>
+      <value>Waze</value>
+    </item>
+    <item>
+      <key>fa-brands fa-weebly</key>
+      <value>Weebly</value>
+    </item>
+    <item>
+      <key>fa-brands fa-weibo</key>
+      <value>Weibo</value>
+    </item>
+    <item>
+      <key>fa-brands fa-weixin</key>
+      <value>Weixin</value>
+    </item>
+    <item>
+      <key>fa-brands fa-whatsapp</key>
+      <value>Whatsapp</value>
+    </item>
+    <item>
+      <key>fa-brands fa-whatsapp-square</key>
+      <value>Whatsapp square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-whmcs</key>
+      <value>Whmcs</value>
+    </item>
+    <item>
+      <key>fa-brands fa-wikipedia-w</key>
+      <value>Wikipedia w</value>
+    </item>
+    <item>
+      <key>fa-brands fa-windows</key>
+      <value>Windows</value>
+    </item>
+    <item>
+      <key>fa-brands fa-wirsindhandwerk</key>
+      <value>Wirsindhandwerk</value>
+    </item>
+    <item>
+      <key>fa-brands fa-wix</key>
+      <value>Wix</value>
+    </item>
+    <item>
+      <key>fa-brands fa-wizards-of-the-coast</key>
+      <value>Wizards of the coast</value>
+    </item>
+    <item>
+      <key>fa-brands fa-wodu</key>
+      <value>Wodu</value>
+    </item>
+    <item>
+      <key>fa-brands fa-wolf-pack-battalion</key>
+      <value>Wolf pack battalion</value>
+    </item>
+    <item>
+      <key>fa-brands fa-wordpress</key>
+      <value>Wordpress</value>
+    </item>
+    <item>
+      <key>fa-brands fa-wordpress-simple</key>
+      <value>Wordpress simple</value>
+    </item>
+    <item>
+      <key>fa-brands fa-wpbeginner</key>
+      <value>Wpbeginner</value>
+    </item>
+    <item>
+      <key>fa-brands fa-wpexplorer</key>
+      <value>Wpexplorer</value>
+    </item>
+    <item>
+      <key>fa-brands fa-wpforms</key>
+      <value>Wpforms</value>
+    </item>
+    <item>
+      <key>fa-brands fa-wpressr</key>
+      <value>Wpressr</value>
+    </item>
+    <item>
+      <key>fa-brands fa-xbox</key>
+      <value>Xbox</value>
+    </item>
+    <item>
+      <key>fa-brands fa-xing</key>
+      <value>Xing</value>
+    </item>
+    <item>
+      <key>fa-brands fa-xing-square</key>
+      <value>Xing square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-y-combinator</key>
+      <value>Y combinator</value>
+    </item>
+    <item>
+      <key>fa-brands fa-yahoo</key>
+      <value>Yahoo</value>
+    </item>
+    <item>
+      <key>fa-brands fa-yammer</key>
+      <value>Yammer</value>
+    </item>
+    <item>
+      <key>fa-brands fa-yandex</key>
+      <value>Yandex</value>
+    </item>
+    <item>
+      <key>fa-brands fa-yandex-international</key>
+      <value>Yandex international</value>
+    </item>
+    <item>
+      <key>fa-brands fa-yarn</key>
+      <value>Yarn</value>
+    </item>
+    <item>
+      <key>fa-brands fa-yelp</key>
+      <value>Yelp</value>
+    </item>
+    <item>
+      <key>fa-brands fa-yoast</key>
+      <value>Yoast</value>
+    </item>
+    <item>
+      <key>fa-brands fa-youtube</key>
+      <value>Youtube</value>
+    </item>
+    <item>
+      <key>fa-brands fa-youtube-square</key>
+      <value>Youtube square</value>
+    </item>
+    <item>
+      <key>fa-brands fa-zhihu</key>
+      <value>Zhihu</value>
+    </item>
+  </items>
+  <file-name>brands-icons.xml</file-name>
+  <folder-name/>
+  <internal-name>Brands Icons</internal-name>
+  <createdDate>2022-01-10T21:32:29.616Z</createdDate>
+  <createdDate_dt>2022-01-10T21:32:29.616Z</createdDate_dt>
+  <lastModifiedDate>2022-01-10T21:32:29.616Z</lastModifiedDate>
+  <lastModifiedDate_dt>2022-01-10T21:32:29.616Z</lastModifiedDate_dt>
+</component>
