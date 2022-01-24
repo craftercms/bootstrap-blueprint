@@ -1,11 +1,11 @@
 <form>
 	<title>Heading</title>
-	<description></description>
+	<description />
 	<objectType>component</objectType>
 	<content-type>/component/heading</content-type>
-	<imageThumbnail>undefined</imageThumbnail>
+	<imageThumbnail />
 	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreatePath />
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
@@ -15,7 +15,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value></value>
+			<value />
 			<type>boolean</type>
 		</property>
 		<property>
@@ -27,17 +27,17 @@
 	</properties>
 	<sections>		<section>
 			<title>Heading Properties</title>
-			<description></description>
+			<description />
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>auto-filename</type>
 					<id>file-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Component ID</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -51,7 +51,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -61,11 +61,11 @@
 				<field>
 					<type>input</type>
 					<id>internal-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Internal Name</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -89,11 +89,11 @@
 				<field>
 					<type>input</type>
 					<id>text_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Text</title>
-					<description></description>
+					<description />
 					<defaultValue>This is a heading</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -107,7 +107,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -137,11 +137,11 @@
 				<field>
 					<type>dropdown</type>
 					<id>headingLevel_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Heading Level</title>
-					<description></description>
+					<description />
 					<defaultValue>h2</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>datasource</name>
@@ -150,12 +150,12 @@
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -178,17 +178,19 @@
 					<properties>
 						<property>
 							<name>dataType</name>
-							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+							<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
 								<type>dropdown</type>
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;h1&quot;,&quot;value&quot;:&quot;H1&quot;},{&quot;key&quot;:&quot;h2&quot;,&quot;value&quot;:&quot;H2&quot;},{&quot;key&quot;:&quot;h3&quot;,&quot;value&quot;:&quot;H3&quot;},{&quot;key&quot;:&quot;h4&quot;,&quot;value&quot;:&quot;H4&quot;},{&quot;key&quot;:&quot;h5&quot;,&quot;value&quot;:&quot;H5&quot;},{&quot;key&quot;:&quot;h6&quot;,&quot;value&quot;:&quot;H6&quot;}]</value>
+							<value
+          >[{&quot;key&quot;:&quot;h1&quot;,&quot;value&quot;:&quot;H1&quot;},{&quot;key&quot;:&quot;h2&quot;,&quot;value&quot;:&quot;H2&quot;},{&quot;key&quot;:&quot;h3&quot;,&quot;value&quot;:&quot;H3&quot;},{&quot;key&quot;:&quot;h4&quot;,&quot;value&quot;:&quot;H4&quot;},{&quot;key&quot;:&quot;h5&quot;,&quot;value&quot;:&quot;H5&quot;},{&quot;key&quot;:&quot;h6&quot;,&quot;value&quot;:&quot;H6&quot;}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
 							<name>showkeys</name>
-							<value></value>
+							<value />
 								<type>boolean</type>
 						</property>
 					</properties>

@@ -1,18 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-  <content-type>/component/hero</content-type>
-  <display-template>/templates/web/heroComponent.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>bd28</objectGroupId>
-  <objectId>bd283e3b-3484-6b9e-b2d5-2a9e87128b69</objectId>
-  <file-name>bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</file-name>
-  <folder-name/>
-  <internal-name>Home Hero</internal-name>
-  <title_s><![CDATA[Crafter CMS & Bootstrap!]]></title_s>
-  <copy_t>A majestic combination of power &amp; flexibility to build your experience.</copy_t>
-  <createdDate>2021-10-06T12:30:14.498Z</createdDate>
-  <createdDate_dt>2021-10-06T12:30:14.498Z</createdDate_dt>
-  <lastModifiedDate>2021-10-06T12:30:14.498Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-10-25T18:44:23.886Z</lastModifiedDate_dt>
+	<content-type>/component/hero</content-type>
+	<display-template>/templates/web/heroComponent.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>bd28</objectGroupId>
+	<objectId>bd283e3b-3484-6b9e-b2d5-2a9e87128b69</objectId>
+	<file-name>bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</file-name>
+	<folder-name/>
+	<internal-name>Home Hero</internal-name>
+	<title_s>Crafter CMS &amp; Bootstrap!</title_s>
+	<copy_t>A majestic combination of power &amp; flexibility to build your experience.</copy_t>
+	<createdDate>2021-10-06T12:30:14.498Z</createdDate>
+	<createdDate_dt>2021-10-06T12:30:14.498Z</createdDate_dt>
+	<lastModifiedDate>2021-12-16T15:45:31.440Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-12-16T15:45:31.440Z</lastModifiedDate_dt>
+	<image_s>/static-assets/images/bootstrap-logo.svg</image_s>
+	<imageWidth_i>72</imageWidth_i>
+	<imageHeight_i>57</imageHeight_i>
+	<buttons_o item-list="true">	<item datasource="TODO" inline="true">	<key>e7571b95-7c01-4971-987a-f5bff7f08abb</key>
+	<value>New Button</value>
+	<disableFlattening>false</disableFlattening>
+<component id="e7571b95-7c01-4971-987a-f5bff7f08abb">
+	<content-type>/component/button</content-type>
+	<display-template>/templates/web/button.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Button</internal-name>
+	<file-name>e7571b95-7c01-4971-987a-f5bff7f08abb.xml</file-name>
+	<createdDate_dt>2021-12-16T15:42:10.161Z</createdDate_dt>
+	<lastModifiedDate_dt>2021-12-16T15:42:10.161Z</lastModifiedDate_dt>
+	<objectId>e7571b95-7c01-4971-987a-f5bff7f08abb</objectId>
+	<text_s>Primary button</text_s>
+	<color_s>primary</color_s>
+	<textWrapping_b>true</textWrapping_b>
+	<outlined_b>false</outlined_b>
+	<size_s>btn-lg</size_s>
+	<target_s/>
+	<toggleType_s/>
+	<folder-name/>
+	<createdDate>2021-12-16T15:42:10.161Z</createdDate>
+	<lastModifiedDate>2021-12-16T15:42:10.161Z</lastModifiedDate>
+</component>
+	</item>	<item datasource="TODO" inline="true">	<key>c7db7b6c-92dd-4d4d-8d18-f55263650302</key>
+	<value>New Button</value>
+	<disableFlattening>false</disableFlattening>
+<component id="c7db7b6c-92dd-4d4d-8d18-f55263650302">
+	<content-type>/component/button</content-type>
+	<display-template>/templates/web/button.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Button</internal-name>
+	<file-name>c7db7b6c-92dd-4d4d-8d18-f55263650302.xml</file-name>
+	<createdDate_dt>2021-12-16T15:42:26.288Z</createdDate_dt>
+	<lastModifiedDate_dt>2021-12-16T15:45:33.170Z</lastModifiedDate_dt>
+	<objectId>c7db7b6c-92dd-4d4d-8d18-f55263650302</objectId>
+	<text_s>Secondary</text_s>
+	<color_s>secondary</color_s>
+	<textWrapping_b>true</textWrapping_b>
+	<outlined_b>true</outlined_b>
+	<size_s>btn-lg</size_s>
+	<target_s/>
+	<toggleType_s/>
+	<folder-name/>
+	<createdDate>2021-12-16T15:42:26.288Z</createdDate>
+	<lastModifiedDate>2021-12-16T15:45:33.170Z</lastModifiedDate>
+</component>
+	</item></buttons_o>
 </component>

@@ -1,0 +1,14 @@
+.craftercms-ice-on .craftercms-edit-field {
+  min-height: 40px;
+  min-width: 50px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.craftercms-ice-on .craftercms-edit-field:before {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 10px;
+  content: "Click to edit content.";
+  font-weight: bold;
+}

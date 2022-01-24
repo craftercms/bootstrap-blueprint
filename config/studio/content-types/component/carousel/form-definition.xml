@@ -1,11 +1,11 @@
 <form>
 	<title>Carousel</title>
-	<description></description>
+	<description />
 	<objectType>component</objectType>
 	<content-type>/component/carousel</content-type>
-	<imageThumbnail>undefined</imageThumbnail>
+	<imageThumbnail />
 	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreatePath />
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
@@ -15,7 +15,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value></value>
+			<value />
 			<type>boolean</type>
 		</property>
 		<property>
@@ -27,17 +27,17 @@
 	</properties>
 	<sections>		<section>
 			<title>Carousel Properties</title>
-			<description></description>
+			<description />
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>auto-filename</type>
 					<id>file-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Component ID</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -51,7 +51,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -61,11 +61,11 @@
 				<field>
 					<type>input</type>
 					<id>internal-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Internal Name</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -79,7 +79,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -104,9 +104,9 @@
 				<field>
 					<type>repeat</type>
 					<id>slides_o</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Slides</title>
-					<description></description>
+					<description />
 					<minOccurs>1</minOccurs>
 					<maxOccurs>*</maxOccurs>
 					<properties>
@@ -125,9 +125,9 @@
 				<field>
 					<type>numeric-input</type>
 					<id>delayInterval_i</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Delay Interval</title>
-					<description></description>
+					<description />
 					<defaultValue>1000</defaultValue>
 					<help>How long should the slide stay on in milliseconds.</help>
 					<properties>
@@ -138,7 +138,7 @@
 						</property>
 						<property>
 							<name>maxValue</name>
-							<value></value>
+							<value />
 							<type>float</type>
 						</property>
 						<property>
@@ -148,7 +148,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -173,30 +173,32 @@
 				<field>
 					<type>image-picker</type>
 					<id>image_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Image</title>
-					<description></description>
+					<description />
 					<defaultValue>https://place-hold.it/600x200</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>width</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value
+                  >{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>height</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value
+                  >{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>thumbnailWidth</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
 							<name>thumbnailHeight</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
@@ -206,7 +208,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -221,20 +223,20 @@
 				<field>
 					<type>rte</type>
 					<id>caption_html</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Caption</title>
-					<description></description>
+					<description />
 					<defaultValue>Caption</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>width</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
 							<name>height</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
@@ -259,7 +261,7 @@
 						</property>
 						<property>
 							<name>supportedChannels</name>
-							<value></value>
+							<value />
 							<type>supportedChannels</type>
 						</property>
 						<property>
@@ -269,17 +271,17 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value />
 							<type>datasource:image</type>
 						</property>
 						<property>
 							<name>videoManager</name>
-							<value></value>
+							<value />
 							<type>datasource:video</type>
 						</property>
 						<property>
 							<name>fileManager</name>
-							<value></value>
+							<value />
 							<type>datasource:item</type>
 						</property>
 					</properties>
@@ -297,21 +299,21 @@
 		</section>
 		<section>
 			<title>Advanced Options</title>
-			<description></description>
+			<description />
 			<defaultOpen>false</defaultOpen>
 			<fields>
 				<field>
 					<type>checkbox</type>
 					<id>showControls_b</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Show Controls</title>
 					<description>Controls the display of previous and next controls.</description>
 					<defaultValue>true</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -326,15 +328,15 @@
 				<field>
 					<type>checkbox</type>
 					<id>showIndicators_b</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Show Indicators</title>
 					<description>Controls the display of carousel indicators.</description>
 					<defaultValue>true</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -349,15 +351,15 @@
 				<field>
 					<type>checkbox</type>
 					<id>crossfade_b</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Crossfade transition</title>
 					<description>Adds a fade transition instead of a slide.</description>
 					<defaultValue>false</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -372,15 +374,16 @@
 				<field>
 					<type>checkbox</type>
 					<id>darkMode_b</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Dark Mode</title>
-					<description>Enable to use darker controls, indicators and captions.</description>
+					<description
+          >Enable to use darker controls, indicators and captions.</description>
 					<defaultValue>false</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -395,15 +398,97 @@
 				<field>
 					<type>checkbox</type>
 					<id>disableTouchSwiping_b</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Disable touch swiping</title>
-					<description>Controls support for swiping left/right on touchscreen devices to move between slides.</description>
+					<description
+          >Controls support for swiping left/right on touchscreen devices to move between slides.</description>
 					<defaultValue>false</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>numeric-input</type>
+					<id>height_i</id>
+					<iceId />
+					<title>Height (in pixels)</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxValue</name>
+							<value />
+							<type>float</type>
+						</property>
+						<property>
+							<name>minValue</name>
+							<value>0</value>
+							<type>float</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>dropdown</type>
+					<id>imagesFit_s</id>
+					<iceId />
+					<title>Images Fit</title>
+					<description />
+					<defaultValue>cover</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>objectFits</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -445,6 +530,31 @@
 						<property>
 							<name>useSearch</name>
 							<value>true</value>
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>key-value-list</type>
+					<id>objectFits</id>
+					<title>Object Fits</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value
+          >[{&quot;key&quot;:&quot;none&quot;,&quot;value&quot;:&quot;None&quot;},{&quot;key&quot;:&quot;fil&quot;,&quot;value&quot;:&quot;Fill&quot;},{&quot;key&quot;:&quot;contain&quot;,&quot;value&quot;:&quot;Contain&quot;},{&quot;key&quot;:&quot;cover&quot;,&quot;value&quot;:&quot;Cover&quot;},{&quot;key&quot;:&quot;scale-down&quot;,&quot;value&quot;:&quot;Scale Down&quot;}]</value>
+								<type>keyValueMap</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value />
 								<type>boolean</type>
 						</property>
 					</properties>

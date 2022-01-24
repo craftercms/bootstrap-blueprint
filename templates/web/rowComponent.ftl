@@ -1,27 +1,33 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<#assign attributesByIndex = {} />
+<@crafter.forEach contentModel.columns_o; item, index>
+  <#assign attributesByIndex = attributesByIndex + { index: { "class": "col" + item.size_s } } />
+</@crafter.forEach>
+
 <@crafter.div class=crafter.printIfPreview('row-component-root')>
   <@crafter.renderRepeatGroup
     $containerTag="section"
     $containerAttributes={ "class": "row" }
     $itemTag="div"
-    $itemAttributes={ "class": "col" }
+    $nthItemAttributes=attributesByIndex
     $field="columns_o";
     <#-- Nested content values passed down by the macro: -->
     item, index
   >
+    <#assign columnItemsAttributes = {} />
+    <#if item.displayContents_b?? && item.displayContents_b>
+      <#assign columnItemsAttributes = { "style": "display: contents" } />
+    </#if>
+
     <@crafter.renderComponentCollection
       $field="items_o"
       $fieldCarryover="columns_o"
       $indexCarryover="${index}"
-      $model=(contentModel + { "items_o": item.items_o })
-    />
-    <@crafter.tag
-      type="hidden"
-      value="col${item.size_s!''}"
-      $tag="input"
-      $field="columns_o.size_s"
-      $index="${index}"
+      $itemAttributes=columnItemsAttributes
+      $collection=item.items_o
     />
   </@crafter.renderRepeatGroup>
 </@crafter.div>
+
+<#-- display: contents -->

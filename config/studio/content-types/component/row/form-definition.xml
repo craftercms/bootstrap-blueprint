@@ -1,11 +1,11 @@
 <form>
 	<title>Row</title>
-	<description></description>
+	<description />
 	<objectType>component</objectType>
 	<content-type>/component/row</content-type>
-	<imageThumbnail>undefined</imageThumbnail>
+	<imageThumbnail />
 	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreatePath />
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
@@ -15,7 +15,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value></value>
+			<value />
 			<type>boolean</type>
 		</property>
 		<property>
@@ -27,17 +27,17 @@
 	</properties>
 	<sections>		<section>
 			<title>Row Properties</title>
-			<description></description>
+			<description />
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>auto-filename</type>
 					<id>file-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Component ID</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -51,7 +51,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -61,11 +61,11 @@
 				<field>
 					<type>input</type>
 					<id>internal-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Internal Name</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -89,9 +89,9 @@
 				<field>
 					<type>repeat</type>
 					<id>columns_o</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Columns</title>
-					<description></description>
+					<description />
 					<minOccurs>0</minOccurs>
 					<maxOccurs>*</maxOccurs>
 					<properties>
@@ -110,20 +110,20 @@
 				<field>
 					<type>node-selector</type>
 					<id>items_o</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Items</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>minSize</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxSize</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
@@ -133,17 +133,17 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>disableFlattening</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>useSingleValueFilename</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -158,11 +158,11 @@
 				<field>
 					<type>dropdown</type>
 					<id>size_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Size</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>datasource</name>
@@ -171,12 +171,36 @@
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>displayContents_b</id>
+					<iceId />
+					<title>Display Contents</title>
+					<description
+              >Enable it to make each column root content not to produce a specific box  by themselves.</description>
+					<defaultValue>false</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -236,7 +260,7 @@
 						</property>
 						<property>
 							<name>tags</name>
-							<value></value>
+							<value />
 								<type>string</type>
 						</property>
 					</properties>
@@ -249,17 +273,19 @@
 					<properties>
 						<property>
 							<name>dataType</name>
-							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+							<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
 								<type>dropdown</type>
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;-12&quot;,&quot;value&quot;:&quot;100%&quot;},{&quot;key&quot;:&quot;-6&quot;,&quot;value&quot;:&quot;50%&quot;},{&quot;key&quot;:&quot;-4&quot;,&quot;value&quot;:&quot;33%&quot;},{&quot;key&quot;:&quot;-3&quot;,&quot;value&quot;:&quot;25%&quot;},{&quot;key&quot;:&quot;-2&quot;,&quot;value&quot;:&quot;16%&quot;},{&quot;key&quot;:&quot;-1&quot;,&quot;value&quot;:&quot;8%&quot;},{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;Auto&quot;}]</value>
+							<value
+          >[{&quot;key&quot;:&quot;-12&quot;,&quot;value&quot;:&quot;100%&quot;},{&quot;key&quot;:&quot;-6&quot;,&quot;value&quot;:&quot;50%&quot;},{&quot;key&quot;:&quot;-4&quot;,&quot;value&quot;:&quot;33%&quot;},{&quot;key&quot;:&quot;-3&quot;,&quot;value&quot;:&quot;25%&quot;},{&quot;key&quot;:&quot;-2&quot;,&quot;value&quot;:&quot;16%&quot;},{&quot;key&quot;:&quot;-1&quot;,&quot;value&quot;:&quot;8%&quot;},{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;Auto&quot;}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
 							<name>showkeys</name>
-							<value></value>
+							<value />
 								<type>boolean</type>
 						</property>
 					</properties>

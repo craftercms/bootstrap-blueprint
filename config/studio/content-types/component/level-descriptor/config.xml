@@ -13,7 +13,6 @@
   ~ You should have received a copy of the GNU General Public License
   ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
-
 <content-type name="/component/level-descriptor" is-wcm-type="true">
 	<label>Section Defaults</label>
 	<form>/component/level-descriptor</form>
@@ -23,7 +22,7 @@
 	<content-as-folder>false</content-as-folder>
 	<previewable>false</previewable>
     <quickCreate>false</quickCreate>
-    <quickCreatePath></quickCreatePath>
+    <quickCreatePath />
 	<noThumbnail>true</noThumbnail>
-	<image-thumbnail></image-thumbnail>
+	<image-thumbnail />
 </content-type>

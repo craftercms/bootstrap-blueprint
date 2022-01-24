@@ -1,0 +1,419 @@
+<form>
+	<title>Nav</title>
+	<description />
+	<objectType>component</objectType>
+	<content-type>/component/nav</content-type>
+	<imageThumbnail />
+	<quickCreate>false</quickCreate>
+	<quickCreatePath />
+	<properties>		<property>
+			<name>display-template</name>
+			<label>Display Template</label>
+			<value>/templates/web/nav.ftl</value>
+			<type>template</type>
+		</property>
+		<property>
+			<name>no-template-required</name>
+			<label>No Template Required</label>
+			<value />
+			<type>boolean</type>
+		</property>
+		<property>
+			<name>merge-strategy</name>
+			<label>Merge Strategy</label>
+			<value>inherit-levels</value>
+			<type>string</type>
+		</property>
+	</properties>
+	<sections>		<section>
+			<title>Nav Properties</title>
+			<description />
+			<defaultOpen>true</defaultOpen>
+			<fields>
+				<field>
+					<type>auto-filename</type>
+					<id>file-name</id>
+					<iceId />
+					<title>Component ID</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>internal-name</id>
+					<iceId />
+					<title>Internal Name</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>repeat</type>
+					<id>items_o</id>
+					<iceId />
+					<title>Items</title>
+					<description />
+					<minOccurs>0</minOccurs>
+					<maxOccurs>*</maxOccurs>
+					<properties>
+						<property>
+							<name>minOccurs</name>
+							<value>0</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>maxOccurs</name>
+							<value>*</value>
+							<type>string</type>
+						</property>
+					</properties>
+					<fields>
+				<field>
+					<type>input</type>
+					<id>title_s</id>
+					<iceId />
+					<title>Title</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>link_s</id>
+					<iceId />
+					<title>Link</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>disabled_b</id>
+					<iceId />
+					<title>Disabled</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+					</fields>
+				</field>
+				<field>
+					<type>numeric-input</type>
+					<id>depth_i</id>
+					<iceId />
+					<title>Depth</title>
+					<description />
+					<defaultValue>1</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxValue</name>
+							<value />
+							<type>float</type>
+						</property>
+						<property>
+							<name>minValue</name>
+							<value>1</value>
+							<type>float</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Advanced Options</title>
+			<description />
+			<defaultOpen>false</defaultOpen>
+			<fields>
+				<field>
+					<type>dropdown</type>
+					<id>horizontalAlignment_s</id>
+					<iceId />
+					<title>Horizontal Alignment</title>
+					<description
+          >Change the horizontal alignment of your nav. Doesn't apply when enabling 'vertical' mode.</description>
+					<defaultValue>left</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>horizontalAlignments</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>vertical_b</id>
+					<iceId />
+					<title>Vertical</title>
+					<description>Enable it to stack your navigation.</description>
+					<defaultValue>false</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>pills_b</id>
+					<iceId />
+					<title>Pills</title>
+					<description>Enable it to show navbar items as pills.</description>
+					<defaultValue>false</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>fill_b</id>
+					<iceId />
+					<title>Fill</title>
+					<description
+          >Enable it to force your navbar's content to extend the full available width</description>
+					<defaultValue>false</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+	</sections>
+	<datasources>				<datasource>
+					<type>key-value-list</type>
+					<id>horizontalAlignments</id>
+					<title>Horizontal Alignments</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value
+          >[{&quot;key&quot;:&quot;left&quot;,&quot;value&quot;:&quot;Left&quot;},{&quot;key&quot;:&quot;center&quot;,&quot;value&quot;:&quot;Center&quot;},{&quot;key&quot;:&quot;end&quot;,&quot;value&quot;:&quot;Right&quot;}]</value>
+								<type>keyValueMap</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value />
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
+</form>

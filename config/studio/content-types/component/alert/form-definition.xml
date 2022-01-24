@@ -1,0 +1,248 @@
+<form>
+	<title>Alert</title>
+	<description />
+	<objectType>component</objectType>
+	<content-type>/component/alert</content-type>
+	<imageThumbnail />
+	<quickCreate>false</quickCreate>
+	<quickCreatePath />
+	<properties>		<property>
+			<name>display-template</name>
+			<label>Display Template</label>
+			<value>/templates/web/alert.ftl</value>
+			<type>template</type>
+		</property>
+		<property>
+			<name>no-template-required</name>
+			<label>No Template Required</label>
+			<value />
+			<type>boolean</type>
+		</property>
+		<property>
+			<name>merge-strategy</name>
+			<label>Merge Strategy</label>
+			<value>inherit-levels</value>
+			<type>string</type>
+		</property>
+	</properties>
+	<sections>		<section>
+			<title>Alert Properties</title>
+			<description />
+			<defaultOpen>true</defaultOpen>
+			<fields>
+				<field>
+					<type>auto-filename</type>
+					<id>file-name</id>
+					<iceId />
+					<title>Component ID</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>internal-name</id>
+					<iceId />
+					<title>Internal Name</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>dropdown</type>
+					<id>type_s</id>
+					<iceId />
+					<title>Type</title>
+					<description />
+					<defaultValue>alert-primary</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>types</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[false]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>rte</type>
+					<id>content_html</id>
+					<iceId />
+					<title>Content</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>width</name>
+							<value />
+							<type>int</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value />
+							<type>int</type>
+						</property>
+						<property>
+							<name>autoGrow</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSpellCheck</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forceRootBlockPTag</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forceBRTags</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>supportedChannels</name>
+							<value />
+							<type>supportedChannels</type>
+						</property>
+						<property>
+							<name>rteConfiguration</name>
+							<value>generic</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value />
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>videoManager</name>
+							<value />
+							<type>datasource:video</type>
+						</property>
+						<property>
+							<name>fileManager</name>
+							<value />
+							<type>datasource:item</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>showCloseButton_b</id>
+					<iceId />
+					<title>Show Close Button</title>
+					<description
+          >Enable to display a close button to dismiss the alert.</description>
+					<defaultValue>false</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+	</sections>
+	<datasources>				<datasource>
+					<type>key-value-list</type>
+					<id>types</id>
+					<title>Types</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value
+          >[{&quot;key&quot;:&quot;alert-primary&quot;,&quot;value&quot;:&quot;Primary&quot;},{&quot;key&quot;:&quot;alert-secondary&quot;,&quot;value&quot;:&quot;Secondary&quot;},{&quot;key&quot;:&quot;alert-success&quot;,&quot;value&quot;:&quot;Success&quot;},{&quot;key&quot;:&quot;alert-danger&quot;,&quot;value&quot;:&quot;Danger&quot;},{&quot;key&quot;:&quot;alert-warning&quot;,&quot;value&quot;:&quot;Warning&quot;},{&quot;key&quot;:&quot;alert-info&quot;,&quot;value&quot;:&quot;Info&quot;},{&quot;key&quot;:&quot;alert-light&quot;,&quot;value&quot;:&quot;Light&quot;},{&quot;key&quot;:&quot;alert-dark&quot;,&quot;value&quot;:&quot;Dark&quot;}]</value>
+								<type>keyValueMap</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value />
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
+</form>

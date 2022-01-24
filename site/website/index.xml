@@ -13,198 +13,185 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2021-11-11T15:50:42.877Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-11-11T15:50:42.877Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-12-16T17:16:39.592Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-12-16T17:16:39.592Z</lastModifiedDate_dt>
 	<title_t>Crafter CMS Bootstrap Blueprint</title_t>
 	<disabled>false</disabled>
-	<mainContent_o item-list="true">
-		<item>
-			<key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
-			<value>Home Hero</value>
-			<include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
-			<disableFlattening>false</disableFlattening>
-		</item>
-		<item inline="true">
-			<key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
-			<value>Container</value>
-			<disableFlattening>false</disableFlattening>
-			<component id="2e8761a9-1268-581b-f8d0-52cad6a73e0a">
-				<content-type>/component/container</content-type>
-				<display-template>/templates/web/containerComponent.ftl</display-template>
-				<no-template-required>false</no-template-required>
-				<merge-strategy>inherit-levels</merge-strategy>
-				<objectGroupId>2e87</objectGroupId>
-				<objectId>2e8761a9-1268-581b-f8d0-52cad6a73e0a</objectId>
-				<file-name>2e8761a9-1268-581b-f8d0-52cad6a73e0a.xml</file-name>
-				<folder-name/>
-				<internal-name>Container</internal-name>
-				<isFluid_b>false</isFluid_b>
-				<components_o item-list="true">
-					<item inline="true">
-						<key>f830b94f-a6e9-09eb-9978-daafbfdf63ef</key>
-						<value>Row</value>
-						<disableFlattening>false</disableFlattening>
-						<component id="f830b94f-a6e9-09eb-9978-daafbfdf63ef">
-							<content-type>/component/row</content-type>
-							<display-template>/templates/web/rowComponent.ftl</display-template>
-							<no-template-required/>
-							<merge-strategy>inherit-levels</merge-strategy>
-							<objectGroupId>f830</objectGroupId>
-							<objectId>f830b94f-a6e9-09eb-9978-daafbfdf63ef</objectId>
-							<file-name>f830b94f-a6e9-09eb-9978-daafbfdf63ef.xml</file-name>
-							<folder-name/>
-							<internal-name>Row</internal-name>
-							<columns_o item-list="true">
-								<item>
-									<items_o item-list="true">
-										<item inline="true">
-											<key>57a30ade-f167-5a8b-efbe-30ceb0771667</key>
-											<value>Left col heading</value>
-											<disableFlattening>false</disableFlattening>
-											<component id="57a30ade-f167-5a8b-efbe-30ceb0771667">
-												<content-type>/component/heading</content-type>
-												<display-template>/templates/web/headingComponent.ftl</display-template>
-												<no-template-required/>
-												<merge-strategy>inherit-levels</merge-strategy>
-												<objectGroupId>57a3</objectGroupId>
-												<objectId>57a30ade-f167-5a8b-efbe-30ceb0771667</objectId>
-												<file-name>57a30ade-f167-5a8b-efbe-30ceb0771667.xml</file-name>
-												<folder-name/>
-												<internal-name>Left col heading</internal-name>
-												<text_s>This is a heading</text_s>
-												<createdDate>2021-10-06T15:48:24.707Z</createdDate>
-												<createdDate_dt>2021-10-06T15:48:24.707Z</createdDate_dt>
-												<lastModifiedDate>2021-10-06T16:48:11.909Z</lastModifiedDate>
-												<lastModifiedDate_dt>2021-10-06T16:48:11.909Z</lastModifiedDate_dt>
-												<headingLevel_s>h2</headingLevel_s>
-											</component>
-										</item>
-										<item inline="true">
-											<key>fff36233-34d9-f476-0a35-00b507b9420b</key>
-											<value>Left col paragraph</value>
-											<disableFlattening>false</disableFlattening>
-											<component id="fff36233-34d9-f476-0a35-00b507b9420b">
-												<content-type>/component/paragraph</content-type>
-												<display-template>/templates/web/paragraphComponent.ftl</display-template>
-												<no-template-required/>
-												<merge-strategy>inherit-levels</merge-strategy>
-												<objectGroupId>fff3</objectGroupId>
-												<objectId>fff36233-34d9-f476-0a35-00b507b9420b</objectId>
-												<file-name>fff36233-34d9-f476-0a35-00b507b9420b.xml</file-name>
-												<folder-name/>
-												<internal-name>Left col paragraph</internal-name>
-												<isLead_b>false</isLead_b>
-												<copy_t>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+	<mainContent_o item-list="true">	<item>	<key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
+	<value>Home Hero</value>
+	<include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
+	<value>Container</value>
+	<disableFlattening>false</disableFlattening>
+<component id="2e8761a9-1268-581b-f8d0-52cad6a73e0a">
+        <content-type>/component/container</content-type>
+        <display-template>/templates/web/containerComponent.ftl</display-template>
+        <no-template-required>false</no-template-required>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <objectGroupId>2e87</objectGroupId>
+        <objectId>2e8761a9-1268-581b-f8d0-52cad6a73e0a</objectId>
+        <file-name>2e8761a9-1268-581b-f8d0-52cad6a73e0a.xml</file-name>
+        <folder-name/>
+        <internal-name>Container</internal-name>
+        <isFluid_b>false</isFluid_b>
+        <components_o item-list="true">
+          <item inline="true">
+            <key>f830b94f-a6e9-09eb-9978-daafbfdf63ef</key>
+            <value>Row</value>
+            <disableFlattening>false</disableFlattening>
+            <component id="f830b94f-a6e9-09eb-9978-daafbfdf63ef">
+	<content-type>/component/row</content-type>
+	<display-template>/templates/web/rowComponent.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f830</objectGroupId>
+	<objectId>f830b94f-a6e9-09eb-9978-daafbfdf63ef</objectId>
+	<file-name>f830b94f-a6e9-09eb-9978-daafbfdf63ef.xml</file-name>
+	<folder-name/>
+	<internal-name>Row</internal-name>
+	<columns_o item-list="true">	<item>	<items_o item-list="true">	<item inline="true">	<key>57a30ade-f167-5a8b-efbe-30ceb0771667</key>
+	<value>Left col heading</value>
+	<disableFlattening>false</disableFlattening>
+<component id="57a30ade-f167-5a8b-efbe-30ceb0771667">
+                        <content-type>/component/heading</content-type>
+                        <display-template>/templates/web/headingComponent.ftl</display-template>
+                        <no-template-required/>
+                        <merge-strategy>inherit-levels</merge-strategy>
+                        <objectGroupId>57a3</objectGroupId>
+                        <objectId>57a30ade-f167-5a8b-efbe-30ceb0771667</objectId>
+                        <file-name>57a30ade-f167-5a8b-efbe-30ceb0771667.xml</file-name>
+                        <folder-name/>
+                        <internal-name>Left col heading</internal-name>
+                        <text_s>This is a heading</text_s>
+                        <createdDate>2021-10-06T15:48:24.707Z</createdDate>
+                        <createdDate_dt>2021-10-06T15:48:24.707Z</createdDate_dt>
+                        <lastModifiedDate>2021-10-06T16:48:11.909Z</lastModifiedDate>
+                        <lastModifiedDate_dt>2021-10-06T16:48:11.909Z</lastModifiedDate_dt>
+                        <headingLevel_s>h2</headingLevel_s>
+                      </component>
+	</item>	<item inline="true">	<key>fff36233-34d9-f476-0a35-00b507b9420b</key>
+	<value>Left col paragraph</value>
+	<disableFlattening>false</disableFlattening>
+<component id="fff36233-34d9-f476-0a35-00b507b9420b">
+                        <content-type>/component/paragraph</content-type>
+                        <display-template>/templates/web/paragraphComponent.ftl</display-template>
+                        <no-template-required/>
+                        <merge-strategy>inherit-levels</merge-strategy>
+                        <objectGroupId>fff3</objectGroupId>
+                        <objectId>fff36233-34d9-f476-0a35-00b507b9420b</objectId>
+                        <file-name>fff36233-34d9-f476-0a35-00b507b9420b.xml</file-name>
+                        <folder-name/>
+                        <internal-name>Left col paragraph</internal-name>
+                        <isLead_b>false</isLead_b>
+                        <copy_t>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 													eiusmod tempor incididunt ut labore et dolore magna aliqua.
-												</copy_t>
-												<createdDate>2021-10-07T09:06:30.728Z</createdDate>
-												<createdDate_dt>2021-10-07T09:06:30.728Z</createdDate_dt>
-												<lastModifiedDate>2021-10-07T09:06:30.728Z</lastModifiedDate>
-												<lastModifiedDate_dt>2021-10-07T09:06:30.728Z</lastModifiedDate_dt>
-											</component>
-										</item>
-										<item inline="true">
-											<key>5a06e244-64f4-4380-8619-1c726fe38e92</key>
-											<value>New Carousel</value>
-											<disableFlattening>false</disableFlattening>
-											<component id="5a06e244-64f4-4380-8619-1c726fe38e92">
-												<content-type>/component/carousel</content-type>
-												<display-template>/templates/web/carousel.ftl</display-template>
-												<no-template-required/>
-												<merge-strategy>inherit-levels</merge-strategy>
-												<internal-name>New Carousel</internal-name>
-												<file-name>5a06e244-64f4-4380-8619-1c726fe38e92.xml</file-name>
-												<createdDate_dt>2021-11-03T08:05:02.684Z</createdDate_dt>
-												<lastModifiedDate_dt>2021-11-11T15:50:52.346Z</lastModifiedDate_dt>
-												<objectId>5a06e244-64f4-4380-8619-1c726fe38e92</objectId>
-												<slides_o item-list="true">
-													<item>
-														<delayInterval_i>1000</delayInterval_i>
-														<image_s><![CDATA[https://place-hold.it/600x200/333/fff?text=One]]></image_s>
-														<caption_html>&lt;p&gt;Slide 1&lt;/p&gt;</caption_html>
-													</item>
-													<item>
-														<delayInterval_i>5000</delayInterval_i>
-														<image_s><![CDATA[https://place-hold.it/600x200/333/fff?text=Two]]></image_s>
-														<caption_html>&lt;p&gt;Slide 2&lt;/p&gt;</caption_html>
-													</item>
-												</slides_o>
-												<folder-name/>
-												<createdDate>2021-11-03T08:05:02.684Z</createdDate>
-												<lastModifiedDate>2021-11-11T15:50:52.346Z</lastModifiedDate>
-												<showControls_b>true</showControls_b>
-												<showIndicators_b>true</showIndicators_b>
-												<crossfade_b>false</crossfade_b>
-												<darkMode_b>false</darkMode_b>
-												<disableTouchSwiping_b>false</disableTouchSwiping_b>
-											</component>
-										</item>
-									</items_o>
-									<size_s>-4</size_s>
-								</item>
-								<item>
-									<items_o item-list="true">
-										<item inline="true">
-											<key>eb50be40-5755-5dfa-0ad0-15367b5cc685</key>
-											<value>Right Col Image</value>
-											<disableFlattening>false</disableFlattening>
-											<component id="eb50be40-5755-5dfa-0ad0-15367b5cc685">
-												<content-type>/component/image</content-type>
-												<display-template>/templates/web/imageComponent.ftl</display-template>
-												<no-template-required/>
-												<merge-strategy>inherit-levels</merge-strategy>
-												<objectGroupId>eb50</objectGroupId>
-												<objectId>eb50be40-5755-5dfa-0ad0-15367b5cc685</objectId>
-												<file-name>eb50be40-5755-5dfa-0ad0-15367b5cc685.xml</file-name>
-												<folder-name/>
-												<internal-name>Right Col Image</internal-name>
-												<image_s>https://place-hold.it/300</image_s>
-												<createdDate>2021-10-06T15:48:52.103Z</createdDate>
-												<createdDate_dt>2021-10-06T15:48:52.103Z</createdDate_dt>
-												<lastModifiedDate>2021-10-06T15:48:52.103Z</lastModifiedDate>
-												<lastModifiedDate_dt>2021-10-06T15:48:52.103Z</lastModifiedDate_dt>
-											</component>
-										</item>
-										<item inline="true">
-											<key>4b68e47a-07a3-134f-a540-1b7907080cb0</key>
-											<value>Right col paragraph</value>
-											<disableFlattening>false</disableFlattening>
-											<component id="4b68e47a-07a3-134f-a540-1b7907080cb0">
-												<content-type>/component/paragraph</content-type>
-												<display-template>/templates/web/paragraphComponent.ftl</display-template>
-												<no-template-required/>
-												<merge-strategy>inherit-levels</merge-strategy>
-												<objectGroupId>4b68</objectGroupId>
-												<objectId>4b68e47a-07a3-134f-a540-1b7907080cb0</objectId>
-												<file-name>4b68e47a-07a3-134f-a540-1b7907080cb0.xml</file-name>
-												<folder-name/>
-												<isLead_b>true</isLead_b>
-												<internal-name>Right col paragraph</internal-name>
-												<copy_t>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        </copy_t>
+                        <createdDate>2021-10-07T09:06:30.728Z</createdDate>
+                        <createdDate_dt>2021-10-07T09:06:30.728Z</createdDate_dt>
+                        <lastModifiedDate>2021-10-07T09:06:30.728Z</lastModifiedDate>
+                        <lastModifiedDate_dt>2021-10-07T09:06:30.728Z</lastModifiedDate_dt>
+                      </component>
+	</item>	<item inline="true">	<key>5a06e244-64f4-4380-8619-1c726fe38e92</key>
+	<value>New Carousel</value>
+	<disableFlattening>false</disableFlattening>
+<component id="5a06e244-64f4-4380-8619-1c726fe38e92">
+                        <content-type>/component/carousel</content-type>
+                        <display-template>/templates/web/carousel.ftl</display-template>
+                        <no-template-required/>
+                        <merge-strategy>inherit-levels</merge-strategy>
+                        <internal-name>New Carousel</internal-name>
+                        <file-name>5a06e244-64f4-4380-8619-1c726fe38e92.xml</file-name>
+                        <createdDate_dt>2021-11-03T08:05:02.684Z</createdDate_dt>
+                        <lastModifiedDate_dt>2021-12-15T22:09:44.335Z</lastModifiedDate_dt>
+                        <objectId>5a06e244-64f4-4380-8619-1c726fe38e92</objectId>
+                        <slides_o item-list="true">
+                          <item>
+                            <delayInterval_i>1000</delayInterval_i>
+                            <image_s><![CDATA[https://place-hold.it/600x200/333/fff?text=One]]></image_s>
+                            <caption_html>&lt;p&gt;Slide 1&lt;/p&gt;</caption_html>
+                          </item>
+                          <item>
+                            <delayInterval_i>5000</delayInterval_i>
+                            <image_s><![CDATA[https://place-hold.it/600x200/333/fff?text=Two]]></image_s>
+                            <caption_html>&lt;p&gt;Slide 2&lt;/p&gt;</caption_html>
+                          </item>
+                        </slides_o>
+                        <folder-name/>
+                        <createdDate>2021-11-03T08:05:02.684Z</createdDate>
+                        <lastModifiedDate>2021-12-15T22:09:44.335Z</lastModifiedDate>
+                        <showControls_b>true</showControls_b>
+                        <showIndicators_b>true</showIndicators_b>
+                        <crossfade_b>false</crossfade_b>
+                        <darkMode_b>false</darkMode_b>
+                        <disableTouchSwiping_b>false</disableTouchSwiping_b>
+                        <height_i/>
+                        <imagesFit_s>cover</imagesFit_s>
+                      </component>
+	</item></items_o>
+	<size_s>-6</size_s>
+	</item>	<item>	<items_o item-list="true">	<item inline="true">	<key>eb50be40-5755-5dfa-0ad0-15367b5cc685</key>
+	<value>Right Col Image</value>
+	<disableFlattening>false</disableFlattening>
+<component id="eb50be40-5755-5dfa-0ad0-15367b5cc685">
+                        <content-type>/component/image</content-type>
+                        <display-template>/templates/web/imageComponent.ftl</display-template>
+                        <no-template-required/>
+                        <merge-strategy>inherit-levels</merge-strategy>
+                        <objectGroupId>eb50</objectGroupId>
+                        <objectId>eb50be40-5755-5dfa-0ad0-15367b5cc685</objectId>
+                        <file-name>eb50be40-5755-5dfa-0ad0-15367b5cc685.xml</file-name>
+                        <folder-name/>
+                        <internal-name>Right Col Image</internal-name>
+                        <image_s>https://place-hold.it/300</image_s>
+                        <createdDate>2021-10-06T15:48:52.103Z</createdDate>
+                        <createdDate_dt>2021-10-06T15:48:52.103Z</createdDate_dt>
+                        <lastModifiedDate>2021-12-15T18:25:01.011Z</lastModifiedDate>
+                        <lastModifiedDate_dt>2021-12-15T18:25:01.011Z</lastModifiedDate_dt>
+                        <alt_s/>
+                        <variant_s/>
+                        <objectFit_s/>
+                        <width_i/>
+                        <height_i/>
+                      </component>
+	</item>	<item inline="true">	<key>4b68e47a-07a3-134f-a540-1b7907080cb0</key>
+	<value>Right col paragraph</value>
+	<disableFlattening>false</disableFlattening>
+<component id="4b68e47a-07a3-134f-a540-1b7907080cb0">
+                        <content-type>/component/paragraph</content-type>
+                        <display-template>/templates/web/paragraphComponent.ftl</display-template>
+                        <no-template-required/>
+                        <merge-strategy>inherit-levels</merge-strategy>
+                        <objectGroupId>4b68</objectGroupId>
+                        <objectId>4b68e47a-07a3-134f-a540-1b7907080cb0</objectId>
+                        <file-name>4b68e47a-07a3-134f-a540-1b7907080cb0.xml</file-name>
+                        <folder-name/>
+                        <isLead_b>true</isLead_b>
+                        <internal-name>Right col paragraph</internal-name>
+                        <copy_t>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 													eiusmod tempor incididunt ut labore et dolore magna aliqua.
-												</copy_t>
-												<createdDate>2021-10-07T09:06:56.097Z</createdDate>
-												<createdDate_dt>2021-10-07T09:06:56.097Z</createdDate_dt>
-												<lastModifiedDate>2021-10-07T09:06:56.097Z</lastModifiedDate>
-												<lastModifiedDate_dt>2021-10-07T09:06:56.097Z</lastModifiedDate_dt>
-											</component>
-										</item>
-									</items_o>
-									<size_s>-2</size_s>
-								</item>
-							</columns_o>
-							<createdDate>2021-10-06T14:10:30.505Z</createdDate>
-							<createdDate_dt>2021-10-06T14:10:30.505Z</createdDate_dt>
-							<lastModifiedDate>2021-11-11T15:50:49.222Z</lastModifiedDate>
-							<lastModifiedDate_dt>2021-11-11T15:50:49.222Z</lastModifiedDate_dt>
-						</component>
-					</item>
-				</components_o>
-				<createdDate>2021-10-06T14:10:19.538Z</createdDate>
-				<createdDate_dt>2021-10-06T14:10:19.538Z</createdDate_dt>
-				<lastModifiedDate>2021-11-11T15:50:46.271Z</lastModifiedDate>
-				<lastModifiedDate_dt>2021-11-11T15:50:46.271Z</lastModifiedDate_dt>
-			</component>
-		</item>
-	</mainContent_o>
+                        </copy_t>
+                        <createdDate>2021-10-07T09:06:56.097Z</createdDate>
+                        <createdDate_dt>2021-10-07T09:06:56.097Z</createdDate_dt>
+                        <lastModifiedDate>2021-10-07T09:06:56.097Z</lastModifiedDate>
+                        <lastModifiedDate_dt>2021-10-07T09:06:56.097Z</lastModifiedDate_dt>
+                      </component>
+	</item></items_o>
+	<size_s>-6</size_s>
+	</item></columns_o>
+	<createdDate>2021-10-06T14:10:30.505Z</createdDate>
+	<createdDate_dt>2021-10-06T14:10:30.505Z</createdDate_dt>
+	<lastModifiedDate>2021-12-16T17:16:41.060Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-12-16T17:16:41.060Z</lastModifiedDate_dt>
+</component>
+          </item>
+        </components_o>
+        <createdDate>2021-10-06T14:10:19.538Z</createdDate>
+        <createdDate_dt>2021-10-06T14:10:19.538Z</createdDate_dt>
+        <lastModifiedDate>2021-11-11T15:50:46.271Z</lastModifiedDate>
+        <lastModifiedDate_dt>2021-11-11T15:50:46.271Z</lastModifiedDate_dt>
+      </component>
+	</item></mainContent_o>
 </page>

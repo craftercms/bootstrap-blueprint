@@ -6,6 +6,7 @@
 		<meta charset="utf-8">
 		<title>${model.title_t}</title>
 		<@crafter.head />
+    <link rel="stylesheet" href="/static-assets/css/font-awesome/css/all.css" />
 	</head>
 	<body>
 		<@crafter.body_top />

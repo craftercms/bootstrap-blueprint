@@ -70,6 +70,7 @@
         src="${item.image_s}"
         class="d-block w-100"
         alt=""
+        style="height: ${(contentModel.height_i?has_content)?then(contentModel.height_i + 'px', 'auto')}; object-fit: ${contentModel.imagesFit_s}"
       />
       <#if item.caption_html?has_content>
         <div class="carousel-caption d-none d-md-block">

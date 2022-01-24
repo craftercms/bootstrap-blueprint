@@ -1,11 +1,11 @@
 <form>
 	<title>Image</title>
-	<description></description>
+	<description />
 	<objectType>component</objectType>
 	<content-type>/component/image</content-type>
-	<imageThumbnail>undefined</imageThumbnail>
+	<imageThumbnail />
 	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreatePath />
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
@@ -15,7 +15,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value></value>
+			<value />
 			<type>boolean</type>
 		</property>
 		<property>
@@ -27,17 +27,17 @@
 	</properties>
 	<sections>		<section>
 			<title>Image Properties</title>
-			<description></description>
+			<description />
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>auto-filename</type>
 					<id>file-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Component ID</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -51,7 +51,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -61,11 +61,11 @@
 				<field>
 					<type>input</type>
 					<id>internal-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Internal Name</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -89,30 +89,32 @@
 				<field>
 					<type>image-picker</type>
 					<id>image_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Image</title>
-					<description></description>
+					<description />
 					<defaultValue>https://place-hold.it/300</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>width</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value
+              >{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>height</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value
+              >{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>thumbnailWidth</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
 							<name>thumbnailHeight</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
@@ -122,7 +124,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -137,25 +139,25 @@
 				<field>
 					<type>dropdown</type>
 					<id>variant_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Variant</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>datasource</name>
-							<value></value>
+							<value>imgVariants</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -170,11 +172,11 @@
 				<field>
 					<type>input</type>
 					<id>alt_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Alt</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -188,7 +190,191 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Advanced Options</title>
+			<description />
+			<defaultOpen>false</defaultOpen>
+			<fields>
+				<field>
+					<type>numeric-input</type>
+					<id>width_i</id>
+					<iceId />
+					<title>Width (in pixels)</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxValue</name>
+							<value />
+							<type>float</type>
+						</property>
+						<property>
+							<name>minValue</name>
+							<value />
+							<type>float</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>numeric-input</type>
+					<id>height_i</id>
+					<iceId />
+					<title>Height (in pixels)</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxValue</name>
+							<value />
+							<type>float</type>
+						</property>
+						<property>
+							<name>minValue</name>
+							<value />
+							<type>float</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>dropdown</type>
+					<id>objectFit_s</id>
+					<iceId />
+					<title>Object Fit</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>objectFits</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>imageLink_s</id>
+					<iceId />
+					<title>imageLink</title>
+					<description>If a value is set, the image will be a link.</description>
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>100</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -257,17 +443,44 @@
 					<properties>
 						<property>
 							<name>dataType</name>
-							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+							<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
 								<type>dropdown</type>
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;img-fluid&quot;,&quot;value&quot;:&quot;Fluid&quot;},{&quot;key&quot;:&quot;img-thumbnail&quot;,&quot;value&quot;:&quot;Thumbnail&quot;},{&quot;key&quot;:&quot;rounded&quot;,&quot;value&quot;:&quot;Rounded&quot;}]</value>
+							<value
+          >[{&quot;key&quot;:&quot;img-fluid&quot;,&quot;value&quot;:&quot;Fluid&quot;},{&quot;key&quot;:&quot;img-thumbnail&quot;,&quot;value&quot;:&quot;Thumbnail&quot;},{&quot;key&quot;:&quot;rounded&quot;,&quot;value&quot;:&quot;Rounded&quot;}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
 							<name>showkeys</name>
-							<value></value>
+							<value />
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>key-value-list</type>
+					<id>objectFits</id>
+					<title>Object Fits</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value
+          >[{&quot;key&quot;:&quot;none&quot;,&quot;value&quot;:&quot;None&quot;},{&quot;key&quot;:&quot;fill&quot;,&quot;value&quot;:&quot;Fill&quot;},{&quot;key&quot;:&quot;contain&quot;,&quot;value&quot;:&quot;Contain&quot;},{&quot;key&quot;:&quot;cover&quot;,&quot;value&quot;:&quot;Cover&quot;},{&quot;key&quot;:&quot;scale-down&quot;,&quot;value&quot;:&quot;Scale Down&quot;}]</value>
+								<type>keyValueMap</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value />
 								<type>boolean</type>
 						</property>
 					</properties>

@@ -1,0 +1,295 @@
+<form>
+	<title>Spinner</title>
+	<description />
+	<objectType>component</objectType>
+	<content-type>/component/spinner</content-type>
+	<imageThumbnail />
+	<quickCreate>false</quickCreate>
+	<quickCreatePath />
+	<properties>		<property>
+			<name>display-template</name>
+			<label>Display Template</label>
+			<value>/templates/web/spinner.ftl</value>
+			<type>template</type>
+		</property>
+		<property>
+			<name>no-template-required</name>
+			<label>No Template Required</label>
+			<value />
+			<type>boolean</type>
+		</property>
+		<property>
+			<name>merge-strategy</name>
+			<label>Merge Strategy</label>
+			<value>inherit-levels</value>
+			<type>string</type>
+		</property>
+	</properties>
+	<sections>		<section>
+			<title>Spinner Properties</title>
+			<description />
+			<defaultOpen>true</defaultOpen>
+			<fields>
+				<field>
+					<type>input</type>
+					<id>internal-name</id>
+					<iceId />
+					<title>Internal Name</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>auto-filename</type>
+					<id>file-name</id>
+					<iceId />
+					<title>Component ID</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
+				<field>
+					<type>dropdown</type>
+					<id>color_s</id>
+					<iceId />
+					<title>Color</title>
+					<description>The color of the spinner</description>
+					<defaultValue>text-primary</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>colors</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>dropdown</type>
+					<id>type_s</id>
+					<iceId />
+					<title>Type</title>
+					<description>The type of the spinner</description>
+					<defaultValue>spinner-border</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>types</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>useSmallSize_b</id>
+					<iceId />
+					<title>Use small size</title>
+					<description>Check this to use the small size</description>
+					<defaultValue>false</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>visuallyHiddenLabel_s</id>
+					<iceId />
+					<title>Visually Hidden Label</title>
+					<description />
+					<defaultValue>Loading</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+	</sections>
+	<datasources>				<datasource>
+					<type>key-value-list</type>
+					<id>colors</id>
+					<title>Colors</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value
+          >[{&quot;key&quot;:&quot;text-primary&quot;,&quot;value&quot;:&quot;Primary&quot;},{&quot;key&quot;:&quot;text-secondary&quot;,&quot;value&quot;:&quot;Secondary&quot;},{&quot;key&quot;:&quot;text-success&quot;,&quot;value&quot;:&quot;Success&quot;},{&quot;key&quot;:&quot;text-danger&quot;,&quot;value&quot;:&quot;Danger&quot;},{&quot;key&quot;:&quot;text-warning&quot;,&quot;value&quot;:&quot;Warning&quot;},{&quot;key&quot;:&quot;text-info&quot;,&quot;value&quot;:&quot;Info&quot;},{&quot;key&quot;:&quot;text-ligth&quot;,&quot;value&quot;:&quot;Ligth&quot;},{&quot;key&quot;:&quot;text-dark&quot;,&quot;value&quot;:&quot;Dark&quot;}]</value>
+								<type>keyValueMap</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value />
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>key-value-list</type>
+					<id>types</id>
+					<title>Types</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value
+          >[{&quot;key&quot;:&quot;spinner-border&quot;,&quot;value&quot;:&quot;Border&quot;},{&quot;key&quot;:&quot;spinner-grow&quot;,&quot;value&quot;:&quot;Grow&quot;}]</value>
+								<type>keyValueMap</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value />
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
+</form>
