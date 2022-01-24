@@ -1,22 +1,17 @@
 (function() {
   const registeredComponents = {};
-  const editModeEvent = 'craftercms.editMode'; // TODO: use guest constants - need to be exported from guest, also for iceBypass
+  const editModeEvent = 'craftercms.editMode';
+  const editModeIceBypassEvent = 'craftercms.iceBypass';
   let isEditMode = false;
 
-  const onKeyup = (e) => {
-    // When 'z' key is up, goes through all registered components and calls the iceByPassOff function (to restore editMode behavior)
-    if (e.key === 'z') {
-      Object.values(registeredComponents).forEach((component) => {
-        component.iceBypassOff?.();
-      });
-    }
-  };
-
-  // When 'z' key is pressed, goes through all registered components and calls the iceByPassOn function (to avoid editMode behavior)
-  const onKeydown = (e) => {
-    if (e.key === 'z') {
+  const onIceBypass = (e) => {
+    if (e.detail) { // If iceBypass is on
       Object.values(registeredComponents).forEach((component) => {
         component.iceBypassOn?.();
+      });
+    } else { // If iceBypass is off
+      Object.values(registeredComponents).forEach((component) => {
+        component.iceBypassOff?.();
       });
     }
   };
@@ -79,11 +74,9 @@
     isEditMode = e.detail;
     editModeAction();
     if (isEditMode) {
-      document.addEventListener('keydown', onKeydown, false);
-      document.addEventListener('keyup', onKeyup, false);
+      document.addEventListener(editModeIceBypassEvent, onIceBypass);
     } else {
-      document.removeEventListener('keydown', onKeydown, false);
-      document.removeEventListener('keyup', onKeyup, false);
+      document.removeEventListener(editModeIceBypassEvent, onIceBypass);
     }
   });
 
