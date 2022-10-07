@@ -130,7 +130,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>dropTargets</value>
+							<value>components</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -161,9 +161,9 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>dropTargets</type>
-					<id>dropTargets</id>
-					<title>Drop Targets</title>
+					<type>components</type>
+					<id>components</id>
+					<title>Components</title>
 					<interface>item</interface>
 					<properties>
 						<property>
